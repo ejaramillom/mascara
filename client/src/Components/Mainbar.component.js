@@ -1,77 +1,92 @@
-import React, {
-   useState
- } from 'react';
+import React from 'react';
+
+import { select, boolean } from '@storybook/addon-knobs';
+import Navbar from 'react-bulma-components/lib/components/navbar';
 import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink
-} from 'reactstrap';
-import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   Switch,
   Route,
-  Redirect,
-  Link,
+  // Redirect,
+  // Link,
 } from "react-router-dom";
-import Top from "./Top";
-import Favorite from "./Favorite";
-import Playing from "./Playing";
-import Popular from "./Popular";
-import New from "./New";
-import Login from "./Login";
-import Register from "./Register";
-import withAuth from "./withAuth";
+import Bottle from "./Bottle.component";
+import Brush from "./Brush.component";
+import Build from "./Build.component";
+import Cap from "./Cap.component";
+import Index from "./Index.component";
+import Rod from "./Rod.component";
+import Wiper from "./Wiper.component";
+
+const colors = {
+  Default: '',
+  primary: 'primary',
+  info: 'info',
+  danger: 'danger',
+  warning: 'warning',
+  success: 'success',
+  white: 'white',
+  black: 'black',
+  light: 'light',
+  dark: 'dark',
+  link: 'link',
+};
 
 const Mainbar = ( props ) => {
-  const [ collapsed, setCollapsed ] = useState( true );
-  const toggleNavbar = () => setCollapsed( !collapsed );
-  return (
+    return (
     <div>
-      <Navbar color = "faded" light>
-        <NavbarBrand href = "/" className = "mr-auto">Mascaras simex</NavbarBrand>
-        <NavbarToggler onClick = { toggleNavbar } className = "mr-2" />
-        <Collapse isOpen = { !collapsed } navbar>
-          <Nav navbar>
-            <NavItem>
-              <NavLink href = "/">Inicio</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href = "/cap">Sobretapa</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href = "/wiper">Escurridor</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href = "/rod">Tapavástagos</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href = "/brush">Aplicadores</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href = "/bottle">Ingresar</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href = "/build">Ensamblar</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
+    <Navbar
+      color={select('Color', colors)}
+      fixed={select('Fixed', { default: undefined, top: 'top', bottom: 'bottom' })}
+      active={boolean('Active', false)}
+      transparent={boolean('Transparent', false)}
+    >
+      <Navbar.Brand>
+        <Navbar.Item renderAs="a" href="#">
+          <img src="https://bulma.io/images/bulma-logo.png" alt="Logo" width="112" height="28" />
+        </Navbar.Item>
+        <Navbar.Burger />
+      </Navbar.Brand>
+      <Navbar.Menu >
+        <Navbar.Container>
+          <Navbar.Item href="/index">
+            Index
+          </Navbar.Item>
+          <Navbar.Item href="/bottle">
+            Bottle
+          </Navbar.Item>
+          <Navbar.Item href="/brush">
+            Brush
+          </Navbar.Item>
+          <Navbar.Item href="/build">
+            Build
+          </Navbar.Item>
+          <Navbar.Item href="/cap">
+            Cap
+          </Navbar.Item>
+          <Navbar.Item href="/rod">
+            Rod
+          </Navbar.Item>
+          <Navbar.Item href="/wiper">
+            Wiper
+          </Navbar.Item>
+          <Navbar.Item href="/add">
+            Add component
+          </Navbar.Item>
+        </Navbar.Container>
+      </Navbar.Menu>
+    </Navbar>
 
-      <Switch>
-        <Route exact path = "/" component = { ( Index ) } />
-        <Route path = "/cap" component = { ( Cap ) } />
-        <Route path = "/wiper" component = { ( Wiper ) } />
-        <Route path = "/rod" component = { ( Rod ) } />
-        <Route path = "/brush" component = {  Brush } />
-        <Route path = "/bottle" component = { Bottle } />
-        <Route path = "/build" component = { Build } />
-        <Route path = "*" component = { NotFound } />
-      </Switch>
-    </div>
+    <Switch>
+      <Route exact path = "/" component = { ( Index ) } />
+      <Route path = "/cap" component = { ( Cap ) } />
+      <Route path = "/wiper" component = { ( Wiper ) } />
+      <Route path = "/rod" component = { ( Rod ) } />
+      <Route path = "/brush" component = {  Brush } />
+      <Route path = "/bottle" component = { Bottle } />
+      <Route path = "/build" component = { Build } />
+      <Route path = "*" component = { NotFound } />
+    </Switch>
+  </div>
   );
 }
 
@@ -79,6 +94,6 @@ export default Mainbar;
 
 export const NotFound = ( props ) => {
   return (
-    <h1>Pagina no encontrada</h1>
+    <h1> Pagina no encontrada </h1>
   )
 }

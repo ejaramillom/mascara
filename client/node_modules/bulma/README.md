@@ -2,6 +2,7 @@
 
 Bulma is a **modern CSS framework** based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
 
+![Github](https://img.shields.io/github/v/release/jgthms/bulma?logo=Bulma)
 [![npm](https://img.shields.io/npm/v/bulma.svg)][npm-link]
 [![npm](https://img.shields.io/npm/dm/bulma.svg)][npm-link]
 [![](https://data.jsdelivr.com/v1/package/npm/bulma/badge)](https://www.jsdelivr.com/package/npm/bulma)
@@ -86,7 +87,7 @@ Browse the [online documentation here.](https://bulma.io/documentation/overview/
 | [ember-bulma](https://github.com/open-tux/ember-bulma)                               | Ember addon providing a collection of UI components for Bulma                          |
 | [Bloomer](https://bloomer.js.org)                                                    | A set of React components for Bulma                                                    |
 | [React-bulma](https://github.com/kulakowka/react-bulma)                              | React.js components for Bulma                                                          |
-| [Buefy](https://buefy.github.io)                                                     | Lightweight UI components for Vue.js based on Bulma                                    |
+| [Buefy](https://buefy.org/)                                                          | Lightweight UI components for Vue.js based on Bulma                                    |
 | [vue-bulma-components](https://github.com/vouill/vue-bulma-components)               | Bulma components for Vue.js with straightforward syntax                                |
 | [BulmaJS](https://github.com/VizuaaLOG/BulmaJS)                                      | Javascript integration for Bulma. Written in ES6 with a data-* API                     |
 | [Bulma-modal-fx](https://github.com/postare/bulma-modal-fx)                          | A set of modal window effects with CSS transitions and animations for Bulma            |
@@ -121,7 +122,7 @@ Browse the [online documentation here.](https://bulma.io/documentation/overview/
 | [Svelte Bulma Components](https://github.com/elcobvg/svelte-bulma-components)                                       | Library of UI components to be used in [Svelte.js](https://svelte.technology/) or standalone.                                                |
 | [Bulma Nunjucks Starterkit](https://github.com/benninkcorien/nunjucks-starter-kit)                                       | Starterkit for Nunjucks with Bulma.                                                |
 
-## Copyright and license
+## Copyright and license ![Github](https://img.shields.io/github/license/jgthms/bulma?logo=Github)
 
 Code copyright 2020 Jeremy Thomas. Code released under [the MIT license](https://github.com/jgthms/bulma/blob/master/LICENSE).
 
