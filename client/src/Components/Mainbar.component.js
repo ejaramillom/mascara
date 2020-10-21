@@ -3,12 +3,10 @@ import React from 'react';
 import { select, boolean } from '@storybook/addon-knobs';
 import Navbar from 'react-bulma-components/lib/components/navbar';
 import {
-  // BrowserRouter as Router,
   Switch,
-  Route,
-  // Redirect,
-  // Link,
+  Route
 } from "react-router-dom";
+import Add from "./Add.component";
 import Bottle from "./Bottle.component";
 import Brush from "./Brush.component";
 import Build from "./Build.component";
@@ -48,7 +46,7 @@ const Mainbar = ( props ) => {
       </Navbar.Brand>
       <Navbar.Menu >
         <Navbar.Container>
-          <Navbar.Item href="/index">
+          <Navbar.Item href="/">
             Index
           </Navbar.Item>
           <Navbar.Item href="/bottle">
@@ -84,6 +82,7 @@ const Mainbar = ( props ) => {
       <Route path = "/brush" component = {  Brush } />
       <Route path = "/bottle" component = { Bottle } />
       <Route path = "/build" component = { Build } />
+      <Route path = "/add" component = { Add } />
       <Route path = "*" component = { NotFound } />
     </Switch>
   </div>
