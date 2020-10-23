@@ -5,7 +5,7 @@ const Bottle = require( "./models/bottle.model" );
 
 router.get( "/", async ( req, res, next ) => {
   try {
-    console.log( "succesfully fetched" );
+    console.log( "succesfully fetched index" );
     return ( "welcome!");
   } catch ( err ) {
     console.log( err );
@@ -16,7 +16,7 @@ router.get( "/", async ( req, res, next ) => {
 router.get( "/bottle", async ( req, res, next ) => {
   try {
     const bottle = await Bottle.find();
-    console.log( "succesfully found bottles list", bottle );
+    console.log( "succesfully found bottles list" );
     return res.send( bottle );
   } catch ( err ) {
     console.log( err );
@@ -24,16 +24,48 @@ router.get( "/bottle", async ( req, res, next ) => {
   }
 });
 
-// router.get( "/newMovies", async ( req, res, next ) => {
-//   axios.get( "https://api.themoviedb.org/3/movie/upcoming?api_key=8b01318939795027b44c93d6cfb76940&language=en-US&page=1" )
-//     .then( response => {
-//       const newMovies = response.data.results;
-//       console.log( "new movies succesfully fetched" );
-//       return res.json( newMovies );
-//     })
-//     .catch( error => {
-//       console.log( error );
-//     })
-// });
+router.get( "/brush", async ( req, res, next ) => {
+  try {
+    const brush = await Brush.find();
+    console.log( "succesfully found brushes list" );
+    return res.send( bottle );
+  } catch ( err ) {
+    console.log( err );
+    next( err );
+  }
+});
+
+router.get( "/cap", async ( req, res, next ) => {
+  try {
+    const cap = await Cap.find();
+    console.log( "succesfully found caps list" );
+    return res.send( cap );
+  } catch ( err ) {
+    console.log( err );
+    next( err );
+  }
+});
+
+router.get( "/rod", async ( req, res, next ) => {
+  try {
+    const rod = await Rod.find();
+    console.log( "succesfully found rods list" );
+    return res.send( rod );
+  } catch ( err ) {
+    console.log( err );
+    next( err );
+  }
+});
+
+router.get( "/wiper", async ( req, res, next ) => {
+  try {
+    const wiper = await Wiper.find();
+    console.log( "succesfully found wipers list" );
+    return res.send( wiper );
+  } catch ( err ) {
+    console.log( err );
+    next( err );
+  }
+});
 
 module.exports = router;
