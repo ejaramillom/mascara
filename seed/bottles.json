@@ -1,0 +1,420 @@
+{
+	"envases": {
+		"record": [
+			{
+				"name": "Envase redondo 18 mL mascara trio avon",
+				"drawing": "2732",
+				"mold": "80255",
+				"depth": "65.6",
+				"thread": "R15B"
+			},
+			{
+				"name": "Envase Redondo Lip Gloss 5,5ml Mix & Shine",
+				"drawing": "2795",
+				"mold": "80316",
+				"depth": "84",
+				"thread": "R11A"
+			},
+			{
+				"name": "Envase Mascara Cyzone Innovacion 2010",
+				"drawing": "2816",
+				"mold": "80336",
+				"depth": "89.8",
+				"thread": "R13A"
+			},
+			{
+				"name": "Envase Mascara Esika Innovacion 2010",
+				"drawing": "2825",
+				"mold": "80345",
+				"depth": "92.5",
+				"thread": "R15B"
+			},
+			{
+				"name": "Envase Redondo 18 ml 3 cav (PVC)",
+				"drawing": "2829",
+				"mold": "80291",
+				"depth": "65.64",
+				"thread": "R15B"
+			},
+			{
+				"name": "Envase rdo mascara lbel innovacion 2010",
+				"drawing": "2843",
+				"mold": "80353",
+				"depth": "94",
+				"thread": "R13A"
+			},
+			{
+				"name": "Env mascara color fix 8gr",
+				"drawing": "2857",
+				"mold": "80373",
+				"depth": "80.1",
+				"thread": "R13A"
+			},
+			{
+				"name": "Envase Labial Líquido Supreme Lbel",
+				"drawing": "2879",
+				"mold": "80382",
+				"depth": "43.6",
+				"thread": "R12A"
+			},
+			{
+				"name": "Envase Mascara cy zone 2011",
+				"drawing": "2886",
+				"mold": "80397",
+				"depth": "90.3",
+				"thread": "R13A"
+			},
+			{
+				"name": "Envase Redondo 5mL Cóncavo",
+				"drawing": "2908",
+				"mold": "80416",
+				"depth": "74.1",
+				"thread": "R11A"
+			},
+			{
+				"name": "Envase rdo mascara Cyzone innovacion 2012",
+				"drawing": "2917",
+				"mold": "80439",
+				"depth": "89",
+				"thread": "R13A"
+			},
+			{
+				"name": "envase labial lip gloss color fix volumen-molde II",
+				"drawing": "2971",
+				"mold": "80497",
+				"depth": "43",
+				"thread": "R11A"
+			},
+			{
+				"name": "Envase Redondo 20ml 3 cavidades",
+				"drawing": "3003",
+				"mold": "8054513",
+				"depth": "101",
+				"thread": "R15A"
+			},
+			{
+				"name": "Envase Labial Nuevo Formato 2014",
+				"drawing": "3038",
+				"mold": "8058813",
+				"depth": "70.5",
+				"thread": "R13A"
+			},
+			{
+				"name": "Envase Mascara Vogue 10+",
+				"drawing": "3053",
+				"mold": "8059813",
+				"depth": "84.5",
+				"thread": "R15C"
+			},
+			{
+				"name": "Envase Brillo Cyzone Innovación 2014 - no tiene stop close",
+				"drawing": "3059",
+				"mold": "8061013",
+				"depth": "65.3",
+				"thread": "R12A"
+			},
+			{
+				"name": "Envase Mascara Ariane",
+				"drawing": "3093",
+				"mold": "8066814",
+				"depth": "86.6",
+				"thread": "R15C"
+			},
+			{
+				"name": "Envase mascara volumen Lbel",
+				"drawing": "3118",
+				"mold": "8065814",
+				"depth": "100",
+				"thread": "R13A"
+			},
+			{
+				"name": "Envase redondo 20ml Sone products",
+				"drawing": "3123",
+				"mold": "8054513",
+				"depth": "101",
+				"thread": "R15A"
+			},
+			{
+				"name": "Envase redondo 8ml Sone products",
+				"drawing": "3124",
+				"mold": "80265",
+				"depth": "-",
+				"thread": "R11A"
+			},
+			{
+				"name": "Envase redondo 5ml Conico Sone products",
+				"drawing": "3125",
+				"mold": "80057",
+				"depth": "-",
+				"thread": "R11B"
+			},
+			{
+				"name": "Envase redondo 4ml Sone products",
+				"drawing": "3126",
+				"mold": "80177",
+				"depth": "-",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV RDO 8mL ES (PETG)",
+				"drawing": "3205",
+				"mold": "8069415",
+				"depth": "94.5",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV RDO 12mL",
+				"drawing": "3206",
+				"mold": "80041",
+				"depth": "88.4",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV RDO 10mL ABOMBADO",
+				"drawing": "3207",
+				"mold": "80029",
+				"depth": "72.7",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV REDONDO 20 ML",
+				"drawing": "3245",
+				"mold": "8054513",
+				"depth": "101",
+				"thread": "R15A"
+			},
+			{
+				"name": "ENV MASCARA ARIANE PVC",
+				"drawing": "3247",
+				"mold": "8066814",
+				"depth": "86.6",
+				"thread": "R15C"
+			},
+			{
+				"name": "ENV PEST UNIQUECIL 2016",
+				"drawing": "3270",
+				"mold": "8077816",
+				"depth": "87.2",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENVASE LAB L-G COLORFIX VOLUMEN IV 2016",
+				"drawing": "3275",
+				"mold": "8078516",
+				"depth": "43",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV OVA PEST ESIKA INNOVACION 2010",
+				"drawing": "3284",
+				"mold": "8048212",
+				"depth": "92.5",
+				"thread": "R15B"
+			},
+			{
+				"name": "ENVASE 3 ml CONICO en  PETG",
+				"drawing": "3290",
+				"mold": "80178",
+				"depth": "40",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENVASE 4 ml ES en  PETG",
+				"drawing": "3292",
+				"mold": "80177",
+				"depth": "50",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENVASE RDO 5ML CONCAVO en PETG",
+				"drawing": "3309",
+				"mold": "80416",
+				"depth": "74.1",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENVASE RDO 6ml IS",
+				"drawing": "3315",
+				"mold": "8063114",
+				"depth": "72.7",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENVASE RDO 8ml (PVC)",
+				"drawing": "3320",
+				"mold": "8069415",
+				"depth": "94.5",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV RDO 5mL 2017 (PVC)",
+				"drawing": "3327",
+				"mold": "8081917",
+				"depth": "66.4",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV RDO 5ml PETG",
+				"drawing": "3332",
+				"mold": "80047",
+				"depth": "66.4",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV CDO 6ML EXS 3CAV",
+				"drawing": "3339",
+				"mold": "8083017",
+				"depth": "67.8",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENVASE CUADRADO 10ml en PETG",
+				"drawing": "3351",
+				"mold": "8072015",
+				"depth": "72",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV RDO 5mL 2017 EN PETG (PETG)",
+				"drawing": "3377",
+				"mold": "8081917",
+				"depth": "66.4",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV CDO 6ML EXS 3CAV en PETG",
+				"drawing": "3406",
+				"mold": "8083017",
+				"depth": "67.8",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV RDO 6ML INS 2017",
+				"drawing": "3424",
+				"mold": "8089317",
+				"depth": "72.7",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV CIL BARBIE 12 ml",
+				"drawing": "3446",
+				"mold": "8552318-8090518",
+				"depth": "-",
+				"thread": "R11B"
+			},
+			{
+				"name": "ENV CIL BARBIE 8 ml",
+				"drawing": "3447",
+				"mold": "8552418-8090618",
+				"depth": "-",
+				"thread": "R11B"
+			},
+			{
+				"name": "ENV CNI BARBIE 12 ml",
+				"drawing": "3448",
+				"mold": "8552518-8090718",
+				"depth": "75.5",
+				"thread": "R11B"
+			},
+			{
+				"name": "ENV MASC CYZONE INNOV 2012 MOLDE 2",
+				"drawing": "3450",
+				"mold": "8552818-8091118",
+				"depth": "89",
+				"thread": "R13A"
+			},
+			{
+				"name": "ENV MASC EARLY 2019",
+				"drawing": "3451",
+				"mold": "8091918",
+				"depth": "85",
+				"thread": "R15D"
+			},
+			{
+				"name": "ENV MSC VOLUMEN LBEL 2019",
+				"drawing": "3551",
+				"mold": "8098418",
+				"depth": "100",
+				"thread": "R13A"
+			},
+			{
+				"name": "ENVASE ARIANE  cavidad de prueba",
+				"drawing": "3560",
+				"mold": "8098819",
+				"depth": "-",
+				"thread": "R15C"
+			},
+			{
+				"name": "ENV LAB LPG COLORFIX EXS 2019 MLD4",
+				"drawing": "3563",
+				"mold": "8098919",
+				"depth": "43",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV RDO LG 10ML  NAT PETG",
+				"drawing": "3594",
+				"mold": "0005",
+				"depth": "72",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV RDO CONICO 3mL PET",
+				"drawing": "3613",
+				"mold": "80178",
+				"depth": "40",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV MSC VOGUE 10+ 2019",
+				"drawing": "3625",
+				"mold": "8102519",
+				"depth": "79.5",
+				"thread": "R15C"
+			},
+			{
+				"name": "ENV MSC VOGUE 10+ 2019 cavidad de prueba",
+				"drawing": "3649",
+				"mold": "8104919",
+				"depth": "-",
+				"thread": "R15C"
+			},
+			{
+				"name": "ENV RDO 6ML INS PET",
+				"drawing": "3650",
+				"mold": "8104719",
+				"depth": "72.7",
+				"thread": "R11A"
+			},
+			{
+				"name": "ENV MASC VOGUE 10+ 2019 cavidad de prueba",
+				"drawing": "3660",
+				"mold": "8098819",
+				"depth": "-",
+				"thread": "R15C"
+			},
+			{
+				"name": "ENV RDO LARGO 22.4mL PVC",
+				"drawing": "3673",
+				"mold": "8106820",
+				"depth": "80.8",
+				"thread": "R15C"
+			},
+			{
+				"name": "ENV RDO LARGO 22.4mL PETG",
+				"drawing": "3674",
+				"mold": "8106820",
+				"depth": "80.8",
+				"thread": "R15C"
+			},
+			{
+				"name": "ENVASE 4 ml IS (PET)",
+				"drawing": "C4294",
+				"mold": "80104-80105",
+				"depth": "50",
+				"thread": "R11A"
+			}
+		],
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+	}
+}

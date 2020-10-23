@@ -1,8 +1,8 @@
 export function getBottles() {
-  return fetch(`${process.env.REACT_APP_API_BASE_URL}bottle`).then(response =>
-    response.json()
-  );
+  return fetch("/bottle")
+  .then(response => response.json())
 }
+
 export function getCaps() {
   return fetch(`${process.env.REACT_APP_API_BASE_URL}cap`).then(response =>
     response.json()
@@ -23,3 +23,31 @@ export function getRods() {
     response.json()
   );
 }
+
+// export const getBottles = (url) => {
+//   const [data, setData] = useState(null);
+//
+//   async function fetchData() {
+//     const response = await fetch(url);
+//     const json = await response.json();
+//     setData(json);
+//   }
+//
+//   useEffect(() => {fetchData()},[url]);
+//
+//   return data;
+// };
+
+// export const useFetch = (url) => {
+//   const [data, setData] = useState(null);
+//
+//   async function fetchData() {
+//     const response = await fetch(url);
+//     const json = await response.json();
+//     setData(json);
+//   }
+//
+//   useEffect(() => {fetchData()},[url]);
+//
+//   return data;
+// };

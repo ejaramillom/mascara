@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Mainbar from "./Components/Mainbar.component";
+import Mainbar from "./components/Mainbar.component";
 
 function App() {
   return (
