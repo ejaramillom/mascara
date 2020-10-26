@@ -1,6 +1,4 @@
-{
-	"bottles": {
-		"record": [
+[
 			{
 				"name": "Envase redondo 18 mL mascara trio avon",
 				"drawing": "2732",
@@ -414,7 +412,4 @@
 				"depth": "50",
 				"thread": "R11A"
 			}
-		],
-		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
-	}
-}
+		]

@@ -1,6 +1,4 @@
-{
-	"brush": {
-		"record": [
+[
 			{
 				"brush": "SX 01",
 				"original": "QZ-01",
@@ -1722,7 +1720,4 @@
 				"brushLength": "6.5",
 				"type": "DELINEADOR"
 			}
-		],
-		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
-	}
-}
+		]

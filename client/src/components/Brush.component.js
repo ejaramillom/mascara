@@ -3,9 +3,8 @@ import '../App.css';
 import { getBrushes } from "../middlewares/services";
 import { useQuery } from "react-query";
 
-export default function Brush() {
+const Brush = () => {
   const { isLoading, error, data } = useQuery("brushes", getBrushes);
-  console.log(data);
   if (isLoading) return "Loading...";
   if (error) {
     return "Oops! " + error.message;
@@ -15,9 +14,11 @@ export default function Brush() {
     <div className="App">
       <header className="App-header">
       { data.map( element =>
-        <li key = { element.name }>{ element.name }</li>
+        <li key = { element.brush }>{ element.brush }</li>
       )}
       </header>
     </div>
   );
 }
+
+export default Brush;

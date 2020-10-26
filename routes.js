@@ -1,7 +1,10 @@
 const express = require( "express" );
 const router = express.Router();
 const Bottle = require( "./models/bottle.model" );
-// const axios = require( "axios" );
+const Brush = require( "./models/brush.model" );
+const Cap = require( "./models/cap.model" );
+const Rod = require( "./models/rod.model" );
+const Wiper = require( "./models/wiper.model" );
 
 router.get( "/", async ( req, res, next ) => {
   try {
@@ -28,7 +31,7 @@ router.get( "/brush", async ( req, res, next ) => {
   try {
     const brush = await Brush.find();
     console.log( "succesfully found brushes list" );
-    return res.send( bottle );
+    return res.send( brush );
   } catch ( err ) {
     console.log( err );
     next( err );

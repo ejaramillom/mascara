@@ -2,9 +2,9 @@ const mongoose = require("mongoose")
 
 const BottleSchema = mongoose.Schema({
 	name: {type: String, required: true},
-	drawing: {type: Integer, required: true},
-  mold: {type: Integer, required: true},
-  depth: {type: Integer, required:true},
+	drawing: {type: Number, required: true},
+  mold: {type: Number, required: true},
+  depth: {type: Number, required:true},
   thread: {type: String, required:true}
 })
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import '../App.css';
-import { getWiper } from "../middlewares/services";
+import { getWipers } from "../middlewares/services";
 import { useQuery } from "react-query";
 
-export default function Brush() {
+const Wiper = () => {
   const { isLoading, error, data } = useQuery("wipers", getWipers);
   console.log(data);
   if (isLoading) return "Loading...";
@@ -21,3 +21,5 @@ export default function Brush() {
     </div>
   );
 }
+
+export default Wiper;

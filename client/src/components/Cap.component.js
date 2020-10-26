@@ -3,7 +3,7 @@ import '../App.css';
 import { getCaps } from "../middlewares/services";
 import { useQuery } from "react-query";
 
-export default function Brush() {
+const Cap = () => {
   const { isLoading, error, data } = useQuery("caps", getCaps);
   console.log(data);
   if (isLoading) return "Loading...";
@@ -21,3 +21,5 @@ export default function Brush() {
     </div>
   );
 }
+
+export default Cap;

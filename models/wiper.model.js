@@ -1,12 +1,11 @@
 const mongoose = require("mongoose")
 
-const BottleSchema = mongoose.Schema({
+const WiperSchema = mongoose.Schema({
 	name: {type: String, required: true},
-	drawing: {type: String, required: true},
-  api_movie_id: {type: String, required: true},
-  poster_path: {type:String, required:true}
+	drawing: {type: Number, required: true},
+  mold: {type: Number, required: true}
 })
 
-const Bottle = mongoose.model("Bottle", BottleSchema);
+const Wiper = mongoose.model("Wiper", WiperSchema);
 
-module.exports = Bottle;
+module.exports = Wiper;

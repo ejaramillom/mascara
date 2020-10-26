@@ -3,9 +3,8 @@ import '../App.css';
 import { getBottles } from "../middlewares/services";
 import { useQuery } from "react-query";
 
-export default function Bottle() {
+const Bottle = () => {
   const { isLoading, error, data } = useQuery("bottles", getBottles);
-  console.log(data);
   if (isLoading) return "Loading...";
   if (error) {
     return "Oops! " + error.message;
@@ -21,3 +20,5 @@ export default function Bottle() {
     </div>
   );
 }
+
+export default Bottle;

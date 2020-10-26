@@ -3,10 +3,10 @@ import '../App.css';
 import { getRods } from "../middlewares/services";
 import { useQuery } from "react-query";
 
-export default function Brush() {
+export default function Rod() {
   const { isLoading, error, data } = useQuery("rods", getRods);
   console.log(data);
-  if (isLoading) return "Loading...";
+  if (isLoading) return "Loading... ";
   if (error) {
     return "Oops! " + error.message;
   }

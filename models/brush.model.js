@@ -1,13 +1,16 @@
 const mongoose = require("mongoose")
 
-const BottleSchema = mongoose.Schema({
-	name: {type: String, required: true},
-	drawing: {type: Integer, required: true},
-  mold: {type: Integer, required: true},
-  depth: {type: Integer, required: true},
-  thread: {type: String, required: true}
+const BrushSchema = mongoose.Schema({
+	brush: {type: String, required: true},
+	original: {type: String, required: true},
+  shaftDiameter: {type: Number, required: true},
+  shaftLength: {type: Number, required: true},
+  brushDiameter: {type: Number, required: true},
+  brushLength: {type: Number, required: true},
+  supplier: {type: String},
+  type: {type: String, required: true}
 })
 
-const Bottle = mongoose.model("Bottle", BottleSchema);
+const Brush = mongoose.model("Brush", BrushSchema);
 
-module.exports = Bottle;
+module.exports = Brush;
