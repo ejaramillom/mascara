@@ -1,0 +1,6319 @@
+{
+	"rod": {
+		"record": [
+			{
+				"name": "TPV CDO PEST R11Dx36L",
+				"drawing": "C4030",
+				"mold": "9827",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "36.6",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80064",
+						"drawing": "80064-01"
+					},
+					"pin": {
+						"mold": "STD-133",
+						"drawing": "STD-133"
+					},
+					"pinHolder": {
+						"mold": "80064",
+						"drawing": "80064-02"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5007",
+					"pa2": "C5172"
+				}
+			},
+			{
+				"name": "TPV CDO PEST R11Dx65L",
+				"drawing": "C4028",
+				"mold": "9829",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "65.6",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9832",
+						"drawing": "9829-1"
+					},
+					"pin": {
+						"mold": "STD-133",
+						"drawing": "STD-133"
+					},
+					"pinHolder": {
+						"mold": "9829",
+						"drawing": "9829-2"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5010",
+					"pa2": "C5080",
+					"pa3": "C5130",
+					"pa4": "C5131",
+					"pa5": "C5175",
+					"pa6": "C5204"
+				}
+			},
+			{
+				"name": "TPV CDO PEST R11Dx43L 0R 0,9",
+				"drawing": "C4034",
+				"mold": "9833",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "18",
+				"dimensions": {
+					"lenght": "43.3",
+					"rodDiameter": "4.3",
+					"brushDiameter": "0.91"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9833",
+						"drawing": "9833-1"
+					},
+					"pin": {
+						"mold": "9833",
+						"drawing": "2093-03"
+					},
+					"pinHolder": {
+						"mold": "9833",
+						"drawing": "9833-2"
+					},
+					"threadedCore": {
+						"mold": "9823",
+						"drawing": "70093"
+					},
+					"cavityInsert": "",
+					"cavity": {
+						"mold": "9823",
+						"drawing": "70707"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5011",
+					"pa2": "C5072",
+					"pa3": "C5073"
+				}
+			},
+			{
+				"name": "TPV CDO DELR11Dx58L",
+				"drawing": "C4084",
+				"mold": "9906",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "57.9",
+					"rodDiameter": "2.84",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5023"
+				}
+			},
+			{
+				"name": "TPV CDO LPG R11Dx56L",
+				"drawing": "C4116",
+				"mold": "9943",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "20",
+				"dimensions": {
+					"lenght": "56.9",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80063",
+						"drawing": "80063-01"
+					},
+					"pin": {
+						"mold": "80063",
+						"drawing": "80063-03"
+					},
+					"pinHolder": {
+						"mold": "80063",
+						"drawing": "80063-03"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5031",
+					"pa2": "C5034",
+					"pa3": "C5157"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV CDO DELR11Dx62L",
+				"drawing": "C4118",
+				"mold": "0009",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "63",
+					"rodDiameter": "2.84",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "0009",
+						"drawing": "0009-1"
+					},
+					"pin": {
+						"mold": "0009",
+						"drawing": "2093-01"
+					},
+					"pinHolder": {
+						"mold": "0009",
+						"drawing": "0009-3"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5036",
+					"pa2": "C5071",
+					"pa3": "C5085",
+					"pa4": "C5201"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV CDO PEST R11Dx43L",
+				"drawing": "C4029",
+				"mold": "0017",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "43.3",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9833",
+						"drawing": "9833-1"
+					},
+					"pin": {
+						"mold": "STD-133",
+						"drawing": "STD-133"
+					},
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5037",
+					"pa2": "C5134",
+					"pa3": "C5147",
+					"pa4": "C5174"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV PEST 24542",
+				"drawing": "C4129",
+				"mold": "0025",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "56.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "0025",
+						"drawing": "70539"
+					},
+					"pin": {
+						"mold": "0025",
+						"drawing": "2092-12"
+					},
+					"pinHolder": {
+						"mold": "0025",
+						"drawing": "70614"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5029",
+					"pa2": "C5098"
+				}
+			},
+			{
+				"name": "TPV LPG YANBAL 2001",
+				"drawing": "C4130",
+				"mold": "0026",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "20",
+				"dimensions": {
+					"lenght": "71.2",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "0026",
+						"drawing": "0026-1"
+					},
+					"pin": {
+						"mold": "0026",
+						"drawing": "2093-01"
+					},
+					"pinHolder": {
+						"mold": "0026",
+						"drawing": "0026-2"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5038"
+				}
+			},
+			{
+				"name": "TPV DEL YANBAL 2001",
+				"drawing": "C4146",
+				"mold": "0041",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "106",
+				"dimensions": {
+					"lenght": "40.5",
+					"rodDiameter": "2.84",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "0041",
+						"drawing": "70069"
+					},
+					"pin": {
+						"mold": "0041",
+						"drawing": "2091-11"
+					},
+					"pinHolder": {
+						"mold": "0041",
+						"drawing": "0041-3"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5030",
+					"pa2": "C5094"
+				}
+			},
+			{
+				"name": "TPV CDO LPG ESBELTO R11Dx50L",
+				"drawing": "C4273",
+				"mold": "0405",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "20",
+				"dimensions": {
+					"lenght": "50.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "80062",
+						"drawing": "80062-09"
+					},
+					"pin": {
+						"mold": "80062-10",
+						"drawing": "80062-10"
+					},
+					"pinHolder": {
+						"mold": "80062",
+						"drawing": "80062-10"
+					},
+					"threadedCore": {
+						"mold": "80062",
+						"drawing": "80062-02"
+					},
+					"cavityInsert": {
+						"mold": "80062",
+						"drawing": "80062-12"
+					},
+					"cavity": {
+						"mold": "80062",
+						"drawing": "80062-01"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5148"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx36L",
+				"drawing": "C4031",
+				"mold": "9831",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "36.6",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "80064",
+						"drawing": "80064-01"
+					},
+					"pin": {
+						"mold": "STD-133",
+						"drawing": "STD-133"
+					},
+					"pinHolder": {
+						"mold": "80064",
+						"drawing": "80064-02"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5008",
+					"pa2": "C5063",
+					"pa3": "C5097",
+					"pa4": "C5162"
+				}
+			},
+			{
+				"name": "TPV RDO DELR11Dx58L",
+				"drawing": "C4083",
+				"mold": "9905",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "57.9",
+					"rodDiameter": "2.84",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9905",
+						"drawing": "71300"
+					},
+					"pin": {
+						"mold": "9905",
+						"drawing": "70208"
+					},
+					"pinHolder": {
+						"mold": "9905",
+						"drawing": "71301"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5022",
+					"pa2": "C5079"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx56L",
+				"drawing": "C4139",
+				"mold": "0032",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "20",
+				"dimensions": {
+					"lenght": "56.9",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80063",
+						"drawing": "80063-01"
+					},
+					"pin": {
+						"mold": "80063",
+						"drawing": "80063-03"
+					},
+					"pinHolder": {
+						"mold": "80063",
+						"drawing": "80063-03"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5041",
+					"pa2": "C5101",
+					"pa3": "C5120",
+					"pa4": "C5156",
+					"pa5": "C5164"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx50L",
+				"drawing": "C4143",
+				"mold": "0040",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "20",
+				"dimensions": {
+					"lenght": "50.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "80062",
+						"drawing": "80062-09"
+					},
+					"pin": {
+						"mold": "80062-10",
+						"drawing": "80062-10"
+					},
+					"pinHolder": {
+						"mold": "80062",
+						"drawing": "80062-10"
+					},
+					"threadedCore": {
+						"mold": "80062",
+						"drawing": "80062-02"
+					},
+					"cavityInsert": {
+						"mold": "80062",
+						"drawing": "80062-07"
+					},
+					"cavity": {
+						"mold": "80062",
+						"drawing": "80062-01"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5003",
+					"pa2": "C5044",
+					"pa3": "9458",
+					"pa4": "9459"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx36L",
+				"drawing": "C4190",
+				"mold": "0216",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "18",
+				"dimensions": {
+					"lenght": "36.6",
+					"rodDiameter": "4.3",
+					"brushDiameter": "0.91"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80064",
+						"drawing": "80064-01"
+					},
+					"pin": {
+						"mold": "STD-136",
+						"drawing": "STD-136"
+					},
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5155",
+					"pa2": "C5186",
+					"pa3": "C5191"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx50L CLIC",
+				"drawing": "C4215",
+				"mold": "0301",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "20",
+				"dimensions": {
+					"lenght": "50.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80062",
+						"drawing": "80062-09"
+					},
+					"pin": {
+						"mold": "80062-10",
+						"drawing": "80062-10"
+					},
+					"pinHolder": {
+						"mold": "80062",
+						"drawing": "80062-10"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5133"
+				}
+			},
+			{
+				"name": "TPV RDO DEL R11Dx40,5L",
+				"drawing": "C4235",
+				"mold": "0401",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "106",
+				"dimensions": {
+					"lenght": "40.5",
+					"rodDiameter": "2.84",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "0041",
+						"drawing": "70069"
+					},
+					"pin": {
+						"mold": "0041",
+						"drawing": "2091-11"
+					},
+					"pinHolder": {
+						"mold": "0041",
+						"drawing": "0041-3"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5103",
+					"pa2": "C5121",
+					"pa3": "C5128",
+					"pa4": "C5150",
+					"pa5": "C5185",
+					"pa6": "C5238"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx56,4L",
+				"drawing": "C4248",
+				"mold": "0402",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "56.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "0025",
+						"drawing": "2093-02"
+					},
+					"pin": {
+						"mold": "0025",
+						"drawing": "2092-12"
+					},
+					"pinHolder": {
+						"mold": "0025",
+						"drawing": "70614"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5088",
+					"pa2": "C5129",
+					"pa3": "C5165",
+					"pa4": "C5180",
+					"pa5": "C5202",
+					"pa6": "C5213"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx43L 0R1,1",
+				"drawing": "C4312",
+				"mold": "0506",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "43.3",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO DEL R11Dx40,5L Ø1,05",
+				"drawing": "C4313",
+				"mold": "0507",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "40.5",
+					"rodDiameter": "2.84",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "0041",
+						"drawing": "70069"
+					},
+					"pin": {
+						"mold": "0507",
+						"drawing": "2094-08"
+					},
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5149"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx23L",
+				"drawing": "C4249",
+				"mold": "80054",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "23",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80054",
+						"drawing": "80054-01"
+					},
+					"pin": {
+						"mold": "80054",
+						"drawing": "80054-04"
+					},
+					"pinHolder": {
+						"mold": "80054",
+						"drawing": "80054-03"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5089",
+					"pa2": "C5110",
+					"pa3": "C5127",
+					"pa4": "C5173",
+					"pa5": "C5176",
+					"pa6": "C5192"
+				}
+			},
+			{
+				"name": "TPV RDO DEL R11Dx30L",
+				"drawing": "C4250",
+				"mold": "80056",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "30",
+					"rodDiameter": "2.84",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80056",
+						"drawing": "80056-01"
+					},
+					"pin": {
+						"mold": "80056",
+						"drawing": "80056-21"
+					},
+					"pinHolder": {
+						"mold": "80056",
+						"drawing": "80056-03"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5111",
+					"pa2": "C5122",
+					"pa3": "C5126"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx53,8L",
+				"drawing": "C4255",
+				"mold": "80058",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "53.8",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80058",
+						"drawing": "80058-01"
+					},
+					"pin": {
+						"mold": "STD-120",
+						"drawing": "STD-120"
+					},
+					"pinHolder": {
+						"mold": "80058",
+						"drawing": "80058-03"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5092"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx56L A-02",
+				"drawing": "C4322",
+				"mold": "80136",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "57",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.53"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80136",
+						"drawing": "80136-03"
+					},
+					"pin": {
+						"mold": "80136",
+						"drawing": "80136-01"
+					},
+					"pinHolder": {
+						"mold": "80136",
+						"drawing": "80136-02"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5179",
+					"pa2": "C5200",
+					"pa3": "C5218",
+					"pa4": "C5224"
+				}
+			},
+			{
+				"name": "TPV RDO DEL R11Dx40,5L DL05",
+				"drawing": "C4320",
+				"mold": "80137",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "70",
+				"dimensions": {
+					"lenght": "40.5",
+					"rodDiameter": "2.84",
+					"brushDiameter": "1.21"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "0041",
+						"drawing": "70069"
+					},
+					"pin": {
+						"mold": "80137",
+						"drawing": "80137-01"
+					},
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5178"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx30L BROCHA",
+				"drawing": "2742",
+				"mold": "8026608",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "38.6",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.56"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80019",
+						"drawing": "80019-01"
+					},
+					"pin": {
+						"mold": "80266",
+						"drawing": "80266-20"
+					},
+					"pinHolder": {
+						"mold": "80019",
+						"drawing": "80019-03"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx43L CEP INY",
+				"drawing": "2808",
+				"mold": "80324",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "92",
+				"dimensions": {
+					"lenght": "43",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80324",
+						"drawing": "80324-22"
+					},
+					"pin": {
+						"mold": "80324",
+						"drawing": "80324-21"
+					},
+					"pinHolder": {
+						"mold": "80324",
+						"drawing": "80324-21"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO DEL R11Dx58L PUNTA PLUMON",
+				"drawing": "2842",
+				"mold": "80351",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "57.9",
+					"rodDiameter": "2.84",
+					"brushDiameter": "1.65"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9905",
+						"drawing": "2095-03"
+					},
+					"pin": {
+						"mold": "80351",
+						"drawing": "80351-21"
+					},
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx62L GOURMAND",
+				"drawing": "2852",
+				"mold": "80360",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "62.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.56"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80360",
+						"drawing": "80360-20"
+					},
+					"pin": {
+						"mold": "80360",
+						"drawing": "80360-21"
+					},
+					"pinHolder": {
+						"mold": "80360",
+						"drawing": "80360-21"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "9460",
+					"pa2": "9461"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx69.5L APL Nº1",
+				"drawing": "2870",
+				"mold": "80379",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "69.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.65"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80317",
+						"drawing": "80317-20"
+					},
+					"pin": {
+						"mold": "80379",
+						"drawing": "80379-21"
+					},
+					"pinHolder": {
+						"mold": "80379",
+						"drawing": "80379-21"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO DEL R11Dx30L PUNTA PLUMON",
+				"drawing": "2889",
+				"mold": "80390",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "30",
+					"rodDiameter": "2.84",
+					"brushDiameter": "1.65"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80056",
+						"drawing": "80056-01"
+					},
+					"pin": {
+						"mold": "STD-155",
+						"drawing": "STD-155"
+					},
+					"pinHolder": {
+						"mold": "80056",
+						"drawing": "80056-03"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV MASCARA CYZONE 2011",
+				"drawing": "2887",
+				"mold": "80399",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R13",
+				"gauge": "155",
+				"dimensions": {
+					"lenght": "59",
+					"rodDiameter": "5.6",
+					"brushDiameter": "3.55"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80399",
+						"drawing": "80399-26"
+					},
+					"pin": {
+						"mold": "80399",
+						"drawing": "80399-27"
+					},
+					"pinHolder": {
+						"mold": "80399",
+						"drawing": "80399-27"
+					},
+					"threadedCore": {
+						"mold": "80399",
+						"drawing": "80399-23"
+					},
+					"cavityInsert": {
+						"mold": "80399",
+						"drawing": "80399-21"
+					},
+					"cavity": {
+						"mold": "80399",
+						"drawing": "80399-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx69.5L APL 40111-1",
+				"drawing": "2915",
+				"mold": "80431",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "69.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80431",
+						"drawing": "80431-20"
+					},
+					"pin": {
+						"mold": "80431",
+						"drawing": "80431-21"
+					},
+					"pinHolder": {
+						"mold": "80431",
+						"drawing": "80431-21"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx56L APL 40111-1",
+				"drawing": "2916",
+				"mold": "80432",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "56.9",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80136",
+						"drawing": "80136-03"
+					},
+					"pin": {
+						"mold": "80432",
+						"drawing": "80432-01"
+					},
+					"pinHolder": {
+						"mold": "80432",
+						"drawing": "80432-01"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx65L",
+				"drawing": "C4029",
+				"mold": "9832",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "65.6",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9832",
+						"drawing": "71108"
+					},
+					"pin": {
+						"mold": "STD-133",
+						"drawing": "STD-133"
+					},
+					"pinHolder": {
+						"mold": "9832",
+						"drawing": "71109"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "9832",
+						"drawing": "70619"
+					},
+					"cavity": {
+						"mold": "9832",
+						"drawing": "70407"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5009",
+					"pa2": "C5067",
+					"pa3": "C5068",
+					"pa4": "C5069",
+					"pa5": "C5136",
+					"pa6": "C5163",
+					"pa7": "C5171",
+					"pa8": "C5207",
+					"pa9": "C5222",
+					"pa10": "C5233"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx65L 0R 0,9",
+				"drawing": "C4281",
+				"mold": "0501",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "18",
+				"dimensions": {
+					"lenght": "65.6",
+					"rodDiameter": "3.5",
+					"brushDiameter": "0.91"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9832",
+						"drawing": "2094-09"
+					},
+					"pin": {
+						"mold": "STD-168",
+						"drawing": "STD-168"
+					},
+					"pinHolder": {
+						"mold": "9832",
+						"drawing": "71109"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5137",
+					"pa2": "C5206",
+					"pa3": "C5230",
+					"pa4": "C5240"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx44L",
+				"drawing": "C4353",
+				"mold": "0701",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "44",
+					"rodDiameter": "3.5",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80204",
+						"drawing": "80204-01"
+					},
+					"pin": {
+						"mold": "STD-133",
+						"drawing": "STD-133"
+					},
+					"pinHolder": {
+						"mold": "80204",
+						"drawing": "80204-02"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx50L",
+				"drawing": "C4143",
+				"mold": "80062",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "20",
+				"dimensions": {
+					"lenght": "50.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "80062",
+						"drawing": "80062-09"
+					},
+					"pin": {
+						"mold": "80062-10",
+						"drawing": "80062-10"
+					},
+					"pinHolder": {
+						"mold": "80062",
+						"drawing": "80062-10"
+					},
+					"threadedCore": {
+						"mold": "80062",
+						"drawing": "80062-02"
+					},
+					"cavityInsert": {
+						"mold": "80062",
+						"drawing": "80062-07"
+					},
+					"cavity": {
+						"mold": "80062",
+						"drawing": "80062-01"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5003",
+					"pa2": "C5044",
+					"pa3": "9458",
+					"pa4": "9459"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx56L",
+				"drawing": "C4139",
+				"mold": "80063",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "20",
+				"dimensions": {
+					"lenght": "56.9",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80063",
+						"drawing": "80063-01"
+					},
+					"pin": {
+						"mold": "80063",
+						"drawing": "80063-03"
+					},
+					"pinHolder": {
+						"mold": "80063",
+						"drawing": "80063-03"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5041",
+					"pa2": "C5101",
+					"pa3": "C5120",
+					"pa4": "C5156",
+					"pa5": "C5164"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx36L",
+				"drawing": "C4031",
+				"mold": "80064",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "36.6",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "80064",
+						"drawing": "80064-01"
+					},
+					"pin": {
+						"mold": "STD-133",
+						"drawing": "STD-133"
+					},
+					"pinHolder": {
+						"mold": "80064",
+						"drawing": "80064-02"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5008",
+					"pa2": "C5063",
+					"pa3": "C5097",
+					"pa4": "C5162"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx20L",
+				"drawing": "C4236",
+				"mold": "80078",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "20.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80078",
+						"drawing": "80078-01"
+					},
+					"pin": {
+						"mold": "80078",
+						"drawing": "80078-04"
+					},
+					"pinHolder": {
+						"mold": "80078",
+						"drawing": "80078-03"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5104",
+					"pa2": "C5140",
+					"pa3": "C5141",
+					"pa4": "C5150",
+					"pa5": "C5153",
+					"pa6": "C5154",
+					"pa7": "C5185",
+					"pa8": "C5203",
+					"pa9": "C5229",
+					"pa10": "C5235"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx21,5L",
+				"drawing": "C4278",
+				"mold": "80082",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "21.5",
+					"rodDiameter": "3.5",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80082",
+						"drawing": "80082-01"
+					},
+					"pin": {
+						"mold": "80082",
+						"drawing": "80082-04"
+					},
+					"pinHolder": {
+						"mold": "80082",
+						"drawing": "80082-03"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5138",
+					"pa2": "C5153"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx20L 0R 0,9",
+				"drawing": "C4279",
+				"mold": "80085",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "20.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80078",
+						"drawing": "80078-01"
+					},
+					"pin": {
+						"mold": "80085",
+						"drawing": "80085-04"
+					},
+					"pinHolder": {
+						"mold": "80078",
+						"drawing": "80078-03"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5139"
+				}
+			},
+			{
+				"name": "TPV RDO PEST YANBAL MANHATTAN",
+				"drawing": "C4297",
+				"mold": "80110",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "53",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV LPG YANBAL MANHATTAN",
+				"drawing": "C4300",
+				"mold": "80111",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "72",
+				"dimensions": {
+					"lenght": "79.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80111",
+						"drawing": "80111-24"
+					},
+					"pin": {
+						"mold": "80111",
+						"drawing": "80111-25"
+					},
+					"pinHolder": {
+						"mold": "80111",
+						"drawing": "80111-25"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80111",
+						"drawing": "80111-23"
+					},
+					"cavity": {
+						"mold": "80111",
+						"drawing": "80111-21"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5167"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx23,5L",
+				"drawing": "C4310",
+				"mold": "80118",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "23.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80118",
+						"drawing": "80118-01"
+					},
+					"pin": {
+						"mold": "80118",
+						"drawing": "80118-04"
+					},
+					"pinHolder": {
+						"mold": "80118",
+						"drawing": "80118-03"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5154"
+				}
+			},
+			{
+				"name": "TPV DEL YANBAL MANHATTAN",
+				"drawing": "C4303",
+				"mold": "80168",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "43",
+				"dimensions": {
+					"lenght": "50.1",
+					"rodDiameter": "2.8",
+					"brushDiameter": "1.51"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80168",
+						"drawing": "80168-22"
+					},
+					"pin": {
+						"mold": "80168",
+						"drawing": "80168-26"
+					},
+					"pinHolder": {
+						"mold": "80168",
+						"drawing": "80168-25"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80168",
+						"drawing": "80168-24"
+					},
+					"cavity": {
+						"mold": "80168",
+						"drawing": "80168-20"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5168"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx27L A-02",
+				"drawing": "C4337",
+				"mold": "80172",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "27",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.53"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80172",
+						"drawing": "80172-17"
+					},
+					"pin": {
+						"mold": "80172",
+						"drawing": "80172-14"
+					},
+					"pinHolder": {
+						"mold": "80172",
+						"drawing": "80172-14"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5198",
+					"pa2": "C5208",
+					"pa3": "C5221"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx65L Ø3,5",
+				"drawing": "C4345",
+				"mold": "80176",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "65.7",
+					"rodDiameter": "3.5",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80176",
+						"drawing": "80176-01"
+					},
+					"pin": {
+						"mold": "STD-133",
+						"drawing": "STD-133"
+					},
+					"pinHolder": {
+						"mold": "80176",
+						"drawing": "80176-02"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5193",
+					"pa2": "C5223",
+					"pa3": "C5225"
+				}
+			},
+			{
+				"name": "TPV RDO Pest R11Dx44L OR 0,9",
+				"drawing": "C4352",
+				"mold": "80204",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "18",
+				"dimensions": {
+					"lenght": "44",
+					"rodDiameter": "3.5",
+					"brushDiameter": "0.91"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80204",
+						"drawing": "80204-01"
+					},
+					"pin": {
+						"mold": "STD-136",
+						"drawing": "STD-136"
+					},
+					"pinHolder": {
+						"mold": "80204",
+						"drawing": "80204-02"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5214"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx35,5L",
+				"drawing": "C4354",
+				"mold": "80210",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "20",
+				"dimensions": {
+					"lenght": "35.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.65"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80210",
+						"drawing": "80210-01"
+					},
+					"pin": {
+						"mold": "80210",
+						"drawing": "80210-02"
+					},
+					"pinHolder": {
+						"mold": "80210",
+						"drawing": "80210-02"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5219",
+					"pa2": "C5239"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx27L",
+				"drawing": "C4347",
+				"mold": "80218",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "27",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.65"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80172",
+						"drawing": "80172-17"
+					},
+					"pin": {
+						"mold": "80218",
+						"drawing": "80218-01"
+					},
+					"pinHolder": {
+						"mold": "80218",
+						"drawing": "80218-01"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV LPG LUPA MANHATTAN",
+				"drawing": "C4365",
+				"mold": "80223",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "71",
+				"dimensions": {
+					"lenght": "79.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.65"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80111",
+						"drawing": "80111-24"
+					},
+					"pin": {
+						"mold": "80223",
+						"drawing": "80223-25"
+					},
+					"pinHolder": {
+						"mold": "80223",
+						"drawing": "80223-25"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5234"
+				}
+			},
+			{
+				"name": "TPV DEL YANBAL MANHATTAN OR 0,9",
+				"drawing": "2728",
+				"mold": "80252",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "106-165",
+				"dimensions": {
+					"lenght": "50.1",
+					"rodDiameter": "2.8",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80168",
+						"drawing": "80168-22"
+					},
+					"pin": {
+						"mold": "80252",
+						"drawing": "80252-26"
+					},
+					"pinHolder": {
+						"mold": "80168",
+						"drawing": "80168-25"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV MINI LIPGLOSS BAMBU",
+				"drawing": "2786",
+				"mold": "80304",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "35.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.65"
+				},
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx27L BROCHA",
+				"drawing": "2828",
+				"mold": "80332",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "27",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.65"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80172",
+						"drawing": "80172-01"
+					},
+					"pin": {
+						"mold": "80332",
+						"drawing": "80332-21"
+					},
+					"pinHolder": {
+						"mold": "80332",
+						"drawing": "80332-21"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx56L APL 40111-1",
+				"drawing": "2883",
+				"mold": "80385",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "145",
+				"dimensions": {
+					"lenght": "56.9",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.5"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80063",
+						"drawing": "80063-01"
+					},
+					"pin": {
+						"mold": "80385",
+						"drawing": "80385-23"
+					},
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx27L APL 40111-1",
+				"drawing": "2909",
+				"mold": "80422",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "27",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80172",
+						"drawing": "80172-17"
+					},
+					"pin": {
+						"mold": "80422",
+						"drawing": "80422-23"
+					},
+					"pinHolder": {
+						"mold": "80422",
+						"drawing": "80422-23"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV MINI LIPGLOSS BAMBU APL 40111-1",
+				"drawing": "2914",
+				"mold": "80430",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "35.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80210",
+						"drawing": "80210-01"
+					},
+					"pin": {
+						"mold": "80430",
+						"drawing": "80430-23"
+					},
+					"pinHolder": {
+						"mold": "80430",
+						"drawing": "80430-23"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO LPG R11Dx69.5L APL 40111-1",
+				"drawing": "2915",
+				"mold": "80431",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "70.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80431",
+						"drawing": "80431-20"
+					},
+					"pin": {
+						"mold": "80431",
+						"drawing": "80431-21"
+					},
+					"pinHolder": {
+						"mold": "80431",
+						"drawing": "80431-21"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO DEL R11Dx34L PUNTA PLUMON",
+				"drawing": "2931",
+				"mold": "80458",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "34",
+					"rodDiameter": "2.84",
+					"brushDiameter": "1.62"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80458",
+						"drawing": "80458-22"
+					},
+					"pin": {
+						"mold": "STD-155",
+						"drawing": "STD-155"
+					},
+					"pinHolder": {
+						"mold": "80458",
+						"drawing": "80458-23"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO LPG R11Dx35.5L APL 40111-1",
+				"drawing": "2945",
+				"mold": "80471",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "35.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx25L 0R1,14",
+				"drawing": "C4008",
+				"mold": "9803",
+				"holder": "C026",
+				"cavity": "12",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "25.4",
+					"rodDiameter": "3.5",
+					"brushDiameter": "1.18"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9803",
+						"drawing": "2092-12"
+					},
+					"pin": {
+						"mold": "9803",
+						"drawing": "2093-10"
+					},
+					"pinHolder": {
+						"mold": "9803",
+						"drawing": "70457"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5003",
+					"pa2": "C5085",
+					"pa3": "C5093"
+				}
+			},
+			{
+				"name": "TPV RDO DEL R11Dx63L",
+				"drawing": "C4048",
+				"mold": "9811",
+				"holder": "C026",
+				"cavity": "12",
+				"thread": "R11",
+				"gauge": "148",
+				"dimensions": {
+					"lenght": "62.4",
+					"rodDiameter": "2.84",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9811",
+						"drawing": "2092-12"
+					},
+					"pin": {
+						"mold": "9811",
+						"drawing": "2092-07"
+					},
+					"pinHolder": {
+						"mold": "9811",
+						"drawing": "70459"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5018",
+					"pa2": "C5102",
+					"pa3": "C5124",
+					"pa4": "C5159",
+					"pa5": "C5169",
+					"pa6": "C5188",
+					"pa7": "C5220"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx46L",
+				"drawing": "C4005",
+				"mold": "9812",
+				"holder": "C026",
+				"cavity": "12",
+				"thread": "R11",
+				"gauge": "22",
+				"dimensions": {
+					"lenght": "46.4",
+					"rodDiameter": "3.5",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9812",
+						"drawing": "2092-12"
+					},
+					"pin": {
+						"mold": "9812",
+						"drawing": "2094-07"
+					},
+					"pinHolder": {
+						"mold": "9812",
+						"drawing": "70461"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5020",
+					"pa2": "C5215"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R11Dx25L 0R1,1",
+				"drawing": "C4039",
+				"mold": "9916",
+				"holder": "C026",
+				"cavity": "12",
+				"thread": "R11",
+				"gauge": "24",
+				"dimensions": {
+					"lenght": "25.4",
+					"rodDiameter": "3.5",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9803",
+						"drawing": "2092-12"
+					},
+					"pin": {
+						"mold": "9916",
+						"drawing": "9916-3"
+					},
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5014"
+				}
+			},
+			{
+				"name": "TPV RDO DELR11Dx45L",
+				"drawing": "C4092",
+				"mold": "9919",
+				"holder": "C026",
+				"cavity": "12",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "45.6",
+					"rodDiameter": "2.84",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9919",
+						"drawing": "2092-12"
+					},
+					"pin": {
+						"mold": "9919",
+						"drawing": "9919-3"
+					},
+					"pinHolder": {
+						"mold": "9919",
+						"drawing": "70463"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5026"
+				}
+			},
+			{
+				"name": "TPV RDO DEL ECO R11Dx45L",
+				"drawing": "C4114",
+				"mold": "9941",
+				"holder": "C026",
+				"cavity": "12",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "45.6",
+					"rodDiameter": "2.84",
+					"brushDiameter": "0.95"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9919",
+						"drawing": "2092-12"
+					},
+					"pin": {
+						"mold": "9919",
+						"drawing": "9919-3"
+					},
+					"pinHolder": {
+						"mold": "9919",
+						"drawing": "70463"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO PEST ECO R11Dx25L",
+				"drawing": "C4113",
+				"mold": "9942",
+				"holder": "C026",
+				"cavity": "12",
+				"thread": "R11",
+				"gauge": "24",
+				"dimensions": {
+					"lenght": "25.4",
+					"rodDiameter": "3.5",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9803",
+						"drawing": "2092-12"
+					},
+					"pin": {
+						"mold": "9916",
+						"drawing": "9916-3"
+					},
+					"pinHolder": {
+						"mold": "9803",
+						"drawing": "70457"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5135"
+				}
+			},
+			{
+				"name": "TPV MINIPEST MEGACIL",
+				"drawing": "C4258",
+				"mold": "80071",
+				"holder": "C026",
+				"cavity": "12",
+				"thread": "R11",
+				"gauge": "18",
+				"dimensions": {
+					"lenght": "25.4",
+					"rodDiameter": "3.5",
+					"brushDiameter": "0.91"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9803",
+						"drawing": "2092-12"
+					},
+					"pin": {
+						"mold": "80071",
+						"drawing": "80071-03"
+					},
+					"pinHolder": {
+						"mold": "9803",
+						"drawing": "2092-11"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5115"
+				}
+			},
+			{
+				"name": "TPV RDO DEL R11Dx63L Ø0,93",
+				"drawing": "C4301",
+				"mold": "80106",
+				"holder": "C026",
+				"cavity": "12",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "62.4",
+					"rodDiameter": "2.84",
+					"brushDiameter": "0.91"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9811",
+						"drawing": "2092-12"
+					},
+					"pin": {
+						"mold": "80106",
+						"drawing": "80106-04"
+					},
+					"pinHolder": {
+						"mold": "80106",
+						"drawing": "80106-03"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5231"
+				}
+			},
+			{
+				"name": "TPV RDO DEL R11Dx63L PUNTA PLUMON",
+				"drawing": "2819",
+				"mold": "80328",
+				"holder": "C026",
+				"cavity": "12",
+				"thread": "R11",
+				"gauge": "97",
+				"dimensions": {
+					"lenght": "62.4",
+					"rodDiameter": "2.84",
+					"brushDiameter": "1.65"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9811",
+						"drawing": "2092-12"
+					},
+					"pin": {
+						"mold": "80328",
+						"drawing": "80328-21"
+					},
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV PEST EBEL",
+				"drawing": "C4058",
+				"mold": "9720",
+				"holder": "C036",
+				"cavity": "8",
+				"thread": "R13",
+				"dimensions": {
+					"lenght": "63.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5015",
+					"pa2": "C5035",
+					"pa3": "C5047"
+				}
+			},
+			{
+				"name": "TPV PEST EBEL APA",
+				"drawing": "C4064",
+				"mold": "9816",
+				"holder": "C036",
+				"cavity": "8",
+				"thread": "R13",
+				"dimensions": {
+					"lenght": "67.1",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9816",
+						"drawing": "70126"
+					},
+					"pin": {
+						"mold": "80451",
+						"drawing": "80451-29"
+					},
+					"pinHolder": {
+						"mold": "9816",
+						"drawing": "70412"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5016"
+				}
+			},
+			{
+				"name": "TPV PEST EBEL SPLENDID",
+				"drawing": "C4138",
+				"mold": "0031",
+				"holder": "C036",
+				"cavity": "8",
+				"thread": "R13",
+				"gauge": "18",
+				"dimensions": {
+					"lenght": "63.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "0.91"
+				},
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5062"
+				}
+			},
+			{
+				"name": "TPV PEST ESIKA",
+				"drawing": "C4161",
+				"mold": "0125",
+				"holder": "C036",
+				"cavity": "8",
+				"thread": "R13",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "67.1",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "0125",
+						"drawing": "70126"
+					},
+					"pin": {
+						"mold": "80451",
+						"drawing": "80451-29"
+					},
+					"pinHolder": {
+						"mold": "0125",
+						"drawing": "71145"
+					},
+					"threadedCore": {
+						"mold": "0125",
+						"drawing": "70013"
+					},
+					"cavityInsert": {
+						"mold": "0125",
+						"drawing": "70283"
+					},
+					"cavity": {
+						"mold": "0125",
+						"drawing": "70474"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5076",
+					"pa2": "C5216"
+				}
+			},
+			{
+				"name": "TPV PEST SPLENDID ESIKA",
+				"drawing": "C4211",
+				"mold": "0128",
+				"holder": "C036",
+				"cavity": "8",
+				"thread": "R13",
+				"gauge": "18",
+				"dimensions": {
+					"lenght": "67.1",
+					"rodDiameter": "4.3",
+					"brushDiameter": "0.91"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9816",
+						"drawing": "70126"
+					},
+					"pin": {
+						"mold": "0031",
+						"drawing": "2093-04"
+					},
+					"pinHolder": {
+						"mold": "9816",
+						"drawing": "70412"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5084"
+				}
+			},
+			{
+				"name": "TPV PEST EXUB ESIKA",
+				"drawing": "C4251",
+				"mold": "0403",
+				"holder": "C036",
+				"cavity": "8",
+				"thread": "R13",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "63.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5077",
+					"pa2": "C5107",
+					"pa3": "C5113"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV OVA PEST CYZONE INNOVACION 2010",
+				"drawing": "2818",
+				"mold": "8033409",
+				"holder": "8542215",
+				"cavity": "8",
+				"thread": "R13",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "60",
+					"rodDiameter": "4.6",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80334",
+						"drawing": "80334-27"
+					},
+					"pin": {
+						"mold": "80334-25",
+						"drawing": "80334-25"
+					},
+					"pinHolder": {
+						"mold": "80334",
+						"drawing": "80334-34"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80334",
+						"drawing": "80334-21"
+					},
+					"cavity": {
+						"mold": "80334",
+						"drawing": "80334-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R13Dx60L",
+				"drawing": "2844",
+				"mold": "80352",
+				"holder": "8542215",
+				"cavity": "8",
+				"thread": "R13",
+				"dimensions": {
+					"lenght": "59.8",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80222",
+						"drawing": "80222-01"
+					},
+					"pin": {
+						"mold": "STD-133",
+						"drawing": "STD-133"
+					},
+					"pinHolder": {
+						"mold": "80222",
+						"drawing": "80222-02"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80352",
+						"drawing": "80352-21"
+					},
+					"cavity": {
+						"mold": "80352",
+						"drawing": "80352-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV MASCARA COLORFIX 8 gr",
+				"drawing": "2859",
+				"mold": "80375",
+				"holder": "8542215",
+				"cavity": "8",
+				"thread": "R13",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "50.2",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80375",
+						"drawing": "80375-27"
+					},
+					"pin": {
+						"mold": "STD-133",
+						"drawing": "STD-133"
+					},
+					"pinHolder": {
+						"mold": "80375",
+						"drawing": "80375-34"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80375",
+						"drawing": "80375-21"
+					},
+					"cavity": {
+						"mold": "80375",
+						"drawing": "80375-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV MASCARA CYZONE INNOV 2012",
+				"drawing": "2919",
+				"mold": "80441",
+				"holder": "8542215",
+				"cavity": "8",
+				"thread": "R13",
+				"gauge": "GACC-162",
+				"dimensions": {
+					"lenght": "57.7",
+					"rodDiameter": "4.6",
+					"brushDiameter": "2.82"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80441",
+						"drawing": "80441-27"
+					},
+					"pin": {
+						"mold": "80441",
+						"drawing": "80441-34"
+					},
+					"pinHolder": {
+						"mold": "80441",
+						"drawing": "80441-34"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80441",
+						"drawing": "80441-21"
+					},
+					"cavity": {
+						"mold": "80441",
+						"drawing": "80441-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV MASCARA ANCLAJE LBEL",
+				"drawing": "2956",
+				"mold": "80483",
+				"holder": "8542215",
+				"cavity": "8",
+				"thread": "R13",
+				"dimensions": {
+					"lenght": "61.8",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80483",
+						"drawing": "80483-27"
+					},
+					"pin": {
+						"mold": "80483",
+						"drawing": "80483-34"
+					},
+					"pinHolder": {
+						"mold": "80483",
+						"drawing": "80483-34"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80352",
+						"drawing": "80352-21"
+					},
+					"cavity": {
+						"mold": "80352",
+						"drawing": "80352-22"
+					}
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV OVA ESIKA 2011",
+				"drawing": "C4161",
+				"mold": "80429",
+				"holder": "85252",
+				"cavity": "16",
+				"thread": "R13",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "67.1",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80429",
+						"drawing": "80429-26"
+					},
+					"pin": {
+						"mold": "80429",
+						"drawing": "80429-29"
+					},
+					"pinHolder": {
+						"mold": "80429",
+						"drawing": "80429-27"
+					},
+					"threadedCore": {
+						"mold": "80429",
+						"drawing": "80429-23"
+					},
+					"cavityInsert": {
+						"mold": "80429",
+						"drawing": "80429-21"
+					},
+					"cavity": {
+						"mold": "80429",
+						"drawing": "80429-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5076",
+					"pa2": "C5216"
+				}
+			},
+			{
+				"name": "TPV PEST ESIKA EXHUBERANTE 16 CAV",
+				"drawing": "C4251",
+				"mold": "80451",
+				"holder": "85252",
+				"cavity": "16",
+				"thread": "R13",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "63.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80451",
+						"drawing": "80451-26"
+					},
+					"pin": {
+						"mold": "80451",
+						"drawing": "80451-29"
+					},
+					"pinHolder": {
+						"mold": "80451",
+						"drawing": "80451-27"
+					},
+					"threadedCore": {
+						"mold": "80429",
+						"drawing": "80429-23"
+					},
+					"cavityInsert": {
+						"mold": "80429",
+						"drawing": "80429-21"
+					},
+					"cavity": {
+						"mold": "80429",
+						"drawing": "80429-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5077",
+					"pa2": "C5107",
+					"pa3": "C5113"
+				}
+			},
+			{
+				"name": "TPV CDO LPG PREMIUM",
+				"drawing": "C4181",
+				"mold": "0227",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"dimensions": {
+					"lenght": "48",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.65"
+				},
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5059"
+				}
+			},
+			{
+				"name": "TPV CDO PEST EMB VOL AQUA",
+				"drawing": "C4184",
+				"mold": "0228",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"dimensions": {
+					"lenght": "64.6",
+					"rodDiameter": "3.5",
+					"brushDiameter": "1.1"
+				},
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5057",
+					"pa2": "C5058",
+					"pa3": "C5108"
+				}
+			},
+			{
+				"name": "TPV CDO PEST LONG DIMENSION",
+				"drawing": "C4196",
+				"mold": "0232",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"dimensions": {
+					"lenght": "64.6",
+					"rodDiameter": "3.5",
+					"brushDiameter": "0.96"
+				},
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5075",
+					"pa2": "C5109",
+					"pa3": "C5183"
+				}
+			},
+			{
+				"name": "TPV MASCARA TANGO",
+				"drawing": "C4292",
+				"mold": "80148",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"gauge": "44",
+				"dimensions": {
+					"lenght": "69",
+					"rodDiameter": "3.5",
+					"brushDiameter": "1.25"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80148",
+						"drawing": "80148-25"
+					},
+					"pin": {
+						"mold": "80148",
+						"drawing": "80148-26"
+					},
+					"pinHolder": {
+						"mold": "80148",
+						"drawing": "80148-23"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80148",
+						"drawing": "80148-24"
+					},
+					"cavity": {
+						"mold": "80148",
+						"drawing": "80148-21"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5237"
+				}
+			},
+			{
+				"name": "TPV RDO PEST MULTIBENEFICIOS CY",
+				"drawing": "C4325",
+				"mold": "80156",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"dimensions": {
+					"lenght": "62.8",
+					"rodDiameter": "3.5",
+					"brushDiameter": "1.22"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80156",
+						"drawing": "80156-23"
+					},
+					"pin": {
+						"mold": "80156",
+						"drawing": "80156-25"
+					},
+					"pinHolder": {
+						"mold": "80156",
+						"drawing": "80156-26"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80156",
+						"drawing": "80156-24"
+					},
+					"cavity": {
+						"mold": "80156",
+						"drawing": "80156-21"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5182",
+					"pa2": "C5209",
+					"pa3": "C5210",
+					"pa4": "C5226",
+					"pa5": "C5228"
+				}
+			},
+			{
+				"name": "TPV MASCARA BAMBU",
+				"drawing": "C4359",
+				"mold": "80222",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"dimensions": {
+					"lenght": "59.8",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80222",
+						"drawing": "80222-01"
+					},
+					"pin": {
+						"mold": "STD-133",
+						"drawing": "STD-133"
+					},
+					"pinHolder": {
+						"mold": "80222",
+						"drawing": "80222-02"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80156",
+						"drawing": "80156-24"
+					},
+					"cavity": {
+						"mold": "80156",
+						"drawing": "80156-21"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV LPG BAMBU",
+				"drawing": "C4363",
+				"mold": "80226",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"dimensions": {
+					"lenght": "47.8",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.65"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80226",
+						"drawing": "80226-01"
+					},
+					"pin": {
+						"mold": "80226",
+						"drawing": "80226-02"
+					},
+					"pinHolder": {
+						"mold": "80226",
+						"drawing": "80226-02"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80156",
+						"drawing": "80156-24"
+					},
+					"cavity": {
+						"mold": "80156",
+						"drawing": "80156-21"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5211"
+				}
+			},
+			{
+				"name": "TPV LPG TANGO HYTREL Nº1",
+				"drawing": "C4368",
+				"mold": "80227",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"gauge": "46",
+				"dimensions": {
+					"lenght": "52.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.65"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80227",
+						"drawing": "80227-01"
+					},
+					"pin": {
+						"mold": "80227",
+						"drawing": "80227-02"
+					},
+					"pinHolder": {
+						"mold": "80227",
+						"drawing": "80227-02"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80148",
+						"drawing": "80148-24"
+					},
+					"cavity": {
+						"mold": "80148",
+						"drawing": "80148-21"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "C5236"
+				}
+			},
+			{
+				"name": "TPV MASCARA TANGO OR 0,9",
+				"drawing": "2711",
+				"mold": "80234",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"gauge": "45",
+				"dimensions": {
+					"lenght": "69",
+					"rodDiameter": "3.5",
+					"brushDiameter": "0.91"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80148",
+						"drawing": "80148-25"
+					},
+					"pin": {
+						"mold": "80234",
+						"drawing": "80234-26"
+					},
+					"pinHolder": {
+						"mold": "80148",
+						"drawing": "80148-23"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80148",
+						"drawing": "80148-24"
+					},
+					"cavity": {
+						"mold": "80148",
+						"drawing": "80148-21"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO LPG BAMBU BROCHA",
+				"drawing": "2726",
+				"mold": "80249",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"gauge": "83",
+				"dimensions": {
+					"lenght": "52.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.5"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80249",
+						"drawing": "80249-22"
+					},
+					"pin": {
+						"mold": "80249",
+						"drawing": "80249-21"
+					},
+					"pinHolder": {
+						"mold": "80249",
+						"drawing": "80249-21"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80156",
+						"drawing": "80156-24"
+					},
+					"cavity": {
+						"mold": "80156",
+						"drawing": "80156-21"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV LPG TANGO APL 40111-1",
+				"drawing": "2881",
+				"mold": "8038310",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"gauge": "145",
+				"dimensions": {
+					"lenght": "52.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80227",
+						"drawing": "80227-01"
+					},
+					"pin": {
+						"mold": "80383",
+						"drawing": "80383-23"
+					},
+					"pinHolder": {
+						"mold": "80383",
+						"drawing": "80383-23"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80148",
+						"drawing": "80148-24"
+					},
+					"cavity": {
+						"mold": "80148",
+						"drawing": "80148-21"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV LPG BAMBU APL 40111-1",
+				"drawing": "2882",
+				"mold": "80384",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"gauge": "145",
+				"dimensions": {
+					"lenght": "47.8",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80226",
+						"drawing": "80226-01"
+					},
+					"pin": {
+						"mold": "80384",
+						"drawing": "80384-23"
+					},
+					"pinHolder": {
+						"mold": "80384",
+						"drawing": "80384-23"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80156",
+						"drawing": "80156-24"
+					},
+					"cavity": {
+						"mold": "80156",
+						"drawing": "80156-21"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV LPG LBEL SUPREME",
+				"drawing": "2880",
+				"mold": "80389",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"dimensions": {
+					"lenght": "30.6",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80389",
+						"drawing": "80389-25"
+					},
+					"pin": {
+						"mold": "80389",
+						"drawing": "80389-26"
+					},
+					"pinHolder": {
+						"mold": "80389",
+						"drawing": "80389-26"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80389",
+						"drawing": "80389-21"
+					},
+					"cavity": {
+						"mold": "80389",
+						"drawing": "80389-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R15Dx41L",
+				"drawing": "C4067",
+				"mold": "9503",
+				"holder": "C020",
+				"cavity": "8",
+				"thread": "R15",
+				"dimensions": {
+					"lenght": "41.3",
+					"rodDiameter": "3.2",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9503",
+						"drawing": "1033-16"
+					},
+					"pin": {
+						"mold": "9503",
+						"drawing": "1033-27"
+					},
+					"pinHolder": {
+						"mold": "9503",
+						"drawing": "1033-27"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "9503",
+						"drawing": "1033-19"
+					},
+					"cavity": {
+						"mold": "9503",
+						"drawing": "9503-28"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R15Dx47L",
+				"drawing": "C4212",
+				"mold": "80023",
+				"holder": "C020",
+				"cavity": "8",
+				"thread": "R15",
+				"gauge": "18",
+				"dimensions": {
+					"lenght": "46.8",
+					"rodDiameter": "4.3",
+					"brushDiameter": "0.91"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80023",
+						"drawing": "80023-01"
+					},
+					"pin": {
+						"mold": "80023",
+						"drawing": "80023-03"
+					},
+					"pinHolder": {
+						"mold": "80023",
+						"drawing": "80023-02"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5086"
+				}
+			},
+			{
+				"name": "TPV MSC EFECTO TOTAL 6",
+				"drawing": "3227",
+				"mold": "8075216",
+				"holder": "8534813",
+				"cavity": "8",
+				"thread": "R15",
+				"dimensions": {
+					"lenght": "48.2",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.65"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8075216",
+						"drawing": "8075216-36"
+					},
+					"pin": {
+						"mold": "8075216",
+						"drawing": "8075216-37"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8059213",
+						"drawing": "8059213-23"
+					},
+					"cavityInsert": {
+						"mold": "8059213",
+						"drawing": "8059213-21"
+					},
+					"cavity": {
+						"mold": "8059213",
+						"drawing": "8059213-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9525"
+				}
+			},
+			{
+				"name": "TPV MSC VOGUE 10+",
+				"drawing": "3050",
+				"mold": "8059213",
+				"holder": "8534813",
+				"cavity": "8",
+				"thread": "R15",
+				"gauge": "GACC-24",
+				"dimensions": {
+					"lenght": "55",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.24"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8059213",
+						"drawing": "8059213-36"
+					},
+					"pin": {
+						"mold": "8059213",
+						"drawing": "8059213-37"
+					},
+					"pinHolder": {
+						"mold": "8059213",
+						"drawing": "8059213-71"
+					},
+					"threadedCore": {
+						"mold": "8059213",
+						"drawing": "8059213-23"
+					},
+					"cavityInsert": {
+						"mold": "8059213",
+						"drawing": "8059213-21"
+					},
+					"cavity": {
+						"mold": "8059213",
+						"drawing": "8059213-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9382",
+					"pa2": "9399"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MSC VOGUE 10+ 2018",
+				"drawing": "3499",
+				"mold": "8094818",
+				"holder": "8534813",
+				"cavity": "8",
+				"thread": "R15",
+				"gauge": "GACC-24",
+				"dimensions": {
+					"lenght": "55",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8059213",
+						"drawing": "8059213-36"
+					},
+					"pin": {
+						"mold": "8094818",
+						"drawing": "8094818-37"
+					},
+					"pinHolder": {
+						"mold": "8059213",
+						"drawing": "8059213-71"
+					},
+					"threadedCore": {
+						"mold": "8059213",
+						"drawing": "8059213-23"
+					},
+					"cavityInsert": {
+						"mold": "8059213",
+						"drawing": "8059213-21"
+					},
+					"cavity": {
+						"mold": "8059213",
+						"drawing": "8059213-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9398"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV CDO CNI MSC R15Dx55.1L",
+				"drawing": "3539",
+				"mold": "8097318",
+				"holder": "8553518",
+				"cavity": "8",
+				"thread": "R15",
+				"dimensions": {
+					"lenght": "55.07",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.82"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8097318",
+						"drawing": "8097318-22"
+					},
+					"pin": {
+						"mold": "8097318",
+						"drawing": "8097318-23"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8091818",
+						"drawing": "8091818-205"
+					},
+					"cavityInsert": {
+						"mold": "8091818",
+						"drawing": "8091818-102"
+					},
+					"cavity": {
+						"mold": "8091818",
+						"drawing": "8091818-101"
+					}
+				},
+				"productAssemblies": ""
+			},
+			{
+				"name": "TPV RDO DEL R11Dx34L PLU Ø2",
+				"drawing": "2979",
+				"mold": "80510",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "34",
+					"rodDiameter": "3.5",
+					"brushDiameter": "2.12"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80510",
+						"drawing": "80510-22"
+					},
+					"pin": {
+						"mold": "80510",
+						"drawing": "80510-23"
+					},
+					"pinHolder": {
+						"mold": "80510",
+						"drawing": "80510-23"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "9347"
+				}
+			},
+			{
+				"name": "TPV RDO DEL R11x34L PIN NAC",
+				"drawing": "2980",
+				"mold": "8051112",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "148",
+				"dimensions": {
+					"lenght": "34",
+					"rodDiameter": "2.84",
+					"brushDiameter": "1.05"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80458",
+						"drawing": "80458-22"
+					},
+					"pin": {
+						"mold": "8051112",
+						"drawing": "1900-01"
+					},
+					"pinHolder": {
+						"mold": "80458",
+						"drawing": "80458-23"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "9348"
+				}
+			},
+			{
+				"name": "TPV RDO DEL R11x34L PIN ASIA",
+				"drawing": "2981",
+				"mold": "8051212",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "34",
+					"rodDiameter": "2.84",
+					"brushDiameter": "1.18"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80458",
+						"drawing": "80458-22"
+					},
+					"pin": {
+						"mold": "8051212",
+						"drawing": "1900-01"
+					},
+					"pinHolder": {
+						"mold": "80458",
+						"drawing": "80458-23"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "9349"
+				}
+			},
+			{
+				"name": "TPV RDO PEST R13Dx65.5L LC",
+				"drawing": "2987",
+				"mold": "8051712",
+				"holder": "8542215",
+				"cavity": "8",
+				"thread": "R13",
+				"gauge": "18",
+				"dimensions": {
+					"lenght": "65.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "0.93"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80517",
+						"drawing": "80517-27"
+					},
+					"pin": {
+						"mold": "STD-168",
+						"drawing": "STD-168"
+					},
+					"pinHolder": {
+						"mold": "80517",
+						"drawing": "80517-34"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80352",
+						"drawing": "1900-01"
+					},
+					"cavity": {
+						"mold": "80352",
+						"drawing": "1900-01"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9338"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV CDO CNI MSC R15Dx55.8L",
+				"drawing": "3540",
+				"mold": "8097518",
+				"holder": "8553518",
+				"cavity": "8",
+				"thread": "R15",
+				"dimensions": {
+					"lenght": "55.8",
+					"rodDiameter": "5.6",
+					"brushDiameter": "2.82"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8097518",
+						"drawing": "8097518-22"
+					},
+					"pin": {
+						"mold": "8097518",
+						"drawing": "8097518-23"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8091818",
+						"drawing": "8091818-205"
+					},
+					"cavityInsert": {
+						"mold": "8097518",
+						"drawing": "8097518-21"
+					},
+					"cavity": {
+						"mold": "8091818",
+						"drawing": "8091818-101"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9753"
+				}
+			},
+			{
+				"name": "TPV MASCARA CZ SECRET LASH CEPILLO QZ-02",
+				"drawing": "3006",
+				"mold": "8054813",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "20.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.56"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8054813",
+						"drawing": "8054813-22"
+					},
+					"pin": {
+						"mold": "8054813",
+						"drawing": "8054813-21"
+					},
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV LABIAL NUEVO FORMATO 2014",
+				"drawing": "3040",
+				"mold": "8058913",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R13",
+				"dimensions": {
+					"lenght": "55",
+					"rodDiameter": "4.9",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8058913",
+						"drawing": "8058913-26"
+					},
+					"pin": {
+						"mold": "8058913",
+						"drawing": "8058913-27"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "80399",
+						"drawing": "80399-23"
+					},
+					"cavityInsert": {
+						"mold": "8058913",
+						"drawing": "8058913-21"
+					},
+					"cavity": {
+						"mold": "8058913",
+						"drawing": "8058913-22"
+					}
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV BRILLO CYZONE INNOVACION 2014",
+				"drawing": "3060",
+				"mold": "8060913",
+				"holder": "C076",
+				"cavity": "16",
+				"thread": "R12",
+				"dimensions": {
+					"lenght": "51.4",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8060913",
+						"drawing": "8060913-25"
+					},
+					"pin": {
+						"mold": "8060913",
+						"drawing": "8060913-26"
+					},
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "80156",
+						"drawing": "80156-24"
+					},
+					"cavity": {
+						"mold": "80156",
+						"drawing": "80156-21"
+					}
+				},
+				"productAssemblies": ""
+			},
+			{
+				"name": "TPV MASCARA VOLUMEN LBEL",
+				"drawing": "3121",
+				"mold": "8065614",
+				"holder": "8542215",
+				"cavity": "8",
+				"thread": "R13",
+				"dimensions": {
+					"lenght": "69.4",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.57"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8065614",
+						"drawing": "8065614-27"
+					},
+					"pin": {
+						"mold": "8065614",
+						"drawing": "8065614-34"
+					},
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "8065614",
+						"drawing": "8065614-21"
+					},
+					"cavity": {
+						"mold": "8065614",
+						"drawing": "8065614-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9424",
+					"pa2": "9425"
+				}
+			},
+			{
+				"name": "TPV MASCARA MEGACILS LBEL",
+				"drawing": "3122",
+				"mold": "8065914",
+				"holder": "8542215",
+				"cavity": "8",
+				"thread": "R13",
+				"dimensions": {
+					"lenght": "72.6",
+					"rodDiameter": "4.3",
+					"brushDiameter": "0.96"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8065914",
+						"drawing": "8065914-27"
+					},
+					"pin": {
+						"mold": "STD-168",
+						"drawing": "STD-168"
+					},
+					"pinHolder": {
+						"mold": "8065914",
+						"drawing": "8065914-34"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "8065614",
+						"drawing": "8065614-21"
+					},
+					"cavity": {
+						"mold": "8065614",
+						"drawing": "8065614-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9427"
+				}
+			},
+			{
+				"name": "TPV ARIANE CEP DIAM 2.82x26.3mm",
+				"drawing": "3228",
+				"mold": "8074016",
+				"holder": "8534813",
+				"cavity": "8",
+				"thread": "R15",
+				"dimensions": {
+					"lenght": "57",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.82"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8074016",
+						"drawing": "8074016-36"
+					},
+					"pin": {
+						"mold": "8074016",
+						"drawing": "8074016-37"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8059213",
+						"drawing": "8059213-23"
+					},
+					"cavityInsert": {
+						"mold": "8066614",
+						"drawing": "80399-21"
+					},
+					"cavity": {
+						"mold": "8066614",
+						"drawing": "8066614-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9524"
+				}
+			},
+			{
+				"name": "TPV MASCARA ARIANE",
+				"drawing": "3095",
+				"mold": "8066614",
+				"holder": "8534813",
+				"cavity": "8",
+				"thread": "R15",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "59.3",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.24"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8066614",
+						"drawing": "8066614-36"
+					},
+					"pin": {
+						"mold": "8066614",
+						"drawing": "8066614-37"
+					},
+					"pinHolder": {
+						"mold": "8066614",
+						"drawing": "8066614-38"
+					},
+					"threadedCore": {
+						"mold": "8059213",
+						"drawing": "8059213-23"
+					},
+					"cavityInsert": {
+						"mold": "8066614",
+						"drawing": "8066614-21"
+					},
+					"cavity": {
+						"mold": "8066614",
+						"drawing": "8066614-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9403"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MASCARA LASH POWER CC 2015",
+				"drawing": "3132",
+				"mold": "8066414",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R13",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "61.7",
+					"rodDiameter": "5.6",
+					"brushDiameter": "1.24"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8066414",
+						"drawing": "8066414-30"
+					},
+					"pin": {
+						"mold": "8066414",
+						"drawing": "8066414-30"
+					},
+					"pinHolder": {
+						"mold": "8066414",
+						"drawing": "8066414-32"
+					},
+					"threadedCore": {
+						"mold": "80399",
+						"drawing": "80399-23"
+					},
+					"cavityInsert": {
+						"mold": "80399",
+						"drawing": "80399-21"
+					},
+					"cavity": {
+						"mold": "8066414",
+						"drawing": "8066414-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9429"
+				}
+			},
+			{
+				"name": "TPV MASCARA ESIKA PRO",
+				"drawing": "3145",
+				"mold": "8067515",
+				"holder": "C020",
+				"cavity": "8",
+				"thread": "R15",
+				"gauge": "GACC-162",
+				"dimensions": {
+					"lenght": "61",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.82"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8067515",
+						"drawing": "8067515-31"
+					},
+					"pin": {
+						"mold": "8067515",
+						"drawing": "8067515-34"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "80346",
+						"drawing": "80346-23"
+					},
+					"cavityInsert": {
+						"mold": "80453",
+						"drawing": "80453-21"
+					},
+					"cavity": {
+						"mold": "80346",
+						"drawing": "80346-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9433"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MSC ESIKA C16 2016",
+				"drawing": "3253",
+				"mold": "8075816",
+				"holder": "8540015",
+				"cavity": "8",
+				"thread": "R15",
+				"gauge": "GACC-162",
+				"dimensions": {
+					"lenght": "62.76",
+					"rodDiameter": "5.6",
+					"brushDiameter": "2.82"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8075816",
+						"drawing": "8075816-31"
+					},
+					"pin": {
+						"mold": "8075816",
+						"drawing": "8075816-34"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "80346",
+						"drawing": "80346-23"
+					},
+					"cavityInsert": {
+						"mold": "8075816",
+						"drawing": "8075816-21"
+					},
+					"cavity": {
+						"mold": "80346",
+						"drawing": "80346-22"
+					}
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MSC ALARGADORA 2016",
+				"drawing": "3252",
+				"mold": "8075716",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R13",
+				"dimensions": {
+					"lenght": "50.3",
+					"rodDiameter": "5.6",
+					"brushDiameter": "2.75"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8075716",
+						"drawing": "8075716-30"
+					},
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "80399",
+						"drawing": "80399-23"
+					},
+					"cavityInsert": {
+						"mold": "80399",
+						"drawing": "80399-21"
+					},
+					"cavity": {
+						"mold": "8066414",
+						"drawing": "8066414-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9572",
+					"pa2": "9573",
+					"pa3": "9574"
+				}
+			},
+			{
+				"name": "TPV MASCARA ESIKA P4",
+				"drawing": "3001",
+				"mold": "8054313",
+				"holder": "C020",
+				"cavity": "8",
+				"thread": "R15",
+				"dimensions": {
+					"lenght": "64",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.6"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80543",
+						"drawing": "80543-31"
+					},
+					"pin": {
+						"mold": "80543",
+						"drawing": "80543-34"
+					},
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "9306"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO PEST R15Dx66L",
+				"drawing": "C4002",
+				"mold": "9818",
+				"holder": "C020",
+				"cavity": "8",
+				"thread": "R15",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "65.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "9818",
+						"drawing": "2138-11"
+					},
+					"pin": {
+						"mold": "9818",
+						"drawing": "2138-11"
+					},
+					"pinHolder": {
+						"mold": "9818",
+						"drawing": "87296"
+					},
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "9818",
+						"drawing": "9818-19"
+					},
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "C5004",
+					"pa2": "C5158",
+					"pa3": "C5161"
+				}
+			},
+			{
+				"name": "TPV MSC MULTIB LBEL C6-2017",
+				"drawing": "3265",
+				"mold": "8077216",
+				"holder": "C026",
+				"cavity": "12",
+				"thread": "R13",
+				"gauge": "GACC-145",
+				"dimensions": {
+					"lenght": "69.1",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8077216",
+						"drawing": "8077216-36"
+					},
+					"pin": {
+						"mold": "8077216",
+						"drawing": "8077216-37"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8542215",
+						"drawing": "8542216-42"
+					},
+					"cavityInsert": {
+						"mold": "8065614",
+						"drawing": "8065614-21"
+					},
+					"cavity": {
+						"mold": "8065614",
+						"drawing": "8065614-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9595"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV PEST UNIQUECIL 2016",
+				"drawing": "3294",
+				"mold": "8078416",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "56.7",
+					"rodDiameter": "4.4",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "8078416",
+						"drawing": "8078416-31"
+					},
+					"pin": {
+						"mold": "8078416",
+						"drawing": "8078416-34"
+					},
+					"pinHolder": {
+						"mold": "8078416",
+						"drawing": "8078416-36"
+					},
+					"threadedCore": {
+						"mold": "80062",
+						"drawing": "80062-02"
+					},
+					"cavityInsert": {
+						"mold": "9823",
+						"drawing": "9823-35"
+					},
+					"cavity": {
+						"mold": "8078416",
+						"drawing": "8078416-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9601",
+					"pa2": "9602"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV CDO LPG R11Dx56L APL 50024",
+				"drawing": "3295",
+				"mold": "8079516",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "GACC-145",
+				"dimensions": {
+					"lenght": "56.9",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8006304",
+						"drawing": "8006304-01"
+					},
+					"pin": {
+						"mold": "8038510",
+						"drawing": "8038510-23"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8006204",
+						"drawing": "8006204-02"
+					},
+					"cavityInsert": {
+						"mold": "9823",
+						"drawing": "9823-35"
+					},
+					"cavity": {
+						"mold": "9833",
+						"drawing": "9833-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9612"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV CDO LG R11Dx56L APL 50024",
+				"drawing": "3303",
+				"mold": "8077416",
+				"holder": "8537414",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "56.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.62"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8006304",
+						"drawing": "8006304-01"
+					},
+					"pin": {
+						"mold": "8038510",
+						"drawing": "8038510-23"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8537414",
+						"drawing": "8537414-42"
+					},
+					"cavityInsert": {
+						"mold": "8077416",
+						"drawing": "8077416-40"
+					},
+					"cavity": {
+						"mold": "8077416",
+						"drawing": "8077416-43"
+					}
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV PP RDO R11X63 8 CAVIDADES",
+				"drawing": "3306",
+				"mold": "8077516",
+				"holder": "8537414",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8051412",
+						"drawing": "8051412-22"
+					},
+					"pin": {
+						"mold": "8051412",
+						"drawing": "8051412-21"
+					},
+					"pinHolder": {
+						"mold": "8051412",
+						"drawing": "8051412-23"
+					},
+					"threadedCore": {
+						"mold": "8537414",
+						"drawing": "8537414-42"
+					},
+					"cavityInsert": {
+						"mold": "8077416",
+						"drawing": "8077416-40"
+					},
+					"cavity": {
+						"mold": "8077416",
+						"drawing": "8077416-43"
+					}
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV PP RDO R11DX56.4L",
+				"drawing": "3307",
+				"mold": "8077616",
+				"holder": "8537414",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": {
+						"mold": "0025",
+						"drawing": "2093-02"
+					},
+					"pin": {
+						"mold": "0025",
+						"drawing": "2092-12"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8537414",
+						"drawing": "8537414-42"
+					},
+					"cavityInsert": {
+						"mold": "8077416",
+						"drawing": "8077416-40"
+					},
+					"cavity": {
+						"mold": "8077416",
+						"drawing": "8077416-43"
+					}
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV CDO ESB LPG R11D50L",
+				"drawing": "3310",
+				"mold": "8080316",
+				"holder": "C052",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "GACC-145",
+				"dimensions": {
+					"lenght": "50.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8006204",
+						"drawing": "8006204-09"
+					},
+					"pin": {
+						"mold": "8038510",
+						"drawing": "8038510-23"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8006204",
+						"drawing": "8006204-02"
+					},
+					"cavityInsert": {
+						"mold": "9823",
+						"drawing": "9823-35"
+					},
+					"cavity": {
+						"mold": "9823",
+						"drawing": "9823-34"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9622"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO LPG R11X 31,5L NAT",
+				"drawing": "3370",
+				"mold": "8085817",
+				"holder": "8542915",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "31.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "8085817",
+						"drawing": "8085817-22"
+					},
+					"pin": {
+						"mold": "8085817",
+						"drawing": "8085817-23"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8542915",
+						"drawing": "8542915-42"
+					},
+					"cavityInsert": {
+						"mold": "8542915",
+						"drawing": "8542915-40"
+					},
+					"cavity": {
+						"mold": "8542915",
+						"drawing": "8542915-43"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9657",
+					"pa2": "9658"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO LPG R11Dx51.1L APL 40111-1",
+				"drawing": "3372",
+				"mold": "8086417",
+				"holder": "8537414",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "51.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8006204",
+						"drawing": "8006204-09"
+					},
+					"pin": {
+						"mold": "8080316",
+						"drawing": "8080316-23"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8537414",
+						"drawing": "8537414-42"
+					},
+					"cavityInsert": {
+						"mold": "8537414",
+						"drawing": "8537414-40"
+					},
+					"cavity": {
+						"mold": "8537414",
+						"drawing": "8537414-43"
+					}
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO PLUMON R11DX40.8LXØ2.08",
+				"drawing": "3412",
+				"mold": "8089117",
+				"holder": "8542915",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "40.8",
+					"rodDiameter": "3.5",
+					"brushDiameter": "2.08"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "8089117",
+						"drawing": "8089117-22"
+					},
+					"pin": {
+						"mold": "8089117",
+						"drawing": "8089117-23"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8542915",
+						"drawing": "8542915-42"
+					},
+					"cavityInsert": {
+						"mold": "8542915",
+						"drawing": "8542915-40"
+					},
+					"cavity": {
+						"mold": "8542915",
+						"drawing": "8542915-43"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9697"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO PES R11DX20.3LXØ2.82",
+				"drawing": "3413",
+				"mold": "8089017",
+				"holder": "8542915",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "20.3",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.82"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "8089017",
+						"drawing": "8089017-21"
+					},
+					"pin": {
+						"mold": "8089017",
+						"drawing": "8089017-22"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8542915",
+						"drawing": "8542915-42"
+					},
+					"cavityInsert": {
+						"mold": "8542915",
+						"drawing": "8542915-40"
+					},
+					"cavity": {
+						"mold": "8542915",
+						"drawing": "8542915-43"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9697"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO PES R11DX42LXØ1,2 PP",
+				"drawing": "3401",
+				"mold": "8092618",
+				"holder": "8537414",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "42.65",
+					"rodDiameter": "3.5",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8051512",
+						"drawing": "8051512-22"
+					},
+					"pin": {
+						"mold": "8051512",
+						"drawing": "8051512-21"
+					},
+					"pinHolder": {
+						"mold": "8051512",
+						"drawing": "8051512-23"
+					},
+					"threadedCore": {
+						"mold": "8537414",
+						"drawing": "8537414-42"
+					},
+					"cavityInsert": {
+						"mold": "8077416",
+						"drawing": "8077416-40"
+					},
+					"cavity": {
+						"mold": "8077416",
+						"drawing": "8077416-43"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9686"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV CDO CIL R13Dx69.1L",
+				"drawing": "3501",
+				"mold": "8095018",
+				"holder": "8542215/C036",
+				"cavity": "8",
+				"thread": "R13",
+				"gauge": "GACC-226",
+				"dimensions": {
+					"lenght": "69.1",
+					"rodDiameter": "4.6",
+					"brushDiameter": "2.65"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8095018",
+						"drawing": "8095018-22"
+					},
+					"pin": {
+						"mold": "8095018",
+						"drawing": "8095018-37"
+					},
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": {
+						"mold": "8065614",
+						"drawing": "8065614-21"
+					},
+					"cavity": {
+						"mold": "8065614",
+						"drawing": "8065614-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9731"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV DO CIL R11DX55.7L",
+				"drawing": "3507",
+				"mold": "8095118",
+				"holder": "8542915",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "55.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.79"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "8095118",
+						"drawing": "8095118-22"
+					},
+					"pin": {
+						"mold": "8095118",
+						"drawing": "8095118-23"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8542915",
+						"drawing": "8542915-42"
+					},
+					"cavityInsert": {
+						"mold": "8542915",
+						"drawing": "8542915-40"
+					},
+					"cavity": {
+						"mold": "8542915",
+						"drawing": "8542915-43"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9736",
+					"pa2": "9740"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO CNI R13Dx60.6L",
+				"drawing": "3508",
+				"mold": "8095318",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R13",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "52.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8095318",
+						"drawing": "8095318-31"
+					},
+					"pin": {
+						"mold": "8095318",
+						"drawing": "8095318-30"
+					},
+					"pinHolder": {
+						"mold": "8095318",
+						"drawing": "8095318-32"
+					},
+					"threadedCore": {
+						"mold": "8039910",
+						"drawing": "8039910-23"
+					},
+					"cavityInsert": {
+						"mold": "8095318",
+						"drawing": "8095318-21"
+					},
+					"cavity": {
+						"mold": "8066414",
+						"drawing": "8066414-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9737",
+					"pa2": "9738"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO PEST R15Dx66L CEP INY",
+				"drawing": "2851",
+				"mold": "80361",
+				"holder": "C020",
+				"cavity": "8",
+				"thread": "R15",
+				"gauge": "92",
+				"dimensions": {
+					"lenght": "65.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.46"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80361",
+						"drawing": "80361-22"
+					},
+					"pin": {
+						"mold": "80361",
+						"drawing": "80361-38"
+					},
+					"pinHolder": {
+						"mold": "80361",
+						"drawing": "80361-22"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV ESIKA INNOVACION 2010",
+				"drawing": "2836",
+				"mold": "80346",
+				"holder": "C020",
+				"cavity": "8",
+				"thread": "R15",
+				"dimensions": {
+					"lenght": "67.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.67"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80346",
+						"drawing": "80346-31"
+					},
+					"pin": {
+						"mold": "80346",
+						"drawing": "80346-34"
+					},
+					"pinHolder": {
+						"mold": "80346",
+						"drawing": "80346-31"
+					},
+					"threadedCore": {
+						"mold": "80346",
+						"drawing": "80346-23"
+					},
+					"cavityInsert": {
+						"mold": "80346",
+						"drawing": "80346-21"
+					},
+					"cavity": {
+						"mold": "80346",
+						"drawing": "80346-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"name": "TPV MASCARA ESIKA INNOV 2012",
+				"drawing": "2925",
+				"mold": "80453",
+				"holder": "C020",
+				"cavity": "8",
+				"thread": "R15",
+				"gauge": "GACC-162",
+				"dimensions": {
+					"lenght": "62.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.82"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80453",
+						"drawing": "80453-31"
+					},
+					"pin": {
+						"mold": "80453",
+						"drawing": "80453-34"
+					},
+					"pinHolder": {
+						"mold": "80453",
+						"drawing": "80453-31"
+					},
+					"threadedCore": {
+						"mold": "80346",
+						"drawing": "80346-23"
+					},
+					"cavityInsert": {
+						"mold": "80453",
+						"drawing": "80453-21"
+					},
+					"cavity": {
+						"mold": "80346",
+						"drawing": "80346-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "-"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV PP RDO LPG R11DX35,5L",
+				"drawing": "3553",
+				"mold": "8098518",
+				"holder": "8537414",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "GACC-145",
+				"dimensions": {
+					"lenght": "35.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.58"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8021007",
+						"drawing": "8021007-01"
+					},
+					"pin": {
+						"mold": "8043011",
+						"drawing": "8043011-23"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8537414",
+						"drawing": "8537414-42"
+					},
+					"cavityInsert": {
+						"mold": "8077416",
+						"drawing": "8077416-40"
+					},
+					"cavity": {
+						"mold": "8077416",
+						"drawing": "8077416-43"
+					}
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO DEL R11X40,5L 2016 PLUMON",
+				"drawing": "3311",
+				"mold": "8080616",
+				"holder": "8537414",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "GACC-97",
+				"dimensions": {
+					"lenght": "40.9",
+					"rodDiameter": "2.8",
+					"brushDiameter": "1.7"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "80168",
+						"drawing": "80168-22"
+					},
+					"pin": {
+						"mold": "STD-155",
+						"drawing": "STD-155"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8537414",
+						"drawing": "8537414-42"
+					},
+					"cavityInsert": {
+						"mold": "8077416",
+						"drawing": "877416-40"
+					},
+					"cavity": {
+						"mold": "8077416",
+						"drawing": "8077416-43"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9623",
+					"pa2": "9667",
+					"pa3": "9770"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO CIL MSC R11Dx50.6L",
+				"drawing": "3562",
+				"mold": "8099019",
+				"holder": "8542915",
+				"cavity": "16",
+				"thread": "R11",
+				"gauge": "GACC-358",
+				"dimensions": {
+					"lenght": "50.6",
+					"rodDiameter": "3.5",
+					"brushDiameter": "1.2"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "8099019",
+						"drawing": "1900-01"
+					},
+					"pin": {
+						"mold": "8099019",
+						"drawing": "1900-01"
+					},
+					"pinHolder": {
+						"mold": "8099019",
+						"drawing": "1900-01"
+					},
+					"threadedCore": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					},
+					"cavityInsert": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					},
+					"cavity": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					}
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO LPG R11DX26.7L",
+				"drawing": "3595",
+				"mold": "8100619",
+				"holder": "8542915",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "26.7",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.76"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "8100619",
+						"drawing": "1900-01"
+					},
+					"pin": {
+						"mold": "8100619",
+						"drawing": "1900-01"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					},
+					"cavityInsert": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					},
+					"cavity": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9804",
+					"pa2": "9805"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV VOLUMANIA CURVE 2020",
+				"drawing": "3601",
+				"mold": "8101619",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "59.4",
+					"rodDiameter": "5.6",
+					"brushDiameter": "1.38"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8101619",
+						"drawing": "8101619-31"
+					},
+					"pin": {
+						"mold": "8101619",
+						"drawing": "8101619-30"
+					},
+					"pinHolder": {
+						"mold": "8101619",
+						"drawing": "8101619-32"
+					},
+					"threadedCore": {
+						"mold": "8039910",
+						"drawing": "8039910-23"
+					},
+					"cavityInsert": {
+						"mold": "8101619",
+						"drawing": "8101619-21"
+					},
+					"cavity": {
+						"mold": "8101619",
+						"drawing": "8101619-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9808"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO CNI R13Dx53L",
+				"drawing": "3611",
+				"mold": "8101719",
+				"holder": "85048",
+				"cavity": "8",
+				"thread": "R11",
+				"gauge": "GACC-285",
+				"dimensions": {
+					"lenght": "53",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.7"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8101719",
+						"drawing": "8101719-31"
+					},
+					"pin": {
+						"mold": "8101719",
+						"drawing": "8101719-32"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8039910",
+						"drawing": "8039910-23"
+					},
+					"cavityInsert": {
+						"mold": "8095318",
+						"drawing": "8095318-21"
+					},
+					"cavity": {
+						"mold": "8066414",
+						"drawing": "8066414-22"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9816",
+					"pa2": "9817"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO CIL MSC R11DX39L",
+				"drawing": "3652",
+				"mold": "8105219",
+				"holder": "8542915",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "39.13",
+					"rodDiameter": "3.5",
+					"brushDiameter": "1.3"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "8105219",
+						"drawing": "8105219-22"
+					},
+					"pin": {
+						"drawing": "STD-221"
+					},
+					"pinHolder": {
+						"mold": "8105219",
+						"drawing": "8105219-23"
+					},
+					"threadedCore": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					},
+					"cavityInsert": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					},
+					"cavity": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9842",
+					"pa2": "9843"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO CIL MSC R11DX39L",
+				"drawing": "3652",
+				"mold": "8105219",
+				"holder": "85085",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "39.13",
+					"rodDiameter": "3.5",
+					"brushDiameter": "1.3"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "8105219",
+						"drawing": "8105219-22"
+					},
+					"pin": {
+						"drawing": "STD-221"
+					},
+					"pinHolder": {
+						"mold": "8105219",
+						"drawing": "8105219-23"
+					},
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": {
+					"pa1": "9842",
+					"pa2": "9843"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO LPG R11DX35L APL 50387",
+				"drawing": "3643",
+				"mold": "8104419",
+				"holder": "8542915",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "35",
+					"rodDiameter": "4.6",
+					"brushDiameter": "2.65"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "8104419",
+						"drawing": "1900-01"
+					},
+					"pin": {
+						"mold": "8104419",
+						"drawing": "1900-01"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					},
+					"cavityInsert": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					},
+					"cavity": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9839",
+					"pa2": "9840"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO LPG R11DX30,5L APL SX1K201",
+				"drawing": "3644",
+				"mold": "8104519",
+				"holder": "8542915",
+				"cavity": "16",
+				"thread": "R11",
+				"dimensions": {
+					"lenght": "30.5",
+					"rodDiameter": "4.3",
+					"brushDiameter": "2.76"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"externalCapsuleDiameter": "7",
+						"mold": "8104519",
+						"drawing": "1900-01"
+					},
+					"pin": {
+						"mold": "8104519",
+						"drawing": "1900-01"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					},
+					"cavityInsert": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					},
+					"cavity": {
+						"mold": "8542915",
+						"drawing": "1900-02"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9839",
+					"pa2": "9840"
+				}
+			},
+			{
+				"name": "TPV MSC ICONO VOLUMEN APL 311550",
+				"drawing": "3665",
+				"mold": "8106120",
+				"holder": "8553518",
+				"cavity": "",
+				"thread": "",
+				"dimensions": {
+					"lenght": "44.49",
+					"rodDiameter": "4.6",
+					"brushDiameter": "1.3"
+				},
+				"versionAssembly": {
+					"capsule": {
+						"mold": "8106120",
+						"drawing": "8106120-22"
+					},
+					"pin": {
+						"mold": "8106120",
+						"drawing": "8106120-23"
+					},
+					"pinHolder": "",
+					"threadedCore": {
+						"mold": "8091818",
+						"drawing": "8091818-205"
+					},
+					"cavityInsert": {
+						"mold": "8091818",
+						"drawing": "8191818-102"
+					},
+					"cavity": {
+						"mold": "8091818",
+						"drawing": "8091818-101"
+					}
+				},
+				"productAssemblies": {
+					"pa1": "9852",
+					"pa2": "9853"
+				}
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RD P R15DX66LXØ2.82 CEP INY",
+				"mold": "8087817",
+				"holder": "C020",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MULTIB LBEL C6 2017",
+				"mold": "8077216",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MASC MEGACILS LBEL",
+				"mold": "8065914",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MASC VOLUMEN LBEL",
+				"mold": "8065614",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MASC CY INNOV 2012",
+				"mold": "8044111",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MASCAR COLORF 2011",
+				"mold": "8037510",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV CDO CIL R13DX69.1L",
+				"mold": "8095018",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO R11DX50 PP APLI 40111-1",
+				"mold": "8082817",
+				"holder": "8537414",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV LPG CRT ESPE ESPEJ",
+				"mold": "8072115",
+				"holder": "8537414",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO PEST R11X42L",
+				"mold": "8051512",
+				"holder": "8537414",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO DEL R11X63",
+				"mold": "8051412",
+				"holder": "8537414",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RD DEL R11X30L PPL",
+				"drawing": "2889",
+				"mold": "8039010",
+				"holder": "8537414",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO DEL R11DX40.5L",
+				"drawing": "C4313",
+				"mold": "0507",
+				"holder": "8537414",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RD PEST R11DX65L 0.9",
+				"drawing": "C4281",
+				"mold": "0501",
+				"holder": "8537414",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV PEST R11DX56.4L EXHUB",
+				"drawing": "C4248",
+				"mold": "0402",
+				"holder": "8537414",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO PEST R11D X 30L BROCHA",
+				"drawing": "2742",
+				"mold": "8026608",
+				"holder": "8537414",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RD D R11DX40.5L DL",
+				"drawing": "C4320",
+				"mold": "8013706",
+				"holder": "8537414",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RD LG R11X69.5L AP",
+				"drawing": "2915",
+				"mold": "8043111",
+				"holder": "8537414",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO DEL R11DX58L Ø:1m",
+				"drawing": "C4083",
+				"mold": "9905",
+				"holder": "8537414",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MSC TRATANTE ESIKA P4",
+				"mold": "8083917",
+				"holder": "8540015",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MASC ESI INNO 2012",
+				"mold": "8072816",
+				"holder": "8540015",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MASCARA ESIKA PRO",
+				"drawing": "3145",
+				"mold": "8067515",
+				"holder": "8540015",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MASC E P4 CP QZ-05",
+				"drawing": "3001",
+				"mold": "8054313",
+				"holder": "8540015",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO CIL MSC R11DX39L",
+				"mold": "8105219",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO CIL MSC R11Dx56,6L",
+				"mold": "8097718",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV CZ SEC LAS CPQZ02",
+				"mold": "8054813",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RD R11x34L PIN ASI",
+				"mold": "8051212",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO D R11X34L PLØ2",
+				"mold": "8051012",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV LG R11DX35.5LAP401",
+				"mold": "8047111",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RD LG R11X27L A401",
+				"mold": "8042210",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RD L R11X56LA40111",
+				"mold": "8038510",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RDO LPG GOURM BROC",
+				"mold": "8036010",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV DELINER MH OR 0.9",
+				"mold": "8025208",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV DELINER MH OR 0.9",
+				"mold": "8025208",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RD PEST R11DX20.5L",
+				"mold": "8007804",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RD PES R11DX36L",
+				"mold": "8006404",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV RD PEST R11DX65L",
+				"mold": "9832",
+				"holder": "8542915",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV EARLY 2018",
+				"mold": "8091818",
+				"holder": "8553518",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV CDO CNI MSC R15Dx51.2L",
+				"mold": "8097618",
+				"holder": "8553518",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MULTIB LBEL C6 2017",
+				"mold": "8077216",
+				"holder": "C036",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MASC MEGACILS LBEL",
+				"mold": "8065914",
+				"holder": "C036",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MASC VOLUMEN LBEL",
+				"mold": "8065614",
+				"holder": "C036",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MASC CY INNOV 2012",
+				"mold": "8044111",
+				"holder": "C036",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV MASCAR COLORF 2011",
+				"mold": "8037510",
+				"holder": "C036",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			},
+			{
+				"active": "ACTIVO",
+				"name": "TPV CDO CIL R13DX69.1L",
+				"mold": "8095018",
+				"holder": "C036",
+				"dimensions": "",
+				"versionAssembly": {
+					"capsule": "",
+					"pin": "",
+					"pinHolder": "",
+					"threadedCore": "",
+					"cavityInsert": "",
+					"cavity": ""
+				},
+				"productAssemblies": ""
+			}
+		],
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+	}
+}

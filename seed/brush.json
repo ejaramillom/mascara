@@ -1,0 +1,1728 @@
+{
+	"brush": {
+		"record": [
+			{
+				"brush": "SX 01",
+				"original": "QZ-01",
+				"shaftDiameter": "2.5",
+				"shaftLength": "7.8",
+				"brushDiameter": "6.8",
+				"brushLength": "26.2",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 03",
+				"original": "QZ-03",
+				"shaftDiameter": "2.5",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.3",
+				"brushLength": "26.2",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 06-3",
+				"original": "QZ06-03",
+				"shaftDiameter": "2.8",
+				"shaftLength": "7.8",
+				"brushDiameter": "6.6",
+				"brushLength": "30.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 06-4",
+				"original": "QZ06-04",
+				"shaftDiameter": "2.8",
+				"shaftLength": "7.8",
+				"brushDiameter": "6.6",
+				"brushLength": "28.4",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 08",
+				"original": "QZ-08",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "9.5",
+				"brushLength": "28",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 09",
+				"original": "QZ-09",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "9.3",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 11",
+				"original": "QZ-11",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "10.2",
+				"brushLength": "28.2",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 12",
+				"original": "QZ-12",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8.4",
+				"brushLength": "27.4",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 13",
+				"original": "QZ-13",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7",
+				"brushLength": "27.4",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 16",
+				"original": "QZ-16",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8.5",
+				"brushLength": "28.2",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 17",
+				"original": "QZ-17",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "9",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 18",
+				"original": "QZ-18",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "6.3",
+				"brushLength": "27.4",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 19",
+				"original": "QZ-19",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "9",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 20",
+				"original": "QZ-20",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7",
+				"brushLength": "27.4",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 21",
+				"original": "QZ-21",
+				"shaftDiameter": "2.5",
+				"shaftLength": "8",
+				"brushDiameter": "6.8",
+				"brushLength": "30.8",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 22",
+				"original": "QZ-22",
+				"drawing": "3373",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 23",
+				"original": "QZ-23",
+				"drawing": "3221",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.5",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 24",
+				"original": "QZ-24",
+				"shaftDiameter": "2.8",
+				"shaftLength": "7.8",
+				"brushDiameter": "7",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 25",
+				"original": "QZ-25",
+				"drawing": "3382",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.2",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 26",
+				"original": "QZ-26",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "6",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 27",
+				"original": "QZ-27",
+				"shaftDiameter": "2.5",
+				"shaftLength": "7.8",
+				"brushDiameter": "6.7",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 28",
+				"original": "QZ-28",
+				"shaftDiameter": "2.5",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.5",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 29",
+				"original": "QZ-29",
+				"drawing": "3398",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.4",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 30",
+				"original": "QZ-30",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "6.5",
+				"brushLength": "23.3",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 31",
+				"original": "QZ-31",
+				"shaftDiameter": "2.75",
+				"shaftLength": "10",
+				"brushDiameter": "9",
+				"brushLength": "25.5",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 32",
+				"original": "QZ-32",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.2",
+				"brushLength": "26.4",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 33",
+				"original": "QZ-33",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 34",
+				"original": "QZ-34",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.8",
+				"brushLength": "26.4",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 35",
+				"original": "QZ-35",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.5",
+				"brushLength": "25.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 36",
+				"original": "QZ-36",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7",
+				"brushLength": "28.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 37",
+				"original": "QZ-37",
+				"shaftDiameter": "2.45",
+				"shaftLength": "6.8",
+				"brushDiameter": "6",
+				"brushLength": "28.2",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 38",
+				"original": "QZ-38",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8.3",
+				"brushLength": "29",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 39",
+				"original": "QZ-39",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "9",
+				"brushLength": "28.1",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 40",
+				"original": "QZ-40",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "6.4",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 41",
+				"original": "QZ-41",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.1",
+				"brushLength": "28.6",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 42",
+				"original": "QZ-42",
+				"drawing": "3222",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "9",
+				"brushLength": "27",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 49",
+				"original": "QZ-49",
+				"drawing": "3223",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 50",
+				"original": "QZ-50",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.2",
+				"brushLength": "26.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 51",
+				"original": "QZ-51",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "25.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 52",
+				"original": "QZ-52",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 53",
+				"original": "QZ-53",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 55",
+				"original": "QZ-55",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 56",
+				"original": "QZ-56",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8.3",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 57",
+				"original": "QZ-57",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "10",
+				"brushLength": "28",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 58",
+				"original": "QZ-58",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "6",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 60",
+				"original": "QZ-60",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.5",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 61",
+				"original": "QZ-61",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "9.5",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 62",
+				"original": "QZ-62",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.5",
+				"brushDiameter": "7",
+				"brushLength": "25.2",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 63",
+				"original": "QZ-63",
+				"shaftDiameter": "2.75",
+				"shaftLength": "8.2",
+				"brushDiameter": "9.5",
+				"brushLength": "27.3",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 64",
+				"original": "QZ-64",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "9.7",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 65",
+				"original": "QZ-65",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "11",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 66",
+				"original": "QZ-66",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "9.8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 67",
+				"original": "QZ-67",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "9",
+				"brushLength": "28.2",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 68",
+				"original": "QZ-68",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "10.8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 69",
+				"original": "QZ-69",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.5",
+				"brushLength": "26.8",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 70",
+				"original": "QZ-70",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.5",
+				"brushLength": "28.5",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 71",
+				"original": "QZ-71",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 72",
+				"original": "QZ-72",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "9",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 73",
+				"original": "QZ-73",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "10",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 74",
+				"original": "QZ-74",
+				"shaftDiameter": "2.75",
+				"shaftLength": "8.2",
+				"brushDiameter": "9.5",
+				"brushLength": "27.3",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 75",
+				"original": "QZ-75",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "10",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 76",
+				"original": "QZ-76",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 77",
+				"original": "QZ-77",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "10",
+				"brushLength": "20.1",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 78",
+				"original": "QZ-78",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "10",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 79",
+				"original": "QZ-79",
+				"shaftDiameter": "2.45",
+				"shaftLength": "8",
+				"brushDiameter": "5.9",
+				"brushLength": "15.5",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 80",
+				"original": "QZ-80",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "6.6",
+				"brushLength": "26.8",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 81",
+				"original": "QZ-81",
+				"drawing": "PI-3399",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "6.9",
+				"brushLength": "26.2",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 82",
+				"original": "QZ-82",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.1",
+				"brushLength": "15.5",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 83",
+				"original": "QZ-83",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "9.6",
+				"brushLength": "23.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 84",
+				"original": "QZ-84",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 85",
+				"original": "QZ-85",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8.6",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 86",
+				"original": "QZ-86",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 87",
+				"original": "QZ-87",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 88",
+				"original": "QZ-88",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8.6",
+				"brushLength": "20.5",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 89",
+				"original": "QZ-89",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.5",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 90",
+				"original": "QZ-90",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8.5",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 92",
+				"original": "QZ-92",
+				"shaftDiameter": "2.75",
+				"shaftLength": "8",
+				"brushDiameter": "7",
+				"brushLength": "24.5",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 93",
+				"original": "QZ-93",
+				"shaftDiameter": "2.5",
+				"shaftLength": "7.8",
+				"brushDiameter": "6",
+				"brushLength": "27.2",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 94",
+				"original": "QZ-94",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "6",
+				"brushLength": "26.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 95",
+				"original": "QZ-95",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "10.2",
+				"brushLength": "25",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 96",
+				"original": "QZ-96",
+				"shaftDiameter": "2.75",
+				"shaftLength": "8",
+				"brushDiameter": "7",
+				"brushLength": "29.2",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 97",
+				"original": "QZ-97",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "10",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 98",
+				"original": "QZ-98",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.5",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 99",
+				"original": "QZ-99",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 100",
+				"original": "QZ-100",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.5",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 20390",
+				"drawing": "2827",
+				"shaftDiameter": "2.6",
+				"shaftLength": "6.7",
+				"brushDiameter": "5.5",
+				"brushLength": "22.5",
+				"supplier": "SIMEX",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 50050",
+				"original": "YLM-G",
+				"drawing": "2929",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 50051",
+				"original": "YLM-C",
+				"drawing": "2926",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.9",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 50052",
+				"original": "YLM-I",
+				"drawing": "2948",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 50347",
+				"original": "QZ-54",
+				"drawing": "3138",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 50350",
+				"original": "QZ-02",
+				"drawing": "2966",
+				"shaftDiameter": "2.5",
+				"shaftLength": "7.8",
+				"brushDiameter": "7.3",
+				"brushLength": "26.2",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 50379",
+				"original": "YLM-F",
+				"drawing": "2967",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "5",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 50391",
+				"drawing": "3047",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7",
+				"brushLength": "27.7",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 50397",
+				"original": "YLM-I",
+				"drawing": "2948",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 50426",
+				"drawing": "3112",
+				"shaftDiameter": "2.5",
+				"shaftLength": "7.8",
+				"brushDiameter": "6",
+				"brushLength": "28.7",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 50437",
+				"original": "QZ-54",
+				"drawing": "3138",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX-A",
+				"original": "YLM-A",
+				"drawing": "3470",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX-B",
+				"original": "YLM-B",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX-D",
+				"original": "YLM-D",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX-E",
+				"original": "YLM-E",
+				"shaftDiameter": "2.5",
+				"shaftLength": "9.2",
+				"brushDiameter": "6.5",
+				"brushLength": "29.6",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX-I WHITE",
+				"original": "YLM-I",
+				"drawing": "2948",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX-J",
+				"original": "YLM-J",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "27.5",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX-K",
+				"original": "YLM-K",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7",
+				"brushLength": "27.4",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX-L",
+				"original": "YLM-L",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "10",
+				"brushLength": "22.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX-0",
+				"original": "YLM-O",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "10",
+				"brushLength": "12.2",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX-P",
+				"original": "YLM-P",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "7",
+				"brushLength": "27.7",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX-U",
+				"original": "YLM-U",
+				"shaftDiameter": "2.75",
+				"shaftLength": "7.8",
+				"brushDiameter": "8",
+				"brushLength": "28",
+				"supplier": "BLUESTONE",
+				"type": "INYECTADO"
+			},
+			{
+				"brush": "SX 42H",
+				"original": "FG-42-H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "6.8",
+				"brushLength": "28",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 44H",
+				"original": "FG-44-H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "6.5",
+				"brushLength": "27",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 51H",
+				"original": "FG-51H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "7",
+				"brushLength": "26",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 62H",
+				"original": "FG-62H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "4.5",
+				"brushLength": "20",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 65H",
+				"original": "FG-65H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "6",
+				"brushLength": "27",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 71H",
+				"original": "FG-71H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "7.3",
+				"brushLength": "27",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 74H",
+				"original": "FG-74H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "7.3",
+				"brushLength": "28",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 81H",
+				"original": "FG-81H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "8",
+				"brushLength": "25",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 86H",
+				"original": "FG-86H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "7",
+				"brushLength": "27",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 88H",
+				"original": "FG-88H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "7",
+				"brushLength": "27",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 416H",
+				"original": "EK416H",
+				"shaftDiameter": "1.27",
+				"shaftLength": "8",
+				"brushDiameter": "6.5",
+				"brushLength": "27",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 700H",
+				"original": "TS700",
+				"shaftDiameter": "1.27",
+				"shaftLength": "8",
+				"brushDiameter": "7",
+				"brushLength": "25",
+				"supplier": "JIAMEI",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 701H",
+				"original": "TS701",
+				"shaftDiameter": "1.27",
+				"shaftLength": "8",
+				"brushDiameter": "6.8",
+				"brushLength": "26",
+				"supplier": "JIAMEI",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 702H",
+				"original": "TS702",
+				"shaftLength": "8",
+				"brushDiameter": "7.7",
+				"brushLength": "28",
+				"supplier": "JIAMEI",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 706H",
+				"original": "TS706H",
+				"shaftDiameter": "1.18",
+				"shaftLength": "8",
+				"brushDiameter": "7.2",
+				"brushLength": "27",
+				"supplier": "JIAMEI",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 708H",
+				"original": "TS708H",
+				"shaftDiameter": "1.27",
+				"shaftLength": "8",
+				"brushDiameter": "7.6",
+				"brushLength": "27.5",
+				"supplier": "JIAMEI",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 709H",
+				"original": "TS709",
+				"shaftDiameter": "1.27",
+				"shaftLength": "8",
+				"brushDiameter": "8",
+				"brushLength": "26",
+				"supplier": "JIAMEI",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 711H",
+				"original": "TS711",
+				"shaftDiameter": "1.27",
+				"shaftLength": "8",
+				"brushDiameter": "7.4",
+				"brushLength": "25",
+				"supplier": "JIAMEI",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 712H",
+				"original": "TS712",
+				"shaftDiameter": "1.27",
+				"shaftLength": "8",
+				"brushDiameter": "7.3",
+				"brushLength": "27.5",
+				"supplier": "JIAMEI",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 713H",
+				"original": "TS713",
+				"shaftDiameter": "1.27",
+				"shaftLength": "8",
+				"brushDiameter": "7.2",
+				"brushLength": "27",
+				"supplier": "JIAMEI",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 714H",
+				"original": "TS714",
+				"shaftDiameter": "1.18",
+				"shaftLength": "8",
+				"brushDiameter": "7.4",
+				"brushLength": "27",
+				"supplier": "JIAMEI",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 715H",
+				"original": "TS715",
+				"shaftDiameter": "1.27",
+				"shaftLength": "8",
+				"brushDiameter": "10",
+				"brushLength": "27",
+				"supplier": "JIAMEI",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 717-IH",
+				"original": "TS717",
+				"shaftDiameter": "1.27",
+				"shaftLength": "8",
+				"brushDiameter": "9",
+				"brushLength": "26",
+				"supplier": "JIAMEI",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 5104H",
+				"original": "5104H",
+				"shaftDiameter": "1.26",
+				"shaftLength": "8",
+				"brushDiameter": "6.5",
+				"brushLength": "26",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 8149HC",
+				"original": "FG-8149HC",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "9.8",
+				"brushLength": "24",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 8203H",
+				"original": "FG-8203H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "7.5",
+				"brushLength": "28",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 8206H",
+				"original": "FG-8206H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "7",
+				"brushLength": "27",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 8407HC",
+				"original": "FG-8407HC",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "7.5",
+				"brushLength": "27",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 8606H",
+				"original": "FG-8606H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "7.7",
+				"brushLength": "27",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 8609H",
+				"original": "FG-8609H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "8",
+				"brushLength": "29",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 8828H",
+				"original": "FG-8828H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "9",
+				"brushLength": "27.5",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 8833H",
+				"original": "FG-8833-H",
+				"shaftDiameter": "1.25",
+				"shaftLength": "8",
+				"brushDiameter": "7",
+				"brushLength": "27",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20019",
+				"drawing": "C4197",
+				"shaftDiameter": "1.05",
+				"shaftLength": "9",
+				"brushDiameter": "7.5",
+				"brushLength": "25.5",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20020",
+				"drawing": "C4060",
+				"shaftDiameter": "1.05",
+				"shaftLength": "9",
+				"brushDiameter": "7",
+				"brushLength": "26",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20021",
+				"drawing": "C4176",
+				"shaftDiameter": "1.3",
+				"shaftLength": "9",
+				"brushDiameter": "7",
+				"brushLength": "26",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20022",
+				"drawing": "C4200",
+				"shaftDiameter": "1.3",
+				"shaftLength": "8.6",
+				"brushDiameter": "6.8",
+				"brushLength": "26",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20023",
+				"drawing": "C4366",
+				"shaftDiameter": "1.3",
+				"shaftLength": "9",
+				"brushDiameter": "6.4",
+				"brushLength": "26",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20024",
+				"drawing": "C4036",
+				"shaftDiameter": "1.3",
+				"shaftLength": "9",
+				"brushDiameter": "7.9",
+				"brushLength": "27",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20025",
+				"drawing": "C4119",
+				"shaftDiameter": "1.3",
+				"shaftLength": "9",
+				"brushDiameter": "10",
+				"brushLength": "27",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20026",
+				"drawing": "C4277",
+				"shaftDiameter": "1.3",
+				"shaftLength": "9",
+				"brushDiameter": "5",
+				"brushLength": "27",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20027",
+				"drawing": "C4126",
+				"shaftDiameter": "1.3",
+				"shaftLength": "9",
+				"brushDiameter": "7",
+				"brushLength": "25.4",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20374",
+				"drawing": "C2810",
+				"shaftDiameter": "1.3",
+				"shaftLength": "9",
+				"brushDiameter": "9.6",
+				"brushLength": "29",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20416",
+				"drawing": "C2900",
+				"shaftDiameter": "1.3",
+				"shaftLength": "9",
+				"brushDiameter": "9.7",
+				"brushLength": "30",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20421",
+				"drawing": "C2871",
+				"shaftDiameter": "1.3",
+				"shaftLength": "9",
+				"brushDiameter": "6.2",
+				"brushLength": "26",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20573",
+				"drawing": "C2940",
+				"shaftDiameter": "1.3",
+				"shaftLength": "8.5",
+				"brushDiameter": "6",
+				"brushLength": "25",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20609",
+				"drawing": "C2949",
+				"shaftDiameter": "1.3",
+				"shaftLength": "9",
+				"brushDiameter": "10.7",
+				"brushLength": "28",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20665",
+				"drawing": "C4200",
+				"shaftDiameter": "1.3",
+				"shaftLength": "8.6",
+				"brushDiameter": "6.8",
+				"brushLength": "26",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20670",
+				"drawing": "C4200",
+				"shaftDiameter": "1.3",
+				"shaftLength": "8.6",
+				"brushDiameter": "6.8",
+				"brushLength": "26",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20684",
+				"drawing": "C4213",
+				"shaftDiameter": "1.03",
+				"shaftLength": "9",
+				"brushDiameter": "7.9",
+				"brushLength": "22",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20685",
+				"drawing": "C4036",
+				"shaftDiameter": "1.3",
+				"shaftLength": "9",
+				"brushDiameter": "7.9",
+				"brushLength": "27",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20686",
+				"drawing": "C4275",
+				"shaftDiameter": "1.3",
+				"shaftLength": "7.5",
+				"brushDiameter": "8",
+				"brushLength": "27",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20762",
+				"drawing": "C2893",
+				"shaftDiameter": "1.3",
+				"shaftLength": "7.5",
+				"brushDiameter": "10",
+				"brushLength": "27",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20788",
+				"drawing": "C4011",
+				"shaftDiameter": "1.3",
+				"shaftLength": "7.5",
+				"brushDiameter": "7",
+				"brushLength": "27",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 20970",
+				"drawing": "C3136",
+				"shaftDiameter": "1.3",
+				"shaftLength": "9",
+				"brushDiameter": "11",
+				"brushLength": "26",
+				"supplier": "SIMEX",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 50041",
+				"drawing": "C4063",
+				"shaftDiameter": "1.3",
+				"shaftLength": "8.5",
+				"brushDiameter": "7.4",
+				"brushLength": "26",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 311158",
+				"shaftDiameter": "0",
+				"shaftLength": "0",
+				"brushDiameter": "7.5",
+				"brushLength": "26",
+				"supplier": "GEKA",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 311244",
+				"shaftDiameter": "0",
+				"shaftLength": "0",
+				"brushDiameter": "7",
+				"brushLength": "28",
+				"supplier": "GEKA",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 311320",
+				"shaftDiameter": "0",
+				"shaftLength": "0",
+				"brushDiameter": "8",
+				"brushLength": "26",
+				"supplier": "GEKA",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 311365",
+				"shaftDiameter": "0",
+				"shaftLength": "0",
+				"brushDiameter": "8.5",
+				"brushLength": "30",
+				"supplier": "GEKA",
+				"type": "NYLON"
+			},
+			{
+				"brush": "SX 50020",
+				"drawing": "2727",
+				"shaftDiameter": "2.4",
+				"shaftLength": "0",
+				"brushDiameter": "2.4",
+				"brushLength": "5.8",
+				"type": "LIP GLOSS"
+			},
+			{
+				"brush": "SX 50024",
+				"drawing": "2866",
+				"shaftDiameter": "2.45",
+				"shaftLength": "9",
+				"brushDiameter": "5.2",
+				"brushLength": "11",
+				"type": "LIP GLOSS"
+			},
+			{
+				"brush": "SX 50387",
+				"drawing": "2965",
+				"shaftDiameter": "2.53",
+				"shaftLength": "8",
+				"brushDiameter": "6.5",
+				"brushLength": "12.5",
+				"type": "LIP GLOSS"
+			},
+			{
+				"brush": "SX 10",
+				"original": "QZ-10",
+				"shaftDiameter": "1.7",
+				"shaftLength": "8",
+				"brushDiameter": "1.7",
+				"brushLength": "10",
+				"type": "DELINEADOR"
+			},
+			{
+				"brush": "SX 50019",
+				"drawing": "2815",
+				"shaftDiameter": "1.65",
+				"shaftLength": "0",
+				"brushDiameter": "1.65",
+				"brushLength": "7.1",
+				"type": "DELINEADOR"
+			},
+			{
+				"brush": "SX 50233",
+				"drawing": "4080",
+				"shaftDiameter": "1.05",
+				"shaftLength": "0",
+				"brushDiameter": "1.05",
+				"brushLength": "7.5",
+				"type": "DELINEADOR"
+			},
+			{
+				"brush": "SX 50284",
+				"drawing": "2978",
+				"shaftDiameter": "2.1",
+				"shaftLength": "0",
+				"brushDiameter": "2.1",
+				"brushLength": "8",
+				"type": "DELINEADOR"
+			},
+			{
+				"brush": "SX 50285",
+				"drawing": "2957",
+				"shaftDiameter": "1.15",
+				"shaftLength": "0",
+				"brushDiameter": "1.15",
+				"brushLength": "6.5",
+				"type": "DELINEADOR"
+			}
+		],
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+	}
+}

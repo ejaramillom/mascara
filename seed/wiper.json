@@ -1,0 +1,127 @@
+{
+	"wiper": {
+		"record": [
+			{
+				"name": "ESCURRIDOR DEL BARBIE",
+				"drawing": "3445",
+				"mold": "8090918"
+			},
+			{
+				"name": "ESCURRIDOR MSC LPG BARBIE",
+				"drawing": "3444",
+				"mold": "8090818"
+			},
+			{
+				"name": "ESCURRIDOR MSC ESIKA C16 2016 (Ø10,15 x Ø5,5)",
+				"drawing": "3254",
+				"mold": "8075916"
+			},
+			{
+				"name": "ESCURRIDOR MSC VOGUE 10+ 2019",
+				"drawing": "3647",
+				"mold": "8104319"
+			},
+			{
+				"name": "ESCURRIDOR Ø10.15XØ4.5mm",
+				"drawing": "3663",
+				"mold": "8106220"
+			},
+			{
+				"name": "ESCURRIDOR Ø10.9 x Ø4.2mm 2018",
+				"drawing": "3427",
+				"mold": "8089618"
+			},
+			{
+				"name": "ESCURRIDOR Ø7.1XØ4.2 2019 MLD2",
+				"drawing": "3583",
+				"mold": "8100119"
+			},
+			{
+				"name": "ESCURRIDOR Ø7.1XØ4.2 2019 MLD3",
+				"drawing": "3585",
+				"mold": "8100219"
+			},
+			{
+				"name": "ESCURRIDOR Ø7.1XØ4.5",
+				"drawing": "3642",
+				"mold": "8104619"
+			},
+			{
+				"name": "ESCURRIDOR CAUCHO 0,17 x 3,4",
+				"drawing": "3009"
+			},
+			{
+				"name": "ESCURRIDOR de 9.5mm X 4,2mm",
+				"drawing": "3166",
+				"mold": "8069615"
+			},
+			{
+				"name": "ESCURRIDOR de 9.5mm X 4,5mm",
+				"drawing": "3167"
+			},
+			{
+				"name": "ESCURRIDOR DIAM 7 4.2mm 2013",
+				"drawing": "3049"
+			},
+			{
+				"name": "ESCURRIDOR DIA 4.5 GEKA REF 329451 (Ø9,6 x Ø4,5)",
+				"drawing": "2839"
+			},
+			{
+				"name": "ESCURRIDOR DIA 9.5 x diam 4.2",
+				"drawing": "2891",
+				"mold": "80103"
+			},
+			{
+				"name": "ESCURRIDOR DIA 9.5 x diam 4.5",
+				"drawing": "2873",
+				"mold": "80378"
+			},
+			{
+				"name": "ESCURRIDOR DIA 9.5mm xDIA 5.8mm",
+				"drawing": "2888",
+				"mold": "80400"
+			},
+			{
+				"name": "ESCURRIDOR LABIAL NUEVO FORMATO 2014 (Ø9,5 x Ø4,8)",
+				"drawing": "3041",
+				"mold": "8059013"
+			},
+			{
+				"name": "ESCURRIDOR MASCARA ARIANE (Ø10,9 x Ø4,2)",
+				"drawing": "3139",
+				"mold": "8066714"
+			},
+			{
+				"name": "ESCURRIDOR MASCARA ESIKA INNOVACION 2012  (Ø10,15 x Ø4,2)",
+				"drawing": "2924",
+				"mold": "80452"
+			},
+			{
+				"name": "ESCURRIDOR MASCARA VOGUE 10+ (Ø10,9 x Ø4,2)",
+				"drawing": "3052"
+			},
+			{
+				"name": "ESCURRIDOR Ø8-Ø4.2X11",
+				"drawing": "2913",
+				"mold": "80428"
+			},
+			{
+				"name": "ESCURRIDOR MASCARA TRIO AVON",
+				"drawing": "2914",
+				"mold": "externo"
+			},
+			{
+				"name": "ESCURRIDOR PREBEL",
+				"drawing": "2127",
+				"mold": "8606"
+			},
+			{
+				"name": "ESCURRIDOR SIMEX",
+				"drawing": "2180",
+				"mold": "9019"
+			}
+		],
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+	}
+}
