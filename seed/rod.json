@@ -1,6 +1,4 @@
-{
-	"rod": {
-		"record": [
+[
 			{
 				"name": "TPV CDO PEST R11Dx36L",
 				"drawing": "C4030",
@@ -6313,7 +6311,4 @@
 				},
 				"productAssemblies": ""
 			}
-		],
-		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
-	}
-}
+		]

@@ -14,6 +14,7 @@ import Cap from "./Cap.component";
 import Index from "./Index.component";
 import Rod from "./Rod.component";
 import Wiper from "./Wiper.component";
+import logo from "../images/simex-logo.png";
 
 const colors = {
   Default: '',
@@ -40,7 +41,7 @@ const Mainbar = ( props ) => {
     >
       <Navbar.Brand>
         <Navbar.Item renderAs="a" href="#">
-          <img src="https://bulma.io/images/bulma-logo.png" alt="Logo" width="112" height="28" />
+          <img src={logo} alt="Logo" width="120" height="55" />
         </Navbar.Item>
         <Navbar.Burger />
       </Navbar.Brand>
