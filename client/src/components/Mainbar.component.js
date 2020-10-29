@@ -11,20 +11,7 @@ import { Bottle, Brush, Cap, Rod, Wiper } from "./List.component";
 import Build from "./Build.component";
 import Index from "./Index.component";
 import logo from "../images/simex-logo.png";
-
-const colors = {
-  Default: '',
-  primary: 'primary',
-  info: 'info',
-  danger: 'danger',
-  warning: 'warning',
-  success: 'success',
-  white: 'white',
-  black: 'black',
-  light: 'light',
-  dark: 'dark',
-  link: 'link',
-};
+import { colors } from "../features/colors.js"
 
 const Mainbar = ( props ) => {
     return (

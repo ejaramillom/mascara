@@ -5,6 +5,7 @@ const Brush = require( "./models/brush.model" );
 const Cap = require( "./models/cap.model" );
 const Rod = require( "./models/rod.model" );
 const Wiper = require( "./models/wiper.model" );
+const Build = require( "./models/build.model" );
 
 router.get( "/", async ( req, res, next ) => {
   try {
@@ -25,6 +26,29 @@ router.get( "/bottle", async ( req, res, next ) => {
     console.log( err );
     next( err );
   }
+});
+
+router.post( "/bottle", async ( req, res, next ) => {
+
+  const data = {
+		bottleName: req.body.bottleName,
+  }
+
+	try {
+		const already_bottle = await Build.findOne({ bottleName: req.body.bottleName })
+		if( already_bottle === null ) {
+			const bottle = new Build( data );
+			await bottle.save();
+      res.status( 200 ).send( "Bottle added to your build list!" );
+      console.log( "Bottle added to build!" );
+		} else {
+      res.status( 400 ).send( "Bottle already in build list!" );
+		}
+	} catch ( err ){
+    console.log( err );
+		res.status( 400 ).json( err );
+	}
+
 });
 
 router.get( "/brush", async ( req, res, next ) => {

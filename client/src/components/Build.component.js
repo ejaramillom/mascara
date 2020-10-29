@@ -5,9 +5,7 @@ import Button from 'react-bulma-components/lib/components/button';
 import Section from 'react-bulma-components/lib/components/section';
 import Container from 'react-bulma-components/lib/components/container';
 import Heading from 'react-bulma-components/lib/components/heading';
-import { BottleModal, BrushModal, RodModal, CapModal, WiperModal } from './BuildModal.component';
-import OpenModal from './OpenModal.component';
-import { getBrushes, getBottles, getRods, getWipers, getCaps } from "../middlewares/services";
+import { OpenModal, BottleModal, BrushModal, RodModal, CapModal, WiperModal } from './OpenModal.component';
 
 const positions = {
   default: '',
@@ -30,18 +28,12 @@ const Build = ( ) => {
           position={select('Position', positions)}
           size={select('Size', { small: 'small', medium: 'medium', large: 'large' })}
         >
-          <OpenModal modal={{ closeOnBlur: true }} name="Bottle">
-            <BottleModal>
-            </BottleModal>
-          </OpenModal>
-          <OpenModal modal={{ closeOnBlur: true }} name="Brush">
-            <BrushModal>
-            </BrushModal>
-          </OpenModal>
-          <OpenModal modal={{ closeOnBlur: true }} name="Rod">
-            <RodModal>
-            </RodModal>
-          </OpenModal>
+          <BottleModal>
+          </BottleModal>
+          <BrushModal>
+          </BrushModal>
+          <RodModal>
+          </RodModal>
         </Button.Group>
       </Section>
     </div>
