@@ -7,13 +7,9 @@ import {
   Route
 } from "react-router-dom";
 import Add from "./Add.component";
-import Bottle from "./Bottle.component";
-import Brush from "./Brush.component";
+import { Bottle, Brush, Cap, Rod, Wiper } from "./List.component";
 import Build from "./Build.component";
-import Cap from "./Cap.component";
 import Index from "./Index.component";
-import Rod from "./Rod.component";
-import Wiper from "./Wiper.component";
 import logo from "../images/simex-logo.png";
 
 const colors = {

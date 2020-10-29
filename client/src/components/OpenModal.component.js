@@ -26,7 +26,7 @@ class OpenModal extends React.Component {
     return (
       <div>
         <Button color="info" onClick={this.open}> {this.props.name} </Button>
-        <Modal show={this.state.show} onClose={this.close} {...this.props.modal} name={this.props.name}>
+        <Modal show={this.state.show} onClose={this.close} {...this.props.modal}>
           {this.props.children}
         </Modal>
       </div>
