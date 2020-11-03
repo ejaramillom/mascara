@@ -18,8 +18,7 @@ export function getWipers() {
   return fetch("/wiper")
   .then(response => response.json());
 }
-
-// export function getCaps() {
-//   return fetch(`${process.env.REACT_APP_API_BASE_URL}cap`)
-//   .then(response => response.json());
-// }
+export function getBuild() {
+  return fetch("/build")
+  .then(response => response.json());
+}

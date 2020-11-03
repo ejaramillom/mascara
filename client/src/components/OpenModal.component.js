@@ -4,6 +4,7 @@ import Modal from "react-bulma-components/lib/components/modal";
 import Button from "react-bulma-components/lib/components/button";
 import Content from "react-bulma-components/lib/components/content";
 import Section from "react-bulma-components/lib/components/section";
+import { Redirect } from 'react-router';
 import { select, boolean } from "@storybook/addon-knobs";
 import axios from "axios";
 
@@ -14,7 +15,7 @@ import {
   getWipers,
   getCaps,
 } from "../middlewares/services";
-import { useQuery, useMutation } from "react-query";
+import { useQuery } from "react-query";
 import { colors } from "../features/colors.js";
 import "../App.css";
 
@@ -58,13 +59,12 @@ export class OpenModal extends React.Component {
 }
 
 export const BottleModal = () => {
-  const addMovie = async (data) => {
+  const addBottle = async (data) => {
     const ServerCall = await axios
       .post("/bottle", {
         bottleName: data.name,
       })
       .then(function (response) {
-        // console.log(response);
         if (response.status === 200) {
           alert("Bottle added to the list!");
           console.log("Succesfully added");
@@ -101,7 +101,7 @@ export const BottleModal = () => {
                   type="submit"
                   color="info"
                   onClick={() => {
-                    addMovie(element);
+                    addBottle(element);
                   }}
                 >
                   Add
