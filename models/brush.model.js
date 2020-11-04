@@ -13,4 +13,4 @@ const BrushSchema = mongoose.Schema({
 
 const Brush = mongoose.model("Brush", BrushSchema);
 
-module.exports = Brush;
+module.exports = { Brush, BrushSchema };

@@ -45,4 +45,4 @@ const RodSchema = mongoose.Schema({
 
 const Rod = mongoose.model("Rod", RodSchema);
 
-module.exports = Rod;
+module.exports = { Rod, RodSchema };

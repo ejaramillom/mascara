@@ -10,4 +10,4 @@ const BottleSchema = mongoose.Schema({
 
 const Bottle = mongoose.model("Bottle", BottleSchema);
 
-module.exports = Bottle;
+module.exports = { Bottle, BottleSchema };

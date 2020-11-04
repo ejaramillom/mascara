@@ -54,20 +54,21 @@ const Build = ( ) => {
       <Section>
           { data.map( element =>
             <div class="">
-              <li key = { element.bottleName }>{ element.bottleName }</li>
-              <Button
-                color="info"
-                onClick={() => {
-                  deleteBuild();
-                }}
-              >
-                Erase build
-              </Button>
+              <li key = { element.bottle.name }>{ element.bottle.name }</li>
+              
             </div>
           )}
       </Section>
       <Section>
         <Container>
+        <Button
+          color="info"
+          onClick={() => {
+            deleteBuild();
+          }}
+        >
+          Erase build
+        </Button>
           <p className="bd-notification is-info">
             <Heading size={5} renderAs="p">Build</Heading>
             <Heading subtitle renderAs="p">Mascara</Heading>

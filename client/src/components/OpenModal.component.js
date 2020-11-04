@@ -62,7 +62,11 @@ export const BottleModal = () => {
   const addBottle = async (data) => {
     const ServerCall = await axios
       .post("/bottle", {
-        bottleName: data.name,
+        name: data.name,
+        drawing: data.drawing,
+        mold: data.mold,
+        depth: data.depth,
+        thread: data.thread
       })
       .then(function (response) {
         if (response.status === 200) {
@@ -78,6 +82,7 @@ export const BottleModal = () => {
         alert(error);
       });
   };
+
   const { isLoading, error, data } = useQuery("bottles", getBottles);
   if (isLoading) return "Loading...";
   if (error) {
@@ -92,10 +97,9 @@ export const BottleModal = () => {
             <Modal.Content>
               <Section style={{ backgroundColor: "white" }}>
                 <p>
-                  <strong>{element.name}</strong>{" "}
+                  <strong>{element.name}</strong>
                   <small>{element.drawing}</small> <small>{element.mold}</small>
                   <br />
-                  Prueba de modal
                 </p>
                 <Button
                   type="submit"
@@ -116,11 +120,33 @@ export const BottleModal = () => {
 };
 
 export const BrushModal = () => {
+
+  const addBrush = async (data) => {
+    const ServerCall = await axios
+      .post("/brush", {
+        brushName: data.name,
+      })
+      .then(function (response) {
+        if (response.status === 200) {
+          alert("Brush added to the list!");
+          console.log("Succesfully added");
+        } else {
+          const err = new Error(response.error);
+          console.log(err);
+          throw err;
+        }
+      })
+      .catch(function (error) {
+        alert(error);
+      });
+  };
+
   const { isLoading, error, data } = useQuery("brushes", getBrushes);
   if (isLoading) return "Loading...";
   if (error) {
     return "Oops! " + error.message;
   }
+
   return (
     <div>
       <OpenModal modal={{ closeOnBlur: true }} name="Brush">
@@ -128,14 +154,22 @@ export const BrushModal = () => {
           <h1>hola</h1>
           {data.map((element) => (
             <Modal.Content>
-              <Section style={{ backgroundColor: "white" }}>
-                <p>
-                  <strong>{element.name}</strong>{" "}
-                  <small>{element.drawing}</small> <small>{element.mold}</small>
-                  <br />
-                  Something else
-                </p>
-              </Section>
+            <Section style={{ backgroundColor: "white" }}>
+              <p>
+                <strong>{element.brush}</strong>
+                <small>{element.original}</small> <small>{element.type}</small>
+                <br />
+              </p>
+              <Button
+                type="submit"
+                color="info"
+                onClick={() => {
+                  addBrush(element);
+                }}
+              >
+                Add
+              </Button>
+            </Section>
             </Modal.Content>
           ))}
         </div>
