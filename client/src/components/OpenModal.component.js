@@ -124,7 +124,12 @@ export const BrushModal = () => {
   const addBrush = async (data) => {
     const ServerCall = await axios
       .post("/brush", {
-        brushName: data.name,
+        brush: data.brush,
+        original: data.original,
+        shaftLength: data.shaftLength,
+        shaftDiameter: data.shaftDiameter,
+        brushLength: data.brushLength,
+        brushDiameter: data.brushDiameter,
       })
       .then(function (response) {
         if (response.status === 200) {

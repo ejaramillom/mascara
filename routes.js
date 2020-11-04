@@ -45,8 +45,8 @@ router.post("/bottle", async (req, res, next) => {
     if (already_bottle === null) {
       const build = new Build(data);
       await build.save();
-      res.status(200).send("Bottle added to your build list!");
       console.log("Bottle added to build!");
+      res.status(200).send("Bottle added to your build list!");
     } else if (already_bottle)  {
       const build = await Build.updateOne(
         { name: "mascara" },
@@ -61,7 +61,6 @@ router.post("/bottle", async (req, res, next) => {
   }
 
 });
-
 
 router.get("/build", async (req, res, next) => {
   try {
@@ -87,29 +86,38 @@ router.get("/brush", async (req, res, next) => {
 
 router.post("/brush", async (req, res, next) => {
   const data = {
-    brushName: req.body.brush,
+    name: "mascara",
+    "brush.brush": req.body.brush,
+    "brush.original": req.body.original,
+    "brush.shaftLength": req.body.shaftLength,
+    "brush.shaftDiameter": req.body.shaftDiameter,
+    "brush.brushLength": req.body.brushLength,
+    "brush.brushDiameter": req.body.brushDiameter
   };
 
   try {
-    const already_brush = await Build.updateOne(
-      { bottleName: req.body.bottleName },
-      { brushName: req.body.brush }
-    );
-    // if (already_brush === null) {
-    //   const brush = new Build(data);
-      // await brush.save();
-      res.status(200).send("Brush added to your build list!");
-    //   console.log("Brush added to build!");
-    // } else {
-    //   res.status(400).send("Brush already in build list!");
-    // }
+    const already_brush = await Build.findOne({
+      name: "mascara",
+    });
+    if (already_brush === null) {
+      const build = new Build(data);
+      await build.save();
+      console.log("brush added to build!");
+      res.status(200).send("brush added to your build list!");
+    } else if (already_brush)  {
+      const build = await Build.updateOne(
+        { name: "mascara" },
+        { "brush.brush": req.body.brush }
+      );
+      res.status(200).send("brush updated in build list!");
+    }
   } catch (err) {
     console.log(err);
     res.status(400).json(err);
     return;
   }
-});
 
+});
 
 router.get("/cap", async (req, res, next) => {
   try {

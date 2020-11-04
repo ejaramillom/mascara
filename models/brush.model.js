@@ -8,7 +8,7 @@ const BrushSchema = mongoose.Schema({
   brushDiameter: {type: Number, required: true},
   brushLength: {type: Number, required: true},
   supplier: {type: String},
-  type: {type: String, required: true}
+  type: {type: String}
 })
 
 const Brush = mongoose.model("Brush", BrushSchema);

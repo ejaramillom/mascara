@@ -26,6 +26,7 @@ const positions = {
 const Build = ( ) => {
 
   const { isLoading, error, data } = useQuery("build", getBuild);
+  console.log(data);
   if (isLoading) return "Loading...";
   if (error) {
     return "Oops! " + error.message;
@@ -53,9 +54,10 @@ const Build = ( ) => {
     <div className="App App-header">
       <Section>
           { data.map( element =>
-            <div class="">
-              <li key = { element.bottle.name }>{ element.bottle.name }</li>
-              
+            <div>
+              {element.bottle ? <li key = { element.bottle.name }>{ element.bottle.name }</li> : "" }
+              {element.brush ? <li key = { element.brush.brush }>{ element.brush.brush }</li> : "" }
+              {element.rod ? <li key = { element.rod.name }>{ element.rod.name }</li> : "" }
             </div>
           )}
       </Section>
