@@ -52,6 +52,7 @@ router.post("/bottle", async (req, res, next) => {
         { name: "mascara" },
         { "bottle.name": req.body.name }
       );
+      console.log("Bottle updated to build!");
       res.status(200).send("Bottle updated in build list!");
     }
   } catch (err) {
@@ -109,6 +110,7 @@ router.post("/brush", async (req, res, next) => {
         { name: "mascara" },
         { "brush.brush": req.body.brush }
       );
+      console.log("Brush updated to build!");
       res.status(200).send("brush updated in build list!");
     }
   } catch (err) {
@@ -141,6 +143,42 @@ router.get("/rod", async (req, res, next) => {
   }
 });
 
+router.post("/rod", async (req, res, next) => {
+  const data = {
+    name: "mascara",
+    "rod.name": req.body.name,
+    "rod.drawing": req.body.drawing,
+    "rod.thread": req.body.thread,
+    "rod.dimensions.length": req.body.dimensions.length,
+    "rod.dimensions.rodDiameter": req.body.dimensions.rodDiameter,
+    "rod.dimensions.brushDiameter": req.body.dimensions.brushDiameter
+  };
+
+  try {
+    const already_rod = await Build.findOne({
+      name: "mascara",
+    });
+    if (already_rod === null) {
+      const build = new Build(data);
+      await build.save();
+      console.log("Rod added to build!");
+      res.status(200).send("Rod added to your build list!");
+    } else if (already_rod)  {
+      const build = await Build.updateOne(
+        { name: "mascara" },
+        { "rod.name": req.body.name }
+      );
+      console.log("Rod updated to build!");
+      res.status(200).send("Rod updated in build list!");
+    }
+  } catch (err) {
+    console.log(err);
+    res.status(400).json(err);
+    return;
+  }
+
+});
+
 router.get("/wiper", async (req, res, next) => {
   try {
     const wiper = await Wiper.find();
@@ -155,6 +193,7 @@ router.get("/wiper", async (req, res, next) => {
 router.post("/delete", async(req, res, next)=>{
 	try{
 		await Build.deleteMany({});
+    console.log("Succesfully deleted");
 		res.json('Build deleted')
 	}catch(err){
 		res.status(400).json(err)

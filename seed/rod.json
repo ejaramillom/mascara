@@ -7,7 +7,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "36.6",
+					"length": "36.6",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -41,7 +41,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "65.6",
+					"length": "65.6",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -80,7 +80,7 @@
 				"thread": "R11",
 				"gauge": "18",
 				"dimensions": {
-					"lenght": "43.3",
+					"length": "43.3",
 					"rodDiameter": "4.3",
 					"brushDiameter": "0.91"
 				},
@@ -121,7 +121,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "57.9",
+					"length": "57.9",
 					"rodDiameter": "2.84",
 					"brushDiameter": "0.95"
 				},
@@ -146,7 +146,7 @@
 				"thread": "R11",
 				"gauge": "20",
 				"dimensions": {
-					"lenght": "56.9",
+					"length": "56.9",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -182,7 +182,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "63",
+					"length": "63",
 					"rodDiameter": "2.84",
 					"brushDiameter": "0.95"
 				},
@@ -220,7 +220,7 @@
 				"thread": "R11",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "43.3",
+					"length": "43.3",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -255,7 +255,7 @@
 				"thread": "R11",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "56.7",
+					"length": "56.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -290,7 +290,7 @@
 				"thread": "R11",
 				"gauge": "20",
 				"dimensions": {
-					"lenght": "71.2",
+					"length": "71.2",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -324,7 +324,7 @@
 				"thread": "R11",
 				"gauge": "106",
 				"dimensions": {
-					"lenght": "40.5",
+					"length": "40.5",
 					"rodDiameter": "2.84",
 					"brushDiameter": "0.95"
 				},
@@ -359,7 +359,7 @@
 				"thread": "R11",
 				"gauge": "20",
 				"dimensions": {
-					"lenght": "50.7",
+					"length": "50.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -403,7 +403,7 @@
 				"thread": "R11",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "36.6",
+					"length": "36.6",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -440,7 +440,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "57.9",
+					"length": "57.9",
 					"rodDiameter": "2.84",
 					"brushDiameter": "0.95"
 				},
@@ -475,7 +475,7 @@
 				"thread": "R11",
 				"gauge": "20",
 				"dimensions": {
-					"lenght": "56.9",
+					"length": "56.9",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -513,7 +513,7 @@
 				"thread": "R11",
 				"gauge": "20",
 				"dimensions": {
-					"lenght": "50.7",
+					"length": "50.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -560,7 +560,7 @@
 				"thread": "R11",
 				"gauge": "18",
 				"dimensions": {
-					"lenght": "36.6",
+					"length": "36.6",
 					"rodDiameter": "4.3",
 					"brushDiameter": "0.91"
 				},
@@ -593,7 +593,7 @@
 				"thread": "R11",
 				"gauge": "20",
 				"dimensions": {
-					"lenght": "50.7",
+					"length": "50.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -627,7 +627,7 @@
 				"thread": "R11",
 				"gauge": "106",
 				"dimensions": {
-					"lenght": "40.5",
+					"length": "40.5",
 					"rodDiameter": "2.84",
 					"brushDiameter": "0.95"
 				},
@@ -666,7 +666,7 @@
 				"thread": "R11",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "56.7",
+					"length": "56.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -704,7 +704,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "43.3",
+					"length": "43.3",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -728,7 +728,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "40.5",
+					"length": "40.5",
 					"rodDiameter": "2.84",
 					"brushDiameter": "0.95"
 				},
@@ -758,7 +758,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "23",
+					"length": "23",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -796,7 +796,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "30",
+					"length": "30",
 					"rodDiameter": "2.84",
 					"brushDiameter": "0.95"
 				},
@@ -831,7 +831,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "53.8",
+					"length": "53.8",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -864,7 +864,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "57",
+					"length": "57",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.53"
 				},
@@ -901,7 +901,7 @@
 				"thread": "R11",
 				"gauge": "70",
 				"dimensions": {
-					"lenght": "40.5",
+					"length": "40.5",
 					"rodDiameter": "2.84",
 					"brushDiameter": "1.21"
 				},
@@ -931,7 +931,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "38.6",
+					"length": "38.6",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.56"
 				},
@@ -965,7 +965,7 @@
 				"thread": "R11",
 				"gauge": "92",
 				"dimensions": {
-					"lenght": "43",
+					"length": "43",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -998,7 +998,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "57.9",
+					"length": "57.9",
 					"rodDiameter": "2.84",
 					"brushDiameter": "1.65"
 				},
@@ -1028,7 +1028,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "62.5",
+					"length": "62.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.56"
 				},
@@ -1062,7 +1062,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "69.5",
+					"length": "69.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.65"
 				},
@@ -1095,7 +1095,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "30",
+					"length": "30",
 					"rodDiameter": "2.84",
 					"brushDiameter": "1.65"
 				},
@@ -1129,7 +1129,7 @@
 				"thread": "R13",
 				"gauge": "155",
 				"dimensions": {
-					"lenght": "59",
+					"length": "59",
 					"rodDiameter": "5.6",
 					"brushDiameter": "3.55"
 				},
@@ -1171,7 +1171,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "69.5",
+					"length": "69.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -1204,7 +1204,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "56.9",
+					"length": "56.9",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -1237,7 +1237,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "65.6",
+					"length": "65.6",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -1286,7 +1286,7 @@
 				"thread": "R11",
 				"gauge": "18",
 				"dimensions": {
-					"lenght": "65.6",
+					"length": "65.6",
 					"rodDiameter": "3.5",
 					"brushDiameter": "0.91"
 				},
@@ -1322,7 +1322,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "44",
+					"length": "44",
 					"rodDiameter": "3.5",
 					"brushDiameter": "1.2"
 				},
@@ -1356,7 +1356,7 @@
 				"thread": "R11",
 				"gauge": "20",
 				"dimensions": {
-					"lenght": "50.7",
+					"length": "50.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -1403,7 +1403,7 @@
 				"thread": "R11",
 				"gauge": "20",
 				"dimensions": {
-					"lenght": "56.9",
+					"length": "56.9",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -1441,7 +1441,7 @@
 				"thread": "R11",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "36.6",
+					"length": "36.6",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -1479,7 +1479,7 @@
 				"thread": "R11",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "20.5",
+					"length": "20.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -1521,7 +1521,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "21.5",
+					"length": "21.5",
 					"rodDiameter": "3.5",
 					"brushDiameter": "0.95"
 				},
@@ -1555,7 +1555,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "20.5",
+					"length": "20.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "0.95"
 				},
@@ -1588,7 +1588,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "53",
+					"length": "53",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -1613,7 +1613,7 @@
 				"thread": "R11",
 				"gauge": "72",
 				"dimensions": {
-					"lenght": "79.7",
+					"length": "79.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -1652,7 +1652,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "23.5",
+					"length": "23.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "0.95"
 				},
@@ -1686,7 +1686,7 @@
 				"thread": "R11",
 				"gauge": "43",
 				"dimensions": {
-					"lenght": "50.1",
+					"length": "50.1",
 					"rodDiameter": "2.8",
 					"brushDiameter": "1.51"
 				},
@@ -1725,7 +1725,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "27",
+					"length": "27",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.53"
 				},
@@ -1760,7 +1760,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "65.7",
+					"length": "65.7",
 					"rodDiameter": "3.5",
 					"brushDiameter": "1.2"
 				},
@@ -1796,7 +1796,7 @@
 				"thread": "R11",
 				"gauge": "18",
 				"dimensions": {
-					"lenght": "44",
+					"length": "44",
 					"rodDiameter": "3.5",
 					"brushDiameter": "0.91"
 				},
@@ -1830,7 +1830,7 @@
 				"thread": "R11",
 				"gauge": "20",
 				"dimensions": {
-					"lenght": "35.5",
+					"length": "35.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.65"
 				},
@@ -1864,7 +1864,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "27",
+					"length": "27",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.65"
 				},
@@ -1898,7 +1898,7 @@
 				"thread": "R11",
 				"gauge": "71",
 				"dimensions": {
-					"lenght": "79.7",
+					"length": "79.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.65"
 				},
@@ -1932,7 +1932,7 @@
 				"thread": "R11",
 				"gauge": "106-165",
 				"dimensions": {
-					"lenght": "50.1",
+					"length": "50.1",
 					"rodDiameter": "2.8",
 					"brushDiameter": "0.95"
 				},
@@ -1965,7 +1965,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "35.5",
+					"length": "35.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.65"
 				},
@@ -1989,7 +1989,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "27",
+					"length": "27",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.65"
 				},
@@ -2023,7 +2023,7 @@
 				"thread": "R11",
 				"gauge": "145",
 				"dimensions": {
-					"lenght": "56.9",
+					"length": "56.9",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.5"
 				},
@@ -2053,7 +2053,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "27",
+					"length": "27",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -2086,7 +2086,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "35.5",
+					"length": "35.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -2120,7 +2120,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "70.5",
+					"length": "70.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -2153,7 +2153,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "34",
+					"length": "34",
 					"rodDiameter": "2.84",
 					"brushDiameter": "1.62"
 				},
@@ -2186,7 +2186,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "35.5",
+					"length": "35.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -2210,7 +2210,7 @@
 				"cavity": "12",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "25.4",
+					"length": "25.4",
 					"rodDiameter": "3.5",
 					"brushDiameter": "1.18"
 				},
@@ -2246,7 +2246,7 @@
 				"thread": "R11",
 				"gauge": "148",
 				"dimensions": {
-					"lenght": "62.4",
+					"length": "62.4",
 					"rodDiameter": "2.84",
 					"brushDiameter": "0.95"
 				},
@@ -2286,7 +2286,7 @@
 				"thread": "R11",
 				"gauge": "22",
 				"dimensions": {
-					"lenght": "46.4",
+					"length": "46.4",
 					"rodDiameter": "3.5",
 					"brushDiameter": "1.2"
 				},
@@ -2321,7 +2321,7 @@
 				"thread": "R11",
 				"gauge": "24",
 				"dimensions": {
-					"lenght": "25.4",
+					"length": "25.4",
 					"rodDiameter": "3.5",
 					"brushDiameter": "1.2"
 				},
@@ -2351,7 +2351,7 @@
 				"cavity": "12",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "45.6",
+					"length": "45.6",
 					"rodDiameter": "2.84",
 					"brushDiameter": "0.95"
 				},
@@ -2384,7 +2384,7 @@
 				"cavity": "12",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "45.6",
+					"length": "45.6",
 					"rodDiameter": "2.84",
 					"brushDiameter": "0.95"
 				},
@@ -2418,7 +2418,7 @@
 				"thread": "R11",
 				"gauge": "24",
 				"dimensions": {
-					"lenght": "25.4",
+					"length": "25.4",
 					"rodDiameter": "3.5",
 					"brushDiameter": "1.2"
 				},
@@ -2452,7 +2452,7 @@
 				"thread": "R11",
 				"gauge": "18",
 				"dimensions": {
-					"lenght": "25.4",
+					"length": "25.4",
 					"rodDiameter": "3.5",
 					"brushDiameter": "0.91"
 				},
@@ -2485,7 +2485,7 @@
 				"cavity": "12",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "62.4",
+					"length": "62.4",
 					"rodDiameter": "2.84",
 					"brushDiameter": "0.91"
 				},
@@ -2519,7 +2519,7 @@
 				"thread": "R11",
 				"gauge": "97",
 				"dimensions": {
-					"lenght": "62.4",
+					"length": "62.4",
 					"rodDiameter": "2.84",
 					"brushDiameter": "1.65"
 				},
@@ -2549,7 +2549,7 @@
 				"cavity": "8",
 				"thread": "R13",
 				"dimensions": {
-					"lenght": "63.5",
+					"length": "63.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -2575,7 +2575,7 @@
 				"cavity": "8",
 				"thread": "R13",
 				"dimensions": {
-					"lenght": "67.1",
+					"length": "67.1",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -2609,7 +2609,7 @@
 				"thread": "R13",
 				"gauge": "18",
 				"dimensions": {
-					"lenght": "63.5",
+					"length": "63.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "0.91"
 				},
@@ -2634,7 +2634,7 @@
 				"thread": "R13",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "67.1",
+					"length": "67.1",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -2678,7 +2678,7 @@
 				"thread": "R13",
 				"gauge": "18",
 				"dimensions": {
-					"lenght": "67.1",
+					"length": "67.1",
 					"rodDiameter": "4.3",
 					"brushDiameter": "0.91"
 				},
@@ -2712,7 +2712,7 @@
 				"thread": "R13",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "63.5",
+					"length": "63.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -2740,7 +2740,7 @@
 				"thread": "R13",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "60",
+					"length": "60",
 					"rodDiameter": "4.6",
 					"brushDiameter": "1.2"
 				},
@@ -2779,7 +2779,7 @@
 				"cavity": "8",
 				"thread": "R13",
 				"dimensions": {
-					"lenght": "59.8",
+					"length": "59.8",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -2819,7 +2819,7 @@
 				"thread": "R13",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "50.2",
+					"length": "50.2",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -2859,7 +2859,7 @@
 				"thread": "R13",
 				"gauge": "GACC-162",
 				"dimensions": {
-					"lenght": "57.7",
+					"length": "57.7",
 					"rodDiameter": "4.6",
 					"brushDiameter": "2.82"
 				},
@@ -2898,7 +2898,7 @@
 				"cavity": "8",
 				"thread": "R13",
 				"dimensions": {
-					"lenght": "61.8",
+					"length": "61.8",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -2937,7 +2937,7 @@
 				"thread": "R13",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "67.1",
+					"length": "67.1",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -2981,7 +2981,7 @@
 				"thread": "R13",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "63.5",
+					"length": "63.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -3025,7 +3025,7 @@
 				"cavity": "16",
 				"thread": "R12",
 				"dimensions": {
-					"lenght": "48",
+					"length": "48",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.65"
 				},
@@ -3049,7 +3049,7 @@
 				"cavity": "16",
 				"thread": "R12",
 				"dimensions": {
-					"lenght": "64.6",
+					"length": "64.6",
 					"rodDiameter": "3.5",
 					"brushDiameter": "1.1"
 				},
@@ -3075,7 +3075,7 @@
 				"cavity": "16",
 				"thread": "R12",
 				"dimensions": {
-					"lenght": "64.6",
+					"length": "64.6",
 					"rodDiameter": "3.5",
 					"brushDiameter": "0.96"
 				},
@@ -3102,7 +3102,7 @@
 				"thread": "R12",
 				"gauge": "44",
 				"dimensions": {
-					"lenght": "69",
+					"length": "69",
 					"rodDiameter": "3.5",
 					"brushDiameter": "1.25"
 				},
@@ -3141,7 +3141,7 @@
 				"cavity": "16",
 				"thread": "R12",
 				"dimensions": {
-					"lenght": "62.8",
+					"length": "62.8",
 					"rodDiameter": "3.5",
 					"brushDiameter": "1.22"
 				},
@@ -3184,7 +3184,7 @@
 				"cavity": "16",
 				"thread": "R12",
 				"dimensions": {
-					"lenght": "59.8",
+					"length": "59.8",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -3223,7 +3223,7 @@
 				"cavity": "16",
 				"thread": "R12",
 				"dimensions": {
-					"lenght": "47.8",
+					"length": "47.8",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.65"
 				},
@@ -3263,7 +3263,7 @@
 				"thread": "R12",
 				"gauge": "46",
 				"dimensions": {
-					"lenght": "52.7",
+					"length": "52.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.65"
 				},
@@ -3303,7 +3303,7 @@
 				"thread": "R12",
 				"gauge": "45",
 				"dimensions": {
-					"lenght": "69",
+					"length": "69",
 					"rodDiameter": "3.5",
 					"brushDiameter": "0.91"
 				},
@@ -3343,7 +3343,7 @@
 				"thread": "R12",
 				"gauge": "83",
 				"dimensions": {
-					"lenght": "52.7",
+					"length": "52.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.5"
 				},
@@ -3384,7 +3384,7 @@
 				"thread": "R12",
 				"gauge": "145",
 				"dimensions": {
-					"lenght": "52.7",
+					"length": "52.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -3424,7 +3424,7 @@
 				"thread": "R12",
 				"gauge": "145",
 				"dimensions": {
-					"lenght": "47.8",
+					"length": "47.8",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -3463,7 +3463,7 @@
 				"cavity": "16",
 				"thread": "R12",
 				"dimensions": {
-					"lenght": "30.6",
+					"length": "30.6",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -3502,7 +3502,7 @@
 				"cavity": "8",
 				"thread": "R15",
 				"dimensions": {
-					"lenght": "41.3",
+					"length": "41.3",
 					"rodDiameter": "3.2",
 					"brushDiameter": "1.2"
 				},
@@ -3542,7 +3542,7 @@
 				"thread": "R15",
 				"gauge": "18",
 				"dimensions": {
-					"lenght": "46.8",
+					"length": "46.8",
 					"rodDiameter": "4.3",
 					"brushDiameter": "0.91"
 				},
@@ -3575,7 +3575,7 @@
 				"cavity": "8",
 				"thread": "R15",
 				"dimensions": {
-					"lenght": "48.2",
+					"length": "48.2",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.65"
 				},
@@ -3615,7 +3615,7 @@
 				"thread": "R15",
 				"gauge": "GACC-24",
 				"dimensions": {
-					"lenght": "55",
+					"length": "55",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.24"
 				},
@@ -3660,7 +3660,7 @@
 				"thread": "R15",
 				"gauge": "GACC-24",
 				"dimensions": {
-					"lenght": "55",
+					"length": "55",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -3703,7 +3703,7 @@
 				"cavity": "8",
 				"thread": "R15",
 				"dimensions": {
-					"lenght": "55.07",
+					"length": "55.07",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.82"
 				},
@@ -3740,7 +3740,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "34",
+					"length": "34",
 					"rodDiameter": "3.5",
 					"brushDiameter": "2.12"
 				},
@@ -3774,7 +3774,7 @@
 				"thread": "R11",
 				"gauge": "148",
 				"dimensions": {
-					"lenght": "34",
+					"length": "34",
 					"rodDiameter": "2.84",
 					"brushDiameter": "1.05"
 				},
@@ -3808,7 +3808,7 @@
 				"thread": "R11",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "34",
+					"length": "34",
 					"rodDiameter": "2.84",
 					"brushDiameter": "1.18"
 				},
@@ -3842,7 +3842,7 @@
 				"thread": "R13",
 				"gauge": "18",
 				"dimensions": {
-					"lenght": "65.5",
+					"length": "65.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "0.93"
 				},
@@ -3882,7 +3882,7 @@
 				"cavity": "8",
 				"thread": "R15",
 				"dimensions": {
-					"lenght": "55.8",
+					"length": "55.8",
 					"rodDiameter": "5.6",
 					"brushDiameter": "2.82"
 				},
@@ -3921,7 +3921,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "20.5",
+					"length": "20.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.56"
 				},
@@ -3950,7 +3950,7 @@
 				"cavity": "8",
 				"thread": "R13",
 				"dimensions": {
-					"lenght": "55",
+					"length": "55",
 					"rodDiameter": "4.9",
 					"brushDiameter": "2.6"
 				},
@@ -3988,7 +3988,7 @@
 				"cavity": "16",
 				"thread": "R12",
 				"dimensions": {
-					"lenght": "51.4",
+					"length": "51.4",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -4022,7 +4022,7 @@
 				"cavity": "8",
 				"thread": "R13",
 				"dimensions": {
-					"lenght": "69.4",
+					"length": "69.4",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.57"
 				},
@@ -4059,7 +4059,7 @@
 				"cavity": "8",
 				"thread": "R13",
 				"dimensions": {
-					"lenght": "72.6",
+					"length": "72.6",
 					"rodDiameter": "4.3",
 					"brushDiameter": "0.96"
 				},
@@ -4098,7 +4098,7 @@
 				"cavity": "8",
 				"thread": "R15",
 				"dimensions": {
-					"lenght": "57",
+					"length": "57",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.82"
 				},
@@ -4138,7 +4138,7 @@
 				"thread": "R15",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "59.3",
+					"length": "59.3",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.24"
 				},
@@ -4182,7 +4182,7 @@
 				"thread": "R13",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "61.7",
+					"length": "61.7",
 					"rodDiameter": "5.6",
 					"brushDiameter": "1.24"
 				},
@@ -4225,7 +4225,7 @@
 				"thread": "R15",
 				"gauge": "GACC-162",
 				"dimensions": {
-					"lenght": "61",
+					"length": "61",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.82"
 				},
@@ -4266,7 +4266,7 @@
 				"thread": "R15",
 				"gauge": "GACC-162",
 				"dimensions": {
-					"lenght": "62.76",
+					"length": "62.76",
 					"rodDiameter": "5.6",
 					"brushDiameter": "2.82"
 				},
@@ -4304,7 +4304,7 @@
 				"cavity": "8",
 				"thread": "R13",
 				"dimensions": {
-					"lenght": "50.3",
+					"length": "50.3",
 					"rodDiameter": "5.6",
 					"brushDiameter": "2.75"
 				},
@@ -4342,7 +4342,7 @@
 				"cavity": "8",
 				"thread": "R15",
 				"dimensions": {
-					"lenght": "64",
+					"length": "64",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.6"
 				},
@@ -4374,7 +4374,7 @@
 				"thread": "R15",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "65.7",
+					"length": "65.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -4413,7 +4413,7 @@
 				"thread": "R13",
 				"gauge": "GACC-145",
 				"dimensions": {
-					"lenght": "69.1",
+					"length": "69.1",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -4454,7 +4454,7 @@
 				"thread": "R11",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "56.7",
+					"length": "56.7",
 					"rodDiameter": "4.4",
 					"brushDiameter": "1.2"
 				},
@@ -4500,7 +4500,7 @@
 				"thread": "R11",
 				"gauge": "GACC-145",
 				"dimensions": {
-					"lenght": "56.9",
+					"length": "56.9",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -4540,7 +4540,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "56.7",
+					"length": "56.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.62"
 				},
@@ -4650,7 +4650,7 @@
 				"thread": "R11",
 				"gauge": "GACC-145",
 				"dimensions": {
-					"lenght": "50.7",
+					"length": "50.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -4690,7 +4690,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "31.5",
+					"length": "31.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -4732,7 +4732,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "51.5",
+					"length": "51.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -4770,7 +4770,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "40.8",
+					"length": "40.8",
 					"rodDiameter": "3.5",
 					"brushDiameter": "2.08"
 				},
@@ -4811,7 +4811,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "20.3",
+					"length": "20.3",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.82"
 				},
@@ -4853,7 +4853,7 @@
 				"thread": "R11",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "42.65",
+					"length": "42.65",
 					"rodDiameter": "3.5",
 					"brushDiameter": "1.2"
 				},
@@ -4897,7 +4897,7 @@
 				"thread": "R13",
 				"gauge": "GACC-226",
 				"dimensions": {
-					"lenght": "69.1",
+					"length": "69.1",
 					"rodDiameter": "4.6",
 					"brushDiameter": "2.65"
 				},
@@ -4934,7 +4934,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "55.7",
+					"length": "55.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.79"
 				},
@@ -4977,7 +4977,7 @@
 				"thread": "R13",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "52.7",
+					"length": "52.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "1.2"
 				},
@@ -5022,7 +5022,7 @@
 				"thread": "R15",
 				"gauge": "92",
 				"dimensions": {
-					"lenght": "65.7",
+					"length": "65.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.46"
 				},
@@ -5055,7 +5055,7 @@
 				"cavity": "8",
 				"thread": "R15",
 				"dimensions": {
-					"lenght": "67.5",
+					"length": "67.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.67"
 				},
@@ -5098,7 +5098,7 @@
 				"thread": "R15",
 				"gauge": "GACC-162",
 				"dimensions": {
-					"lenght": "62.5",
+					"length": "62.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.82"
 				},
@@ -5142,7 +5142,7 @@
 				"thread": "R11",
 				"gauge": "GACC-145",
 				"dimensions": {
-					"lenght": "35.5",
+					"length": "35.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.58"
 				},
@@ -5181,7 +5181,7 @@
 				"thread": "R11",
 				"gauge": "GACC-97",
 				"dimensions": {
-					"lenght": "40.9",
+					"length": "40.9",
 					"rodDiameter": "2.8",
 					"brushDiameter": "1.7"
 				},
@@ -5224,7 +5224,7 @@
 				"thread": "R11",
 				"gauge": "GACC-358",
 				"dimensions": {
-					"lenght": "50.6",
+					"length": "50.6",
 					"rodDiameter": "3.5",
 					"brushDiameter": "1.2"
 				},
@@ -5266,7 +5266,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "26.7",
+					"length": "26.7",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.76"
 				},
@@ -5308,7 +5308,7 @@
 				"cavity": "8",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "59.4",
+					"length": "59.4",
 					"rodDiameter": "5.6",
 					"brushDiameter": "1.38"
 				},
@@ -5352,7 +5352,7 @@
 				"thread": "R11",
 				"gauge": "GACC-285",
 				"dimensions": {
-					"lenght": "53",
+					"length": "53",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.7"
 				},
@@ -5393,7 +5393,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "39.13",
+					"length": "39.13",
 					"rodDiameter": "3.5",
 					"brushDiameter": "1.3"
 				},
@@ -5437,7 +5437,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "39.13",
+					"length": "39.13",
 					"rodDiameter": "3.5",
 					"brushDiameter": "1.3"
 				},
@@ -5472,7 +5472,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "35",
+					"length": "35",
 					"rodDiameter": "4.6",
 					"brushDiameter": "2.65"
 				},
@@ -5514,7 +5514,7 @@
 				"cavity": "16",
 				"thread": "R11",
 				"dimensions": {
-					"lenght": "30.5",
+					"length": "30.5",
 					"rodDiameter": "4.3",
 					"brushDiameter": "2.76"
 				},
@@ -5555,7 +5555,7 @@
 				"cavity": "",
 				"thread": "",
 				"dimensions": {
-					"lenght": "44.49",
+					"length": "44.49",
 					"rodDiameter": "4.6",
 					"brushDiameter": "1.3"
 				},

@@ -108,7 +108,7 @@ export const BottleModal = () => {
                     addBottle(element);
                   }}
                 >
-                  Add
+                  Add Bottle
                 </Button>
               </Section>
             </Modal.Content>
@@ -120,7 +120,6 @@ export const BottleModal = () => {
 };
 
 export const BrushModal = () => {
-
   const addBrush = async (data) => {
     const ServerCall = await axios
       .post("/brush", {
@@ -172,7 +171,7 @@ export const BrushModal = () => {
                   addBrush(element);
                 }}
               >
-                Add
+                Add Brush
               </Button>
             </Section>
             </Modal.Content>
@@ -184,6 +183,33 @@ export const BrushModal = () => {
 };
 
 export const RodModal = () => {
+  const addRod = async (data) => {
+    const ServerCall = await axios
+      .post("/rod", {
+        name: data.name,
+        drawing: data.drawing,
+        thread: data.thread,
+        dimensions: {
+          length: data.dimensions.length,
+          rodDiameter: data.dimensions.rodDiameter,
+          brushDiameter: data.dimensions.brushDiameter,
+        }
+      })
+      .then(function (response) {
+        if (response.status === 200) {
+          alert("Rod added to the list!");
+          console.log("Succesfully added");
+        } else {
+          const err = new Error(response.error);
+          console.log(err);
+          throw err;
+        }
+      })
+      .catch(function (error) {
+        alert(error);
+      });
+  };
+
   const { isLoading, error, data } = useQuery("rods", getRods);
   if (isLoading) return "Loading...";
   if (error) {
@@ -191,22 +217,31 @@ export const RodModal = () => {
   }
   return (
     <div>
-      <OpenModal modal={{ closeOnBlur: true }} name="Rod">
-        <div className="modal-body">
-          {data.map((element) => (
-            <Modal.Content>
-              <Section style={{ backgroundColor: "white" }}>
-                <p>
-                  <strong>{element.name}</strong>{" "}
-                  <small>{element.drawing}</small> <small>{element.mold}</small>
-                  <br />
-                  Something else
-                </p>
-              </Section>
-            </Modal.Content>
-          ))}
-        </div>
-      </OpenModal>
+    <OpenModal modal={{ closeOnBlur: true }} name="Rod">
+      <div className="modal-body">
+        <h1>hola</h1>
+        {data.map((element) => (
+          <Modal.Content>
+          <Section style={{ backgroundColor: "white" }}>
+            <p>
+              <strong>{element.name}</strong>
+              <small>{element.thread}</small> <small>{element.drawing}</small>
+              <br />
+            </p>
+            <Button
+              type="submit"
+              color="info"
+              onClick={() => {
+                addRod(element);
+              }}
+            >
+              Add Rod
+            </Button>
+          </Section>
+          </Modal.Content>
+        ))}
+      </div>
+    </OpenModal>
     </div>
   );
 };

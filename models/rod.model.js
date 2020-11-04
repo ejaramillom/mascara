@@ -3,31 +3,31 @@ const mongoose = require("mongoose")
 const RodSchema = mongoose.Schema({
 	name: {type: String, required: true},
 	drawing: {type: Number, required: true},
-  mold: {type: Number, required: true},
-  holder: {type: Number, required: true},
-  cavity: {type: Number, required: true},
+  mold: {type: Number},
+  holder: {type: Number},
+  cavity: {type: Number},
   thread: {type: String, required: true},
 	dimensions: {
-		lenght: {type: Number, required: true},
+		length: {type: Number, required: true},
 		rodDiameter: {type: Number, required: true},
 		brushDiameter: {type: Number, required: true}
 	},
 	versionAssembly: {
 		capsule: {
-			mold: {type: Number, required: true},
-			drawing: {type: String, required: true},
+			mold: {type: Number},
+			drawing: {type: String},
 		},
 		pin: {
-			mold: {type: Number, required: true},
-			drawing: {type: String, required: true},
+			mold: {type: Number},
+			drawing: {type: String},
 		},
 		pinHolder: {
-			mold: {type: Number, required: true},
-			drawing: {type: String, required: true},
+			mold: {type: Number},
+			drawing: {type: String},
 		},
-		threadedCore: {type: String, required: true},
-		cavityInsert: {type: String, required: true},
-		cavity: {type: String, required: true}
+		threadedCore: {type: String},
+		cavityInsert: {type: String},
+		cavity: {type: String}
 	},
 	productAssemblies: {
 		pa1: {type: Number},

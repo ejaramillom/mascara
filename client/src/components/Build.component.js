@@ -37,8 +37,8 @@ const Build = ( ) => {
       .post("/delete")
       .then(function (response) {
         if (response.status === 200) {
-          alert("Build deleted!");
           console.log("Succesfully deleted");
+          alert("Build deleted!");
         } else {
           const err = new Error(response.error);
           console.log(err);
