@@ -1,11 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import Modal from "react-bulma-components/lib/components/modal";
 import Button from "react-bulma-components/lib/components/button";
-import Content from "react-bulma-components/lib/components/content";
 import Section from "react-bulma-components/lib/components/section";
-import { Redirect } from 'react-router';
-import { select, boolean } from "@storybook/addon-knobs";
 import axios from "axios";
 
 import {
@@ -16,7 +13,6 @@ import {
   getCaps,
 } from "../middlewares/services";
 import { useQuery } from "react-query";
-import { colors } from "../features/colors.js";
 import "../App.css";
 
 export class OpenModal extends React.Component {
@@ -60,8 +56,7 @@ export class OpenModal extends React.Component {
 
 export const BottleModal = () => {
   const addBottle = async (data) => {
-    const ServerCall = await axios
-      .post("/bottle", {
+    await axios.post("/bottle", {
         name: data.name,
         drawing: data.drawing,
         mold: data.mold,
@@ -121,8 +116,7 @@ export const BottleModal = () => {
 
 export const BrushModal = () => {
   const addBrush = async (data) => {
-    const ServerCall = await axios
-      .post("/brush", {
+    await axios.post("/brush", {
         brush: data.brush,
         original: data.original,
         shaftLength: data.shaftLength,
@@ -184,8 +178,7 @@ export const BrushModal = () => {
 
 export const RodModal = () => {
   const addRod = async (data) => {
-    const ServerCall = await axios
-      .post("/rod", {
+    await axios.post("/rod", {
         name: data.name,
         drawing: data.drawing,
         thread: data.thread,

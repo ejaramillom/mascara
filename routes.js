@@ -35,7 +35,7 @@ router.post("/bottle", async (req, res, next) => {
     "bottle.drawing": req.body.drawing,
     "bottle.mold": req.body.mold,
     "bottle.depth": req.body.depth,
-    "bottle.thread": req.body.thread,
+    "bottle.thread": req.body.thread
   };
 
   try {
@@ -50,7 +50,13 @@ router.post("/bottle", async (req, res, next) => {
     } else if (already_bottle)  {
       const build = await Build.updateOne(
         { name: "mascara" },
-        { "bottle.name": req.body.name }
+        {
+          "bottle.name": req.body.name,
+          "bottle.drawing": req.body.drawing,
+          "bottle.mold": req.body.mold,
+          "bottle.depth": req.body.depth,
+          "bottle.thread": req.body.thread
+        }
       );
       console.log("Bottle updated to build!");
       res.status(200).send("Bottle updated in build list!");
@@ -108,7 +114,14 @@ router.post("/brush", async (req, res, next) => {
     } else if (already_brush)  {
       const build = await Build.updateOne(
         { name: "mascara" },
-        { "brush.brush": req.body.brush }
+        {
+          "brush.brush": req.body.brush,
+          "brush.original": req.body.original,
+          "brush.shaftLength": req.body.shaftLength,
+          "brush.shaftDiameter": req.body.shaftDiameter,
+          "brush.brushLength": req.body.brushLength,
+          "brush.brushDiameter": req.body.brushDiameter
+        }
       );
       console.log("Brush updated to build!");
       res.status(200).send("brush updated in build list!");
@@ -166,7 +179,14 @@ router.post("/rod", async (req, res, next) => {
     } else if (already_rod)  {
       const build = await Build.updateOne(
         { name: "mascara" },
-        { "rod.name": req.body.name }
+        {
+          "rod.name": req.body.name,
+          "rod.drawing": req.body.drawing,
+          "rod.thread": req.body.thread,
+          "rod.dimensions.length": req.body.dimensions.length,
+          "rod.dimensions.rodDiameter": req.body.dimensions.rodDiameter,
+          "rod.dimensions.brushDiameter": req.body.dimensions.brushDiameter
+        }
       );
       console.log("Rod updated to build!");
       res.status(200).send("Rod updated in build list!");

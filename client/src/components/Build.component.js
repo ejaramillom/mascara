@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../App.css';
 import { select, boolean } from '@storybook/addon-knobs';
 import Button from 'react-bulma-components/lib/components/button';
@@ -7,14 +7,17 @@ import Container from 'react-bulma-components/lib/components/container';
 import Heading from 'react-bulma-components/lib/components/heading';
 import { useQuery } from "react-query";
 import {
-  OpenModal,
   BottleModal,
   BrushModal,
   RodModal,
   CapModal,
   WiperModal
 } from './OpenModal.component';
+import {
+  Compatibility
+} from './Compatibility.component';
 import { getBuild } from "../middlewares/services";
+import { gapChange } from "../middlewares/services";
 import axios from "axios";
 
 const positions = {
@@ -24,17 +27,15 @@ const positions = {
 };
 
 const Build = ( ) => {
-
+  const [gap, setGap] = useState(false);
   const { isLoading, error, data } = useQuery("build", getBuild);
-  console.log(data);
   if (isLoading) return "Loading...";
   if (error) {
     return "Oops! " + error.message;
   }
 
   const deleteBuild = async () => {
-    const ServerCall = await axios
-      .post("/delete")
+    await axios.post("/delete")
       .then(function (response) {
         if (response.status === 200) {
           console.log("Succesfully deleted");
@@ -52,9 +53,11 @@ const Build = ( ) => {
 
   return (
     <div className="App App-header">
+      <Compatibility>
+      </Compatibility>
       <Section>
           { data.map( element =>
-            <div>
+            <div onChange = {gapChange}>
               {element.bottle ? <li key = { element.bottle.name }>{ element.bottle.name }</li> : "" }
               {element.brush ? <li key = { element.brush.brush }>{ element.brush.brush }</li> : "" }
               {element.rod ? <li key = { element.rod.name }>{ element.rod.name }</li> : "" }
@@ -93,4 +96,4 @@ const Build = ( ) => {
   );
 }
 
-export default Build;
+export  default Build;
