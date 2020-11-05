@@ -22,6 +22,3 @@ export const getBuild = () => {
   return fetch("/build")
   .then(response => response.json());
 }
-export const gapChange = (props) => {
-
-}

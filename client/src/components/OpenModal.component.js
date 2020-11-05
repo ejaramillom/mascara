@@ -57,25 +57,25 @@ export class OpenModal extends React.Component {
 export const BottleModal = () => {
   const addBottle = async (data) => {
     await axios.post("/bottle", {
-        name: data.name,
-        drawing: data.drawing,
-        mold: data.mold,
-        depth: data.depth,
-        thread: data.thread
-      })
-      .then(function (response) {
-        if (response.status === 200) {
-          alert("Bottle added to the list!");
-          console.log("Succesfully added");
-        } else {
-          const err = new Error(response.error);
-          console.log(err);
-          throw err;
-        }
-      })
-      .catch(function (error) {
-        alert(error);
-      });
+      name: data.name,
+      drawing: data.drawing,
+      mold: data.mold,
+      depth: data.depth,
+      thread: data.thread
+    })
+    .then(function (response) {
+      if (response.status === 200) {
+        alert("Bottle added to the list!");
+        console.log("Succesfully added");
+      } else {
+        const err = new Error(response.error);
+        console.log(err);
+        throw err;
+      }
+    })
+    .catch(function (error) {
+      alert(error);
+    });
   };
 
   const { isLoading, error, data } = useQuery("bottles", getBottles);
@@ -88,6 +88,7 @@ export const BottleModal = () => {
     <div>
       <OpenModal modal={{ closeOnBlur: true }} name="Bottle">
         <div className="modal-body">
+        <h1>Bottle</h1>
           {data.map((element) => (
             <Modal.Content>
               <Section style={{ backgroundColor: "white" }}>
@@ -149,7 +150,7 @@ export const BrushModal = () => {
     <div>
       <OpenModal modal={{ closeOnBlur: true }} name="Brush">
         <div className="modal-body">
-          <h1>hola</h1>
+          <h1>Brush</h1>
           {data.map((element) => (
             <Modal.Content>
             <Section style={{ backgroundColor: "white" }}>
@@ -212,7 +213,7 @@ export const RodModal = () => {
     <div>
     <OpenModal modal={{ closeOnBlur: true }} name="Rod">
       <div className="modal-body">
-        <h1>hola</h1>
+        <h1>Rod</h1>
         {data.map((element) => (
           <Modal.Content>
           <Section style={{ backgroundColor: "white" }}>
