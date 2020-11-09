@@ -72,7 +72,9 @@ router.post("/bottle", async (req, res, next) => {
 router.get("/build", async (req, res, next) => {
   try {
     const build = await Build.find();
+    console.log(">");
     console.log("succesfully found build list");
+    if (build[0]) { console.log(build[0].bottle.thread)};
     return res.send(build);
   } catch (err) {
     console.log(err);

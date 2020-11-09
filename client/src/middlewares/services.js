@@ -1,3 +1,5 @@
+import axios from "axios";
+
 export const getBottles = () => {
   return fetch("/bottle")
   .then(response => response.json());
@@ -18,7 +20,7 @@ export const getWipers = () => {
   return fetch("/wiper")
   .then(response => response.json());
 }
-export const getBuild = () => {
-  return fetch("/build")
-  .then(response => response.json());
-}
+export const getBuild = async () => {
+ const { data } = await axios.get("/build");
+ return data;
+};
