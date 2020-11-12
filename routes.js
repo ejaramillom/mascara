@@ -74,7 +74,6 @@ router.get("/build", async (req, res, next) => {
     const build = await Build.find();
     console.log(">");
     console.log("succesfully found build list");
-    if (build[0]) { console.log(build[0].bottle.thread)};
     return res.send(build);
   } catch (err) {
     console.log(err);
@@ -101,7 +100,8 @@ router.post("/brush", async (req, res, next) => {
     "brush.shaftLength": req.body.shaftLength,
     "brush.shaftDiameter": req.body.shaftDiameter,
     "brush.brushLength": req.body.brushLength,
-    "brush.brushDiameter": req.body.brushDiameter
+    "brush.brushDiameter": req.body.brushDiameter,
+    "brush.type": req.body.type
   };
 
   try {
@@ -122,7 +122,8 @@ router.post("/brush", async (req, res, next) => {
           "brush.shaftLength": req.body.shaftLength,
           "brush.shaftDiameter": req.body.shaftDiameter,
           "brush.brushLength": req.body.brushLength,
-          "brush.brushDiameter": req.body.brushDiameter
+          "brush.brushDiameter": req.body.brushDiameter,
+          "brush.type": req.body.type,
         }
       );
       console.log("Brush updated to build!");

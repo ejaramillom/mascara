@@ -14,7 +14,8 @@ import {
   WiperModal
 } from './OpenModal.component';
 import {
-  Compatibility
+  ThreadCompatibility,
+  BrushRodCompatibility
 } from './Compatibility.component';
 import { getBuild } from "../middlewares/services";
 import axios from "axios";
@@ -54,30 +55,43 @@ const Build = () => {
       } else {
         setThread(false);
       }
+    } else {
+      alert("There is missing data on the mascara")
     }
   };
   const verifyRodBrush = () => {
     if (data[0] && data[0].brush && data[0].rod) {
+      let brushRodDiff =  Number(data[0].rod.dimensions.brushDiameter) - Number(data[0].brush.shaftDiameter);
       if (data[0].brush.type === "INYECTADO") {
-        let brushRodDiff =  Number(data[0].rod.dimensions.brushDiameter) - Number(data[0].brush.shaftDiameter);
-        if ( brushRodDiff > 0.05 && brushRodDiff < 0.15){
+        if (brushRodDiff > 0.05 && brushRodDiff < 0.15){
           setRodBrush(true);
         } else {
           alert("Cannot calculate")
         }
       }
       if (data[0].brush.type === "NYLON") {
-        let brushRodDiff = Number(data[0].brush.shaftDiameter) - Number(data[0].rod.dimensions.rodDiameter);
-        (brushRodDiff > -0.05 && brushRodDiff < 0.1 ? setRodBrush(true) : setRodBrush(false))
+        if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
+          setRodBrush(true);
+        } else {
+          alert("Cannot calculate")
+        }
       }
       if (data[0].brush.type === "LIP GLOSS") {
-        let brushRodDiff = Number(data[0].brush.shaftDiameter) - Number(data[0].rod.dimensions.rodDiameter);
-        (brushRodDiff > 0 && brushRodDiff < 0.2 ? setRodBrush(true) : setRodBrush(false))
+        if (brushRodDiff > 0 && brushRodDiff < 0.2){
+          setRodBrush(true);
+        } else {
+          alert("Cannot calculate")
+        }
       }
       if (data[0].brush.type === "DELINEADOR") {
-        let brushRodDiff = Number(data[0].brush.shaftDiameter) - Number(data[0].rod.dimensions.rodDiameter);
-        (brushRodDiff > -0.05 && brushRodDiff < 0.1 ? setRodBrush(true) : setRodBrush(false))
+        if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
+          setRodBrush(true);
+        } else {
+          alert("Cannot calculate")
+        }
       }
+    } else {
+      alert("There is missing data on the mascara")
     }
   };
   const verifyBrushWiper = () => {
@@ -87,6 +101,8 @@ const Build = () => {
       } else {
         setBrushWiper(false);
       }
+    } else {
+      alert("There is missing data on the mascara")
     }
   };
   const verifyGap = () => {
@@ -96,6 +112,8 @@ const Build = () => {
       } else {
         setGap(false);
       }
+    } else {
+      alert("There is missing data on the mascara")
     }
   };
   const reset = () => {
@@ -107,10 +125,10 @@ const Build = () => {
 
   return (
     <div className="App App-header">
-      <Compatibility thread={thread}>
-      </Compatibility>
-      <Compatibility rodBrush={rodBrush}>
-      </Compatibility>
+      <ThreadCompatibility thread={thread}>
+      </ThreadCompatibility>
+      <BrushRodCompatibility rodBrush={rodBrush}>
+      </BrushRodCompatibility>
       <Section>
         { data.map( element =>
           <div>

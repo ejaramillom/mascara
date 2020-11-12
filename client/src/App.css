@@ -53,6 +53,10 @@
   background-color: #23d160;
   color: #fff
 }
+.bd-notification.is-warning {
+  background-color: #dab420;
+  color: #fff
+}
 
 .section {
   padding: 3rem 1.5rem;
