@@ -33,6 +33,20 @@ export const BrushWiperCompatible = (props) => {
     </div>
   );
 }
+export const RodBrushCompatible = (props) => {
+  return (
+    <div>
+      <Section>
+        <Container>
+          <p className="bd-notification is-success">
+            <Heading size={5} renderAs="p">Rod - Brush</Heading>
+            <Heading subtitle renderAs="p">The brush fits inside the hole of the rod</Heading>
+          </p>
+        </Container>
+      </Section>
+    </div>
+  );
+}
 
 export const GapCompatible = (props) => {
   return (
@@ -52,6 +66,7 @@ export const GapCompatible = (props) => {
 export const Compatibility = (props) => {
   const thread = props.thread;
   const brushWiper = props.brushWiper;
+  const rodBrush = props.rodBrush;
   const gap = props.gap;
   if (thread) {
     return (
@@ -59,11 +74,52 @@ export const Compatibility = (props) => {
         <ThreadCompatible />
       </div>
       );
+  } else if (rodBrush) {
+    return (
+      <div>
+        <RodBrushCompatible />
+      </div>
+    );
   } else if (thread && brushWiper) {
     return (
       <div>
         <ThreadCompatible />
         <BrushWiperCompatible />
+      </div>
+    );
+  } else if (thread && rodBrush) {
+    return (
+      <div>
+        <ThreadCompatible />
+        <RodBrushCompatible />
+      </div>
+    );
+  } else if (thread && gap ) {
+    return (
+      <div>
+        <ThreadCompatible />
+        <GapCompatible />
+      </div>
+    );
+  } else if (brushWiper && rodBrush ) {
+    return (
+      <div>
+        <BrushWiperCompatible />
+        <RodBrushCompatible />
+      </div>
+    );
+  } else if (brushWiper && gap ) {
+    return (
+      <div>
+        <BrushWiperCompatible />
+        <GapCompatible />
+      </div>
+    );
+  } else if (rodBrush && gap ) {
+    return (
+      <div>
+        <RodBrushCompatible />
+        <GapCompatible />
       </div>
     );
   } else if (thread && brushWiper && gap ) {
@@ -74,23 +130,9 @@ export const Compatibility = (props) => {
         <GapCompatible />
       </div>
     );
-  } else if (brushWiper && gap ) {
+  }  else if (gap ) {
     return (
       <div>
-        <BrushWiperCompatible />
-        <GapCompatible />
-      </div>
-    );
-  } else if (gap ) {
-    return (
-      <div>
-        <GapCompatible />
-      </div>
-    );
-  } else if (thread && gap ) {
-    return (
-      <div>
-        <ThreadCompatible />
         <GapCompatible />
       </div>
     );

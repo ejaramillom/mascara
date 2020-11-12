@@ -4,7 +4,6 @@ import Modal from "react-bulma-components/lib/components/modal";
 import Button from "react-bulma-components/lib/components/button";
 import Section from "react-bulma-components/lib/components/section";
 import axios from "axios";
-
 import {
   getBrushes,
   getBottles,
@@ -37,7 +36,7 @@ export class OpenModal extends React.Component {
   render() {
     return (
       <div>
-        <Button color="info" onClick={this.open}>
+        <Button color="light" onClick={this.open}>
           {" "}
           {this.props.name}{" "}
         </Button>
@@ -88,7 +87,7 @@ export const BottleModal = () => {
     <div>
       <OpenModal modal={{ closeOnBlur: true }} name="Bottle">
         <div className="modal-body">
-        <h1>Bottle</h1>
+        <h1 className="modalText">Bottle</h1>
           {data.map((element) => (
             <Modal.Content>
               <Section style={{ backgroundColor: "white" }}>
@@ -124,6 +123,7 @@ export const BrushModal = () => {
         shaftDiameter: data.shaftDiameter,
         brushLength: data.brushLength,
         brushDiameter: data.brushDiameter,
+        type: data.type
       })
       .then(function (response) {
         if (response.status === 200) {
@@ -150,7 +150,7 @@ export const BrushModal = () => {
     <div>
       <OpenModal modal={{ closeOnBlur: true }} name="Brush">
         <div className="modal-body">
-          <h1>Brush</h1>
+          <h1 className="modalText">Brush</h1>
           {data.map((element) => (
             <Modal.Content>
             <Section style={{ backgroundColor: "white" }}>
@@ -213,7 +213,7 @@ export const RodModal = () => {
     <div>
     <OpenModal modal={{ closeOnBlur: true }} name="Rod">
       <div className="modal-body">
-        <h1>Rod</h1>
+        <h1 className="modalText">Rod</h1>
         {data.map((element) => (
           <Modal.Content>
           <Section style={{ backgroundColor: "white" }}>

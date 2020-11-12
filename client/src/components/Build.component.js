@@ -21,19 +21,11 @@ import axios from "axios";
 
 const Build = () => {
   const [thread, setThread] = useState(false);
+  const [rodBrush, setRodBrush] = useState(false);
+  const [brushWiper, setBrushWiper] = useState(false);
+  const [gap, setGap] = useState(false);
   const [build, setBuild] = useState([]);
   const { isLoading, error, data } = useQuery("build", getBuild);
-
-  useEffect(() => {
-    // if (build[0] && build[0].bottle && build[0].rod) {
-    //   if (build[0].bottle.thread === build[0].rod.thread) {
-    //     setThread(true);
-    //   };
-    // } else {
-    //   setThread(false);
-    // }
-    setBuild(data);
-  }, []);
 
   if (isLoading) return "Loading...";
   if (error) return "Oops! ";
@@ -59,15 +51,65 @@ const Build = () => {
     if (data[0] && data[0].bottle && data[0].rod) {
       if (data[0].bottle.thread === data[0].rod.thread) {
         setThread(true);
-      };
-    } else {
-      setThread(false);
+      } else {
+        setThread(false);
+      }
     }
-  }
+  };
+  const verifyRodBrush = () => {
+    if (data[0] && data[0].brush && data[0].rod) {
+      if (data[0].brush.type === "INYECTADO") {
+        let brushRodDiff =  Number(data[0].rod.dimensions.brushDiameter) - Number(data[0].brush.shaftDiameter);
+        if ( brushRodDiff > 0.05 && brushRodDiff < 0.15){
+          setRodBrush(true);
+        } else {
+          alert("Cannot calculate")
+        }
+      }
+      if (data[0].brush.type === "NYLON") {
+        let brushRodDiff = Number(data[0].brush.shaftDiameter) - Number(data[0].rod.dimensions.rodDiameter);
+        (brushRodDiff > -0.05 && brushRodDiff < 0.1 ? setRodBrush(true) : setRodBrush(false))
+      }
+      if (data[0].brush.type === "LIP GLOSS") {
+        let brushRodDiff = Number(data[0].brush.shaftDiameter) - Number(data[0].rod.dimensions.rodDiameter);
+        (brushRodDiff > 0 && brushRodDiff < 0.2 ? setRodBrush(true) : setRodBrush(false))
+      }
+      if (data[0].brush.type === "DELINEADOR") {
+        let brushRodDiff = Number(data[0].brush.shaftDiameter) - Number(data[0].rod.dimensions.rodDiameter);
+        (brushRodDiff > -0.05 && brushRodDiff < 0.1 ? setRodBrush(true) : setRodBrush(false))
+      }
+    }
+  };
+  const verifyBrushWiper = () => {
+    if (data[0] && data[0].bottle && data[0].rod) {
+      if (data[0].bottle.thread === data[0].rod.thread) {
+        setBrushWiper(true);
+      } else {
+        setBrushWiper(false);
+      }
+    }
+  };
+  const verifyGap = () => {
+    if (data[0] && data[0].bottle && data[0].rod) {
+      if (data[0].bottle.thread === data[0].rod.thread) {
+        setGap(true);
+      } else {
+        setGap(false);
+      }
+    }
+  };
+  const reset = () => {
+    setThread(false);
+    setGap(false);
+    setBrushWiper(false);
+    setRodBrush(false);
+  };
 
   return (
-    <div className="App">
+    <div className="App App-header">
       <Compatibility thread={thread}>
+      </Compatibility>
+      <Compatibility rodBrush={rodBrush}>
       </Compatibility>
       <Section>
         { data.map( element =>
@@ -81,6 +123,7 @@ const Build = () => {
             {element.brush ?
               <div>
                 <li key = { element.brush.brush }>{ element.brush.brush }</li>
+                <li key = { element.brush.type }>{ element.brush.type }</li>
               </div>
               : "" }
             {element.rod ?
@@ -94,30 +137,83 @@ const Build = () => {
       </Section>
       <Section>
         <Container>
-          <Button
-            color="info"
-            onClick={() => {
-              deleteBuild();
-            }}
+
+          <Button.Group
+            position="centered"
+            size="medium"
           >
-            Erase build
-          </Button>
-          <Button
-            color="info"
-            onClick={() => {
-              verifyThread();
-            }}
+            <Button
+              color="danger"
+              onClick={() => {
+                deleteBuild();
+              }}
+            >
+              Erase build
+            </Button>
+            <Button
+              color="info"
+              onClick={() => {
+                reset();
+              }}
+            >
+              Reset
+            </Button>
+            <Button
+              color="info"
+              onClick={() => {
+                setRodBrush(true);
+                setThread(true);
+              }}
+            >
+              Check state
+            </Button>
+          </Button.Group>
+
+          <Button.Group
+            position="centered"
+            size="medium"
           >
-            thread
-          </Button>
+            <Button
+              color="light"
+              onClick={() => {
+                verifyThread();
+              }}
+            >
+              Check thread
+            </Button>
+            <Button
+              color="light"
+              onClick={() => {
+                verifyRodBrush();
+              }}
+            >
+              Check rod and brush
+            </Button>
+            <Button
+              color="light"
+              onClick={() => {
+                verifyBrushWiper();
+              }}
+            >
+              Check brush and wiper
+            </Button>
+            <Button
+              color="light"
+              onClick={() => {
+                verifyGap();
+              }}
+            >
+              Check gap
+            </Button>
+          </Button.Group>
+
           <p>
             <Heading size={5} renderAs="p">Build</Heading>
             <Heading subtitle renderAs="p">Mascara</Heading>
           </p>
           <Button.Group
-            hasAddons={boolean('hasAddons', false)}
             position="centered"
-            size={select('Size', { small: 'small', medium: 'medium', large: 'large' })}
+            size="medium"
           >
             <BottleModal>
             </BottleModal>
