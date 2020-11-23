@@ -36,7 +36,7 @@ export class OpenModal extends React.Component {
   render() {
     return (
       <div>
-        <Button color="light" onClick={this.open}>
+        <Button color="dark" onClick={this.open}>
           {" "}
           {this.props.name}{" "}
         </Button>
@@ -85,9 +85,8 @@ export const BottleModal = () => {
 
   return (
     <div>
-      <OpenModal modal={{ closeOnBlur: true }} name="Bottle">
+      <OpenModal modal={{ closeOnBlur: false }} name="Bottle">
         <div className="modal-body">
-        <h1 className="modalText">Bottle</h1>
           {data.map((element) => (
             <Modal.Content>
               <Section style={{ backgroundColor: "white" }}>
@@ -148,9 +147,8 @@ export const BrushModal = () => {
 
   return (
     <div>
-      <OpenModal modal={{ closeOnBlur: true }} name="Brush">
+      <OpenModal modal={{ closeOnBlur: false }} name="Brush">
         <div className="modal-body">
-          <h1 className="modalText">Brush</h1>
           {data.map((element) => (
             <Modal.Content>
             <Section style={{ backgroundColor: "white" }}>
@@ -211,9 +209,8 @@ export const RodModal = () => {
   }
   return (
     <div>
-    <OpenModal modal={{ closeOnBlur: true }} name="Rod">
+    <OpenModal modal={{ closeOnBlur: false }} name="Rod">
       <div className="modal-body">
-        <h1 className="modalText">Rod</h1>
         {data.map((element) => (
           <Modal.Content>
           <Section style={{ backgroundColor: "white" }}>

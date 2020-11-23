@@ -52,9 +52,9 @@ export const BrushWiperIncompatible = (props) => {
     <div>
       <Section>
         <Container>
-          <p className="bd-notification is-success">
+          <p className="bd-notification is-warning">
             <Heading size={5} renderAs="p">Brush - wiper</Heading>
-            <Heading subtitle renderAs="p">The brush fits inside the hole of the wiper</Heading>
+            <Heading subtitle renderAs="p">The brush won't work with the hole of the wiper</Heading>
           </p>
         </Container>
       </Section>
@@ -62,7 +62,7 @@ export const BrushWiperIncompatible = (props) => {
   );
 }
 
-export const RodBrushCompatible = (props) => {
+export const BrushRodCompatible = (props) => {
   return (
     <div>
       <Section>
@@ -76,7 +76,7 @@ export const RodBrushCompatible = (props) => {
     </div>
   );
 }
-export const RodBrushIncompatible = (props) => {
+export const BrushRodIncompatible = (props) => {
   return (
     <div>
       <Section>
@@ -120,7 +120,6 @@ export const GapIncompatible = (props) => {
   );
 }
 
-
 export const ThreadCompatibility = (props) => {
   const thread = props.thread;
   if (thread) {
@@ -142,13 +141,13 @@ export const BrushRodCompatibility = (props) => {
   if (rodBrush) {
     return (
       <div>
-        <RodBrushCompatible />
+        <BrushRodCompatible />
       </div>
       );
   } else {
     return (
       <div>
-       <RodBrushIncompatible />
+       <BrushRodIncompatible />
       </div>
     );
   }

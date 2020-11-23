@@ -5,6 +5,7 @@ import Button from 'react-bulma-components/lib/components/button';
 import Section from 'react-bulma-components/lib/components/section';
 import Container from 'react-bulma-components/lib/components/container';
 import Heading from 'react-bulma-components/lib/components/heading';
+import Tile from 'react-bulma-components/lib/components/tile';
 import { useQuery } from "react-query";
 import {
   BottleModal,
@@ -15,7 +16,9 @@ import {
 } from './OpenModal.component';
 import {
   ThreadCompatibility,
-  BrushRodCompatibility
+  BrushRodCompatibility,
+  BrushWiperCompatibility,
+  GapCompatibility,
 } from './Compatibility.component';
 import { getBuild } from "../middlewares/services";
 import axios from "axios";
@@ -53,6 +56,7 @@ const Build = () => {
       if (data[0].bottle.thread === data[0].rod.thread) {
         setThread(true);
       } else {
+        alert("Threads are different")
         setThread(false);
       }
     } else {
@@ -66,28 +70,28 @@ const Build = () => {
         if (brushRodDiff > 0.05 && brushRodDiff < 0.15){
           setRodBrush(true);
         } else {
-          alert("Cannot calculate")
+          alert("Difference is lower than 0.05mm or bigger than 0.15mm")
         }
       }
       if (data[0].brush.type === "NYLON") {
         if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
           setRodBrush(true);
         } else {
-          alert("Cannot calculate")
+          alert("Difference is lower than -0.05mm or bigger than 0.1mm")
         }
       }
       if (data[0].brush.type === "LIP GLOSS") {
         if (brushRodDiff > 0 && brushRodDiff < 0.2){
           setRodBrush(true);
         } else {
-          alert("Cannot calculate")
+          alert("Difference is lower than 0mm or bigger than 0.2mm")
         }
       }
       if (data[0].brush.type === "DELINEADOR") {
         if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
           setRodBrush(true);
         } else {
-          alert("Cannot calculate")
+          alert("Difference is lower than -0.05mm or bigger than 0.1mm")
         }
       }
     } else {
@@ -95,11 +99,35 @@ const Build = () => {
     }
   };
   const verifyBrushWiper = () => {
-    if (data[0] && data[0].bottle && data[0].rod) {
-      if (data[0].bottle.thread === data[0].rod.thread) {
-        setBrushWiper(true);
-      } else {
-        setBrushWiper(false);
+    if (data[0] && data[0].brush && data[0].rod) {
+      let brushWiperDiff =  Number(data[0].brush.brushDiameter) - Number(data[0].rod.dimensions.rodDiameter) ;
+      if (data[0].brush.type === "INYECTADO") {
+        if (brushWiperDiff > 0.5 && brushWiperDiff < 4.8){
+          setBrushWiper(true);
+        } else {
+          alert("Difference is lower than 0.5mm or bigger than 4.8mm")
+        }
+      }
+      if (data[0].brush.type === "NYLON") {
+        if (brushWiperDiff > 0.8 && brushWiperDiff < 6.4){
+          setBrushWiper(true);
+        } else {
+          alert("Difference is lower than 0.8mm or bigger than 6.4mm")
+        }
+      }
+      if (data[0].brush.type === "LIP GLOSS") {
+        if (brushWiperDiff > -3 && brushWiperDiff < 2){
+          setBrushWiper(true);
+        } else {
+          alert("Difference is lower than -3mm or bigger than 2mm")
+        }
+      }
+      if (data[0].brush.type === "DELINEADOR") {
+        if (brushWiperDiff > 1 && brushWiperDiff < 2){
+          setBrushWiper(true);
+        } else {
+          alert("Difference is lower than 1mm or bigger than 2mm")
+        }
       }
     } else {
       alert("There is missing data on the mascara")
@@ -124,35 +152,28 @@ const Build = () => {
   };
 
   return (
-    <div className="App App-header">
-      <ThreadCompatibility thread={thread}>
-      </ThreadCompatibility>
-      <BrushRodCompatibility rodBrush={rodBrush}>
-      </BrushRodCompatibility>
-      <Section>
-        { data.map( element =>
-          <div>
-            {element.bottle ?
-              <div>
-                <li key = { element.bottle.name }>{ element.bottle.name }</li>
-                <li key = { element.bottle.thread }>{ element.bottle.thread } </li>
-              </div>
-              : "" }
-            {element.brush ?
-              <div>
-                <li key = { element.brush.brush }>{ element.brush.brush }</li>
-                <li key = { element.brush.type }>{ element.brush.type }</li>
-              </div>
-              : "" }
-            {element.rod ?
-              <div>
-                <li key = { element.rod.name }>{ element.rod.name }</li>
-                <li key = { element.rod.thread }>{ element.rod.thread }</li>
-              </div>
-              : "" }
-          </div>
-        )}
-      </Section>
+    <div className="App App-build">
+      <Tile kind="ancestor">
+        <Tile kind="parent">
+          <Tile renderAs="article" kind="child" notification >
+            <ThreadCompatibility thread={thread}>
+            </ThreadCompatibility>
+          </Tile>
+          <Tile renderAs="article" kind="child" notification >
+            <BrushRodCompatibility rodBrush={rodBrush}>
+            </BrushRodCompatibility>
+          </Tile>
+          <Tile renderAs="article" kind="child" notification >
+            <BrushWiperCompatibility brushWiper={brushWiper}>
+            </BrushWiperCompatibility>
+          </Tile>
+          <Tile renderAs="article" kind="child" notification >
+            <GapCompatibility gap={gap}>
+            </GapCompatibility>
+          </Tile>
+        </Tile>
+      </Tile>
+
       <Section>
         <Container>
 
@@ -181,6 +202,7 @@ const Build = () => {
               onClick={() => {
                 setRodBrush(true);
                 setThread(true);
+                setBrushWiper(true);
               }}
             >
               Check state
@@ -192,7 +214,7 @@ const Build = () => {
             size="medium"
           >
             <Button
-              color="light"
+              color="dark"
               onClick={() => {
                 verifyThread();
               }}
@@ -200,7 +222,7 @@ const Build = () => {
               Check thread
             </Button>
             <Button
-              color="light"
+              color="dark"
               onClick={() => {
                 verifyRodBrush();
               }}
@@ -208,7 +230,7 @@ const Build = () => {
               Check rod and brush
             </Button>
             <Button
-              color="light"
+              color="dark"
               onClick={() => {
                 verifyBrushWiper();
               }}
@@ -216,7 +238,7 @@ const Build = () => {
               Check brush and wiper
             </Button>
             <Button
-              color="light"
+              color="dark"
               onClick={() => {
                 verifyGap();
               }}
@@ -241,6 +263,30 @@ const Build = () => {
             </RodModal>
           </Button.Group>
         </Container>
+      </Section>
+      <Section>
+        { data.map( element =>
+          <div>
+            {element.bottle ?
+              <div>
+                <li key = { element.bottle.name }>{ element.bottle.name }</li>
+                <li key = { element.bottle.thread }>{ element.bottle.thread } </li>
+              </div>
+              : "" }
+            {element.brush ?
+              <div>
+                <li key = { element.brush.brush }>{ element.brush.brush }</li>
+                <li key = { element.brush.type }>{ element.brush.type }</li>
+              </div>
+              : "" }
+            {element.rod ?
+              <div>
+                <li key = { element.rod.name }>{ element.rod.name }</li>
+                <li key = { element.rod.thread }>{ element.rod.thread }</li>
+              </div>
+              : "" }
+          </div>
+        )}
       </Section>
     </div>
   );
