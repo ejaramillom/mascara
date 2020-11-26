@@ -7,6 +7,7 @@ import Container from 'react-bulma-components/lib/components/container';
 import Heading from 'react-bulma-components/lib/components/heading';
 import Tile from 'react-bulma-components/lib/components/tile';
 import { useQuery } from "react-query";
+import MascaraBuild from './MascaraBuild.component';
 import {
   BottleModal,
   BrushModal,
@@ -20,7 +21,6 @@ import {
   BrushWiperCompatibility,
   GapCompatibility,
 } from './Compatibility.component';
-import { getBuild } from "../middlewares/services";
 import axios from "axios";
 
 const Build = () => {
@@ -28,11 +28,18 @@ const Build = () => {
   const [rodBrush, setRodBrush] = useState(false);
   const [brushWiper, setBrushWiper] = useState(false);
   const [gap, setGap] = useState(false);
-  const [build, setBuild] = useState([]);
-  const { isLoading, error, data } = useQuery("build", getBuild);
+  const [data, setData] = useState([]);
 
-  if (isLoading) return "Loading...";
-  if (error) return "Oops! ";
+  useEffect(() => {
+    // const fetchData = async () => {
+    //   await axios.get("/build")
+    //   .then(axios.spread((mascaraData)=>{
+    //     const mascara = mascaraData.data.results.map(element=>{return element})
+    //     setData(mascara)
+    //   }))
+    // }
+    // fetchData();
+  }, [])
 
   const deleteBuild = async () => {
     await axios.post("/delete")
@@ -176,7 +183,6 @@ const Build = () => {
 
       <Section>
         <Container>
-
           <Button.Group
             position="centered"
             size="medium"
@@ -264,30 +270,7 @@ const Build = () => {
           </Button.Group>
         </Container>
       </Section>
-      <Section>
-        { data.map( element =>
-          <div>
-            {element.bottle ?
-              <div>
-                <li key = { element.bottle.name }>{ element.bottle.name }</li>
-                <li key = { element.bottle.thread }>{ element.bottle.thread } </li>
-              </div>
-              : "" }
-            {element.brush ?
-              <div>
-                <li key = { element.brush.brush }>{ element.brush.brush }</li>
-                <li key = { element.brush.type }>{ element.brush.type }</li>
-              </div>
-              : "" }
-            {element.rod ?
-              <div>
-                <li key = { element.rod.name }>{ element.rod.name }</li>
-                <li key = { element.rod.thread }>{ element.rod.thread }</li>
-              </div>
-              : "" }
-          </div>
-        )}
-      </Section>
+
     </div>
   );
 }
