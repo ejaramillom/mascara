@@ -7,6 +7,7 @@ import Container from 'react-bulma-components/lib/components/container';
 import Heading from 'react-bulma-components/lib/components/heading';
 import Tile from 'react-bulma-components/lib/components/tile';
 import { useQuery } from "react-query";
+import MascaraBuild from './MascaraBuild.component';
 import {
   BottleModal,
   BrushModal,
@@ -21,7 +22,6 @@ import {
   BrushWiperCompatibility,
   GapCompatibility,
 } from './Compatibility.component';
-import { getBuild } from "../middlewares/services";
 import axios from "axios";
 
 const Build = () => {
