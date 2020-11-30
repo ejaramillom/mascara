@@ -1,12 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import '../App.css';
-import { select, boolean } from '@storybook/addon-knobs';
 import Button from 'react-bulma-components/lib/components/button';
 import Section from 'react-bulma-components/lib/components/section';
 import Container from 'react-bulma-components/lib/components/container';
 import Heading from 'react-bulma-components/lib/components/heading';
 import Tile from 'react-bulma-components/lib/components/tile';
-import { useQuery } from "react-query";
 import MascaraBuild from './MascaraBuild.component';
 import {
   BottleModal,
@@ -15,7 +13,6 @@ import {
   CapModal,
   WiperModal
 } from './OpenModal.component';
-import MascaraBuild from './MascaraBuild.component';
 import {
   ThreadCompatibility,
   BrushRodCompatibility,
@@ -34,11 +31,10 @@ const Build = () => {
   useEffect(() => {
     const fetchData = async () => {
       const {data} = await axios.get("/build");
-      console.log("Data retrieved")
       setBuild(data);
     }
     fetchData();
-  }, [Build]);
+  }, [build]);
 
   const deleteBuild = async () => {
     await axios.post("/delete")
@@ -257,7 +253,7 @@ const Build = () => {
             position="centered"
             size="medium"
           >
-            <BottleModal>
+            <BottleModal build={build}>
             </BottleModal>
             <BrushModal>
             </BrushModal>

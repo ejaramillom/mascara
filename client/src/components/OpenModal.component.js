@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from 'react';
 import PropTypes from "prop-types";
 import Modal from "react-bulma-components/lib/components/modal";
 import Button from "react-bulma-components/lib/components/button";
@@ -53,7 +53,17 @@ export class OpenModal extends React.Component {
   }
 }
 
-export const BottleModal = () => {
+export const BottleModal = (props) => {
+  const [bottles, setBottles] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const {data} = await axios.get("/bottle");
+      setBottles(data);
+    }
+    fetchData();
+  }, []);
+
   const addBottle = async (data) => {
     await axios.post("/bottle", {
       name: data.name,
@@ -77,17 +87,48 @@ export const BottleModal = () => {
     });
   };
 
-  const { isLoading, error, data } = useQuery("bottles", getBottles);
-  if (isLoading) return "Loading...";
-  if (error) {
-    return "Oops! " + error.message;
+  const build = props.build;
+
+  if (build && build[0] && build[0].rod){
+    const filteredBottles = bottles.filter( element => {
+      return element.thread.toLowerCase().indexOf(build[0].rod.thread.toLowerCase()) !== -1;
+    });
+
+    return (
+      <div>
+        <OpenModal modal={{ closeOnBlur: false }} name="Bottle">
+          <div className="modal-body">
+            {filteredBottles.map((element) => (
+              <Modal.Content>
+                <Section style={{ backgroundColor: "white" }}>
+                  <p>
+                    <strong>{element.name}</strong>
+                    <small>{element.drawing}</small> <small>{element.mold}</small>
+                    <br />
+                  </p>
+                  <Button
+                    type="submit"
+                    color="info"
+                    onClick={() => {
+                      addBottle(element);
+                    }}
+                  >
+                    Add Bottle
+                  </Button>
+                </Section>
+              </Modal.Content>
+            ))}
+          </div>
+        </OpenModal>
+      </div>
+    );
   }
 
   return (
     <div>
       <OpenModal modal={{ closeOnBlur: false }} name="Bottle">
         <div className="modal-body">
-          {data.map((element) => (
+          {bottles.map((element) => (
             <Modal.Content>
               <Section style={{ backgroundColor: "white" }}>
                 <p>
