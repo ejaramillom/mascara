@@ -22,19 +22,81 @@ import {
 import axios from "axios";
 
 const Build = () => {
+
+  //------hooks
+
   const [thread, setThread] = useState(false);
   const [rodBrush, setRodBrush] = useState(false);
   const [brushWiper, setBrushWiper] = useState(false);
   const [gap, setGap] = useState(false);
   const [build, setBuild] = useState([]);
+  const [modalClick, setModalClick] = useState(false);
+
+  //------hooks end
+
+  //------useEffect
 
   useEffect(() => {
     const fetchData = async () => {
-      const {data} = await axios.get("/build");
+      const {data} = await axios.get("/build")
+      .catch(function (error) {
+        console.log(error)
+      });
       setBuild(data);
     }
     fetchData();
-  }, [build]);
+
+    if (!build[0]) {
+      setThread(false);
+      setGap(false);
+      setBrushWiper(false);
+      setRodBrush(false);
+    }
+
+    if (build[0] && build[0].bottle && build[0].rod) {
+      if (build[0].bottle.thread === build[0].rod.thread) {
+        setThread(true);
+      } else {
+        setThread(false);
+      }
+    }
+
+    if (build[0] && build[0].brush && build[0].rod) {
+      let brushRodDiff =  Number(build[0].rod.dimensions.brushDiameter) - Number(build[0].brush.shaftDiameter);
+      if (build[0].brush.type === "INYECTADO") {
+        if (brushRodDiff > 0.05 && brushRodDiff < 0.15){
+          setRodBrush(true);
+        } else {
+          setRodBrush(false);
+        }
+      }
+      if (build[0].brush.type === "NYLON") {
+        if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
+          setRodBrush(true);
+        } else {
+          setRodBrush(false);
+        }
+      }
+      if (build[0].brush.type === "LIP GLOSS") {
+        if (brushRodDiff > 0 && brushRodDiff < 0.2){
+          setRodBrush(true);
+        } else {
+          setRodBrush(false);
+        }
+      }
+      if (build[0].brush.type === "DELINEADOR") {
+        if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
+          setRodBrush(true);
+        } else {
+          setRodBrush(false);
+        }
+      }
+    }
+
+  }, [modalClick]);
+
+  //------useEffect end
+  //------middlewares that must be moved and imported
 
   const deleteBuild = async () => {
     await axios.post("/delete")
@@ -65,6 +127,7 @@ const Build = () => {
       alert("There is missing data on the mascara")
     }
   };
+
   const verifyRodBrush = () => {
     if (build[0] && build[0].brush && build[0].rod) {
       let brushRodDiff =  Number(build[0].rod.dimensions.brushDiameter) - Number(build[0].brush.shaftDiameter);
@@ -153,6 +216,9 @@ const Build = () => {
     setRodBrush(false);
   };
 
+  //------middlewares that must be moved and imported end
+  //------rendering of the component
+
   return (
     <div className="App App-build">
       <Tile kind="ancestor">
@@ -180,6 +246,7 @@ const Build = () => {
           <Button.Group
             position="centered"
             size="medium"
+            onClick={() => setModalClick(!modalClick)}
           >
             <Button
               color="danger"
@@ -211,6 +278,7 @@ const Build = () => {
           <Button.Group
             position="centered"
             size="medium"
+            className="invisible"
           >
             <Button
               color="dark"
@@ -252,6 +320,7 @@ const Build = () => {
           <Button.Group
             position="centered"
             size="medium"
+            onClick={() => setModalClick(!modalClick)}
           >
             <BottleModal build={build}>
             </BottleModal>
@@ -269,5 +338,7 @@ const Build = () => {
     </div>
   );
 }
+
+//------here ends rendering of the component
 
 export default Build;

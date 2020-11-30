@@ -81,3 +81,7 @@
 .modalText {
   color: #ffffff;
 }
+
+.invisible {
+  visibility: hidden;
+}
