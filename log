@@ -1,0 +1,143 @@
+[33mcommit c249370f3ecc0bb01eada4e2a3df0dcfbcaacf8a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Thu Nov 26 14:58:25 2020 -0500
+
+    new component for mascara builder and state handling
+
+[33mcommit 675d6f781d687aa03b0994bceb2f18d40a789c22[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Mon Nov 23 07:30:23 2020 -0500
+
+    checking system ready to work, pending gap calculation
+
+[33mcommit d7aa73ecca45661e9c0778982d2fdfc31ce3c7bd[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Thu Nov 12 13:54:49 2020 -0500
+
+    started modifyinf front end
+
+[33mcommit 089799fbf3d352ba5caffffa4edf670f49cdc449[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Thu Nov 12 12:06:39 2020 -0500
+
+    added rod brush check functionality
+
+[33mcommit 191e1e90f9d143c14946037b6535f213fdfc4c32[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Mon Nov 9 16:24:35 2020 -0500
+
+    change thread state from button works
+
+[33mcommit fbcd74f5619ed5f3a522152ed52eda388fd16171[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Thu Nov 5 16:50:02 2020 -0500
+
+    started conditional rendering for build
+
+[33mcommit 3083ba01802957d2f6844a1690967d725316c09a[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Thu Nov 5 10:41:26 2020 -0500
+
+    added conditional rendering for compatibility in build
+
+[33mcommit 95def3aba133fdc9a18693cdd63ab15efd104a16[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Wed Nov 4 17:00:47 2020 -0500
+
+    all assembly elements adding correctly to build page
+
+[33mcommit ed828b585e4e3ab548f91373f9076e3e5258da09[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Wed Nov 4 16:27:21 2020 -0500
+
+    succesfully implemented conditional rendering
+
+[33mcommit c7a9081bbcca2651766da338c1a140c58ac007bf[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Wed Nov 4 08:18:59 2020 -0500
+
+    succesfully created one to one relation
+
+[33mcommit f589d862b2b8fe8543f956e6195ef2bfe031ecc4[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Tue Nov 3 15:51:29 2020 -0500
+
+    defined a delete method for the build
+
+[33mcommit 57a197c75df52b804351d98ca30bb9e26fe9ed5d[m
+Author: Daniel <danielrs9504@gmail.com>
+Date:   Sat Oct 31 13:38:13 2020 -0500
+
+    add axios request
+
+[33mcommit fe77b1fd0283f2a6056de2f86e368218960679e1[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Thu Oct 29 14:16:23 2020 -0500
+
+    modifying build view to make it work
+
+[33mcommit 70d1eac5daa9f9559e95a1b5b8304d86e729c491[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Thu Oct 29 08:21:01 2020 -0500
+
+    fully working modal scroll for each button on build
+
+[33mcommit 04a216161536ac9658af3bc1ad59981ec6777732[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Wed Oct 28 15:43:33 2020 -0500
+
+    created modals for list selection of components
+
+[33mcommit f79d6ffd68a097891f856ee91c8f8ea1c87e4ae2[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Mon Oct 26 16:54:21 2020 -0500
+
+    bottles and brushes listed
+
+[33mcommit 9b73c1d5ac5f9cd30369557a5797818f3423ef21[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Mon Oct 26 15:08:48 2020 -0500
+
+    brushes rods and wipers added to database
+
+[33mcommit e559a867496b7f7bed1cc9d29501f9a36cbd862e[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Fri Oct 23 16:40:54 2020 -0500
+
+    started schemas for all documents
+
+[33mcommit fae9306770aba75fe1d621fc9892b866743b8fec[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Fri Oct 23 15:05:53 2020 -0500
+
+    bottle list ready
+
+[33mcommit 030d04a05f69b65f44f726c1847ffc1937dd9f2f[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Thu Oct 22 14:21:21 2020 -0500
+
+    added react query to client
+
+[33mcommit 68ae6fa1486ea4c93f21b3288bd703868c6e4dcb[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Wed Oct 21 16:49:36 2020 -0500
+
+    added models and express routes on server.js
+
+[33mcommit 1c50c3b0553d84bac96f4e2096dfdc104baf2c1b[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Wed Oct 21 15:19:50 2020 -0500
+
+    added mainbar with views
+
+[33mcommit ec4fc7ac6b525a695f2b550a285b44cb938f9b1f[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Wed Oct 21 11:54:52 2020 -0500
+
+    first commit
+
+[33mcommit 11cd14964d8ebe068a42a42ef1d2a9c6b267dc00[m
+Author: leon <ejaramilo@hotmail.com>
+Date:   Tue Oct 20 15:44:07 2020 -0500
+
+    Initialize project using Create React App

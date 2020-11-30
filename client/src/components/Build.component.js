@@ -14,6 +14,7 @@ import {
   CapModal,
   WiperModal
 } from './OpenModal.component';
+import MascaraBuild from './MascaraBuild.component';
 import {
   ThreadCompatibility,
   BrushRodCompatibility,
@@ -29,10 +30,15 @@ const Build = () => {
   const [brushWiper, setBrushWiper] = useState(false);
   const [gap, setGap] = useState(false);
   const [build, setBuild] = useState([]);
-  const { isLoading, error, data } = useQuery("build", getBuild);
 
-  if (isLoading) return "Loading...";
-  if (error) return "Oops! ";
+  useEffect(() => {
+    const fetchData = async () => {
+      const {data} = await axios.get("/build");
+      console.log("Data retrieved")
+      setBuild(data);
+    }
+    fetchData();
+  }, [Build]);
 
   const deleteBuild = async () => {
     await axios.post("/delete")
@@ -52,8 +58,8 @@ const Build = () => {
   };
 
   const verifyThread = () => {
-    if (data[0] && data[0].bottle && data[0].rod) {
-      if (data[0].bottle.thread === data[0].rod.thread) {
+    if (build[0] && build[0].bottle && build[0].rod) {
+      if (build[0].bottle.thread === build[0].rod.thread) {
         setThread(true);
       } else {
         alert("Threads are different")
@@ -64,30 +70,30 @@ const Build = () => {
     }
   };
   const verifyRodBrush = () => {
-    if (data[0] && data[0].brush && data[0].rod) {
-      let brushRodDiff =  Number(data[0].rod.dimensions.brushDiameter) - Number(data[0].brush.shaftDiameter);
-      if (data[0].brush.type === "INYECTADO") {
+    if (build[0] && build[0].brush && build[0].rod) {
+      let brushRodDiff =  Number(build[0].rod.dimensions.brushDiameter) - Number(build[0].brush.shaftDiameter);
+      if (build[0].brush.type === "INYECTADO") {
         if (brushRodDiff > 0.05 && brushRodDiff < 0.15){
           setRodBrush(true);
         } else {
           alert("Difference is lower than 0.05mm or bigger than 0.15mm")
         }
       }
-      if (data[0].brush.type === "NYLON") {
+      if (build[0].brush.type === "NYLON") {
         if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
           setRodBrush(true);
         } else {
           alert("Difference is lower than -0.05mm or bigger than 0.1mm")
         }
       }
-      if (data[0].brush.type === "LIP GLOSS") {
+      if (build[0].brush.type === "LIP GLOSS") {
         if (brushRodDiff > 0 && brushRodDiff < 0.2){
           setRodBrush(true);
         } else {
           alert("Difference is lower than 0mm or bigger than 0.2mm")
         }
       }
-      if (data[0].brush.type === "DELINEADOR") {
+      if (build[0].brush.type === "DELINEADOR") {
         if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
           setRodBrush(true);
         } else {
@@ -99,30 +105,30 @@ const Build = () => {
     }
   };
   const verifyBrushWiper = () => {
-    if (data[0] && data[0].brush && data[0].rod) {
-      let brushWiperDiff =  Number(data[0].brush.brushDiameter) - Number(data[0].rod.dimensions.rodDiameter) ;
-      if (data[0].brush.type === "INYECTADO") {
+    if (build[0] && build[0].brush && build[0].rod) {
+      let brushWiperDiff =  Number(build[0].brush.brushDiameter) - Number(build[0].rod.dimensions.rodDiameter) ;
+      if (build[0].brush.type === "INYECTADO") {
         if (brushWiperDiff > 0.5 && brushWiperDiff < 4.8){
           setBrushWiper(true);
         } else {
           alert("Difference is lower than 0.5mm or bigger than 4.8mm")
         }
       }
-      if (data[0].brush.type === "NYLON") {
+      if (build[0].brush.type === "NYLON") {
         if (brushWiperDiff > 0.8 && brushWiperDiff < 6.4){
           setBrushWiper(true);
         } else {
           alert("Difference is lower than 0.8mm or bigger than 6.4mm")
         }
       }
-      if (data[0].brush.type === "LIP GLOSS") {
+      if (build[0].brush.type === "LIP GLOSS") {
         if (brushWiperDiff > -3 && brushWiperDiff < 2){
           setBrushWiper(true);
         } else {
           alert("Difference is lower than -3mm or bigger than 2mm")
         }
       }
-      if (data[0].brush.type === "DELINEADOR") {
+      if (build[0].brush.type === "DELINEADOR") {
         if (brushWiperDiff > 1 && brushWiperDiff < 2){
           setBrushWiper(true);
         } else {
@@ -130,12 +136,12 @@ const Build = () => {
         }
       }
     } else {
-      alert("There is missing data on the mascara")
+      alert("There is missing build on the mascara")
     }
   };
   const verifyGap = () => {
-    if (data[0] && data[0].bottle && data[0].rod) {
-      if (data[0].bottle.thread === data[0].rod.thread) {
+    if (build[0] && build[0].bottle && build[0].rod) {
+      if (build[0].bottle.thread === build[0].rod.thread) {
         setGap(true);
       } else {
         setGap(false);
@@ -173,10 +179,8 @@ const Build = () => {
           </Tile>
         </Tile>
       </Tile>
-
       <Section>
         <Container>
-
           <Button.Group
             position="centered"
             size="medium"
@@ -208,7 +212,6 @@ const Build = () => {
               Check state
             </Button>
           </Button.Group>
-
           <Button.Group
             position="centered"
             size="medium"
@@ -246,7 +249,6 @@ const Build = () => {
               Check gap
             </Button>
           </Button.Group>
-
           <p>
             <Heading size={5} renderAs="p">Build</Heading>
             <Heading subtitle renderAs="p">Mascara</Heading>
@@ -265,28 +267,8 @@ const Build = () => {
         </Container>
       </Section>
       <Section>
-        { data.map( element =>
-          <div>
-            {element.bottle ?
-              <div>
-                <li key = { element.bottle.name }>{ element.bottle.name }</li>
-                <li key = { element.bottle.thread }>{ element.bottle.thread } </li>
-              </div>
-              : "" }
-            {element.brush ?
-              <div>
-                <li key = { element.brush.brush }>{ element.brush.brush }</li>
-                <li key = { element.brush.type }>{ element.brush.type }</li>
-              </div>
-              : "" }
-            {element.rod ?
-              <div>
-                <li key = { element.rod.name }>{ element.rod.name }</li>
-                <li key = { element.rod.thread }>{ element.rod.thread }</li>
-              </div>
-              : "" }
-          </div>
-        )}
+        <MascaraBuild>
+        </MascaraBuild>
       </Section>
     </div>
   );
