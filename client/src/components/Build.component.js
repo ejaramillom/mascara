@@ -3,15 +3,12 @@ import '../App.css';
 import Button from 'react-bulma-components/lib/components/button';
 import Section from 'react-bulma-components/lib/components/section';
 import Container from 'react-bulma-components/lib/components/container';
-import Heading from 'react-bulma-components/lib/components/heading';
 import Tile from 'react-bulma-components/lib/components/tile';
 import MascaraBuild from './MascaraBuild.component';
 import {
   BottleModal,
   BrushModal,
   RodModal,
-  CapModal,
-  WiperModal
 } from './OpenModal.component';
 import {
   ThreadCompatibility,
@@ -35,7 +32,7 @@ const Build = () => {
   const [modalClick, setModalClick] = useState(false);
   //------hooks end
 
-  //------useEffect
+  //-----------------------------------------------------------useEffect
   useEffect(() => {
     const fetchData = async () => {
       const {data} = await axios.get("/build")
@@ -69,40 +66,40 @@ const Build = () => {
     }
 
     //------thread check
-    if (build[0] && build[0].bottle && build[0].rod) {
-      if (build[0].bottle.thread === build[0].rod.thread) {
+    if (build[0] && bottle && rod) {
+      if (bottle.thread === rod.thread) {
         setThread(true);
-      } else {
-        setThread(false);
       }
+    } else {
+      setThread(false);
     }
     //------thread check
 
     //------rod and brush check
-    if (build[0] && build[0].brush && build[0].rod) {
-      let brushRodDiff =  Number(build[0].rod.dimensions.brushDiameter) - Number(build[0].brush.shaftDiameter);
-      if (build[0].brush.type === "INYECTADO") {
+    if (build[0] && brush.type && rod.name) {
+      let brushRodDiff =  Number(rod.dimensions.brushDiameter) - Number(brush.shaftDiameter);
+      if (brush.type === "INYECTADO") {
         if (brushRodDiff > 0.05 && brushRodDiff < 0.15){
           setRodBrush(true);
         } else {
           setRodBrush(false);
         }
       }
-      if (build[0].brush.type === "NYLON") {
+      if (brush.type === "NYLON") {
         if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
           setRodBrush(true);
         } else {
           setRodBrush(false);
         }
       }
-      if (build[0].brush.type === "LIP GLOSS") {
+      if (brush.type === "LIP GLOSS") {
         if (brushRodDiff > 0 && brushRodDiff < 0.2){
           setRodBrush(true);
         } else {
           setRodBrush(false);
         }
       }
-      if (build[0].brush.type === "DELINEADOR") {
+      if (brush.type === "DELINEADOR") {
         if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
           setRodBrush(true);
         } else {
@@ -113,30 +110,30 @@ const Build = () => {
     //------rod and brush check
 
     //------wiper and brush check
-    if (build[0] && build[0].brush && build[0].rod) {
-      let brushWiperDiff =  Number(build[0].brush.brushDiameter) - Number(build[0].rod.dimensions.rodDiameter) ;
-      if (build[0].brush.type === "INYECTADO") {
+    if (build[0] && brush.type && rod.name) {
+      let brushWiperDiff =  Number(brush.brushDiameter) - Number(rod.dimensions.rodDiameter) ;
+      if (brush.type === "INYECTADO") {
         if (brushWiperDiff > 0.5 && brushWiperDiff < 4.8){
           setBrushWiper(true);
         } else {
           setBrushWiper(false);
         }
       }
-      if (build[0].brush.type === "NYLON") {
+      if (brush.type === "NYLON") {
         if (brushWiperDiff > 0.8 && brushWiperDiff < 6.4){
           setBrushWiper(true);
         } else {
           setBrushWiper(false);
         }
       }
-      if (build[0].brush.type === "LIP GLOSS") {
+      if (brush.type === "LIP GLOSS") {
         if (brushWiperDiff > -3 && brushWiperDiff < 2){
           setBrushWiper(true);
         } else {
           setBrushWiper(false);
         }
       }
-      if (build[0].brush.type === "DELINEADOR") {
+      if (brush.type === "DELINEADOR") {
         if (brushWiperDiff > 1 && brushWiperDiff < 2){
           setBrushWiper(true);
         } else {
@@ -146,13 +143,41 @@ const Build = () => {
     }
     //------wiper and brush check
     //------gap check
-    
-
-
-    //------gap check
-
+    if (build[0] && brush.type && rod.name && bottle.name) {
+      let mascaraGap =  Number(bottle.depth) - (Number(brush.brushLength) + Number(rod.dimensions.length));
+      if (brush.type === "INYECTADO") {
+        if (mascaraGap > 2 && mascaraGap < 6){
+          setGap(true);
+        } else {
+          setGap(false);
+        }
+      }
+      if (brush.type === "NYLON") {
+        if (mascaraGap > 1 && mascaraGap < 5){
+          setGap(true);
+        } else {
+          setGap(false);
+        }
+      }
+      if (brush.type === "LIP GLOSS") {
+        if (mascaraGap > 1 && mascaraGap < 6){
+          setGap(true);
+        } else {
+          setGap(false);
+        }
+      }
+      if (brush.type === "DELINEADOR") {
+        if (mascaraGap > 1 && mascaraGap < 5){
+          setGap(true);
+        } else {
+          setGap(false);
+        }
+      }
+    }
+  //------gap check
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [modalClick]);
-  //------useEffect end
+  //-----------------------------------------------------------useEffect end
 
   //------middlewares that must be moved and imported
   const deleteBuild = async () => {
@@ -177,8 +202,8 @@ const Build = () => {
   };
 
   const verifyThread = () => {
-    if (build[0] && build[0].bottle && build[0].rod) {
-      if (build[0].bottle.thread === build[0].rod.thread) {
+    if (build[0] && bottle.name && rod.name) {
+      if (bottle.thread === rod.thread) {
         setThread(true);
       } else {
         alert("Threads are different")
@@ -190,30 +215,30 @@ const Build = () => {
   };
 
   const verifyRodBrush = () => {
-    if (build[0] && build[0].brush && build[0].rod) {
-      let brushRodDiff =  Number(build[0].rod.dimensions.brushDiameter) - Number(build[0].brush.shaftDiameter);
-      if (build[0].brush.type === "INYECTADO") {
+    if (build[0] && brush.type && rod.name) {
+      let brushRodDiff =  Number(rod.dimensions.brushDiameter) - Number(brush.shaftDiameter);
+      if (brush.type === "INYECTADO") {
         if (brushRodDiff > 0.05 && brushRodDiff < 0.15){
           setRodBrush(true);
         } else {
           alert("Difference is lower than 0.05mm or bigger than 0.15mm")
         }
       }
-      if (build[0].brush.type === "NYLON") {
+      if (brush.type === "NYLON") {
         if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
           setRodBrush(true);
         } else {
           alert("Difference is lower than -0.05mm or bigger than 0.1mm")
         }
       }
-      if (build[0].brush.type === "LIP GLOSS") {
+      if (brush.type === "LIP GLOSS") {
         if (brushRodDiff > 0 && brushRodDiff < 0.2){
           setRodBrush(true);
         } else {
           alert("Difference is lower than 0mm or bigger than 0.2mm")
         }
       }
-      if (build[0].brush.type === "DELINEADOR") {
+      if (brush.type === "DELINEADOR") {
         if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
           setRodBrush(true);
         } else {
@@ -226,30 +251,30 @@ const Build = () => {
   };
 
   const verifyBrushWiper = () => {
-    if (build[0] && build[0].brush && build[0].rod) {
-      let brushWiperDiff =  Number(build[0].brush.brushDiameter) - Number(build[0].rod.dimensions.rodDiameter) ;
-      if (build[0].brush.type === "INYECTADO") {
+    if (build[0] && brush.type && rod.name) {
+      let brushWiperDiff =  Number(brush.brushDiameter) - Number(rod.dimensions.rodDiameter) ;
+      if (brush.type === "INYECTADO") {
         if (brushWiperDiff > 0.5 && brushWiperDiff < 4.8){
           setBrushWiper(true);
         } else {
           alert("Difference is lower than 0.5mm or bigger than 4.8mm")
         }
       }
-      if (build[0].brush.type === "NYLON") {
+      if (brush.type === "NYLON") {
         if (brushWiperDiff > 0.8 && brushWiperDiff < 6.4){
           setBrushWiper(true);
         } else {
           alert("Difference is lower than 0.8mm or bigger than 6.4mm")
         }
       }
-      if (build[0].brush.type === "LIP GLOSS") {
+      if (brush.type === "LIP GLOSS") {
         if (brushWiperDiff > -3 && brushWiperDiff < 2){
           setBrushWiper(true);
         } else {
           alert("Difference is lower than -3mm or bigger than 2mm")
         }
       }
-      if (build[0].brush.type === "DELINEADOR") {
+      if (brush.type === "DELINEADOR") {
         if (brushWiperDiff > 1 && brushWiperDiff < 2){
           setBrushWiper(true);
         } else {
@@ -262,8 +287,8 @@ const Build = () => {
   };
 
   const verifyGap = () => {
-    if (build[0] && build[0].bottle && build[0].rod) {
-      if (build[0].bottle.thread === build[0].rod.thread) {
+    if (build[0] && bottle.name && rod.name) {
+      if (bottle.thread === rod.thread) {
         setGap(true);
       } else {
         setGap(false);
@@ -303,6 +328,41 @@ const Build = () => {
           </Tile>
         </Tile>
       </Tile>
+
+      {/* verifying assembly tiles*/}
+      {/* mascara*/}
+
+      <MascaraBuild>
+      </MascaraBuild>
+
+      {/* mascara*/}
+      {/* Modal buttons*/}
+
+      <Button.Group
+        position="centered"
+        size="medium"
+        onClick={() => setModalClick(!modalClick)}
+      >
+        <BottleModal rod={rod}>
+        </BottleModal>
+        <BrushModal rod={rod} bottle={bottle}>
+        </BrushModal>
+        <RodModal bottle={bottle}>
+        </RodModal>
+        <Button
+          color="danger"
+          onClick={() => {
+            deleteBuild();
+          }}
+        >
+          Erase build
+        </Button>
+      </Button.Group>
+
+      {/* Modal buttons*/}
+      {/* Delete and reset*/}
+      {/* check buttons - will be invisibilised*/}
+
       <Section>
         <Container>
           <Button.Group
@@ -310,14 +370,7 @@ const Build = () => {
             size="medium"
             onClick={() => setModalClick(!modalClick)}
           >
-            <Button
-              color="danger"
-              onClick={() => {
-                deleteBuild();
-              }}
-            >
-              Erase build
-            </Button>
+
             <Button
               color="info"
               onClick={() => {
@@ -332,11 +385,15 @@ const Build = () => {
                 setRodBrush(true);
                 setThread(true);
                 setBrushWiper(true);
+                setGap(true);
               }}
             >
               Check state
             </Button>
           </Button.Group>
+
+    {/* Check buttons - will be invisibilised*/}
+    {/* Buttons to checkthe assembly*/}
 
           <Button.Group
             position="centered"
@@ -377,27 +434,8 @@ const Build = () => {
             </Button>
           </Button.Group>
 
-          <p>
-            <Heading size={5} renderAs="p">Build</Heading>
-            <Heading subtitle renderAs="p">Mascara</Heading>
-          </p>
-          <Button.Group
-            position="centered"
-            size="medium"
-            onClick={() => setModalClick(!modalClick)}
-          >
-            <BottleModal rod={rod}>
-            </BottleModal>
-            <BrushModal rod={rod}>
-            </BrushModal>
-            <RodModal bottle={bottle}>
-            </RodModal>
-          </Button.Group>
+      {/* Buttons to check the assembly*/}
         </Container>
-      </Section>
-      <Section>
-        <MascaraBuild>
-        </MascaraBuild>
       </Section>
     </div>
   );

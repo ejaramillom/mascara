@@ -2,10 +2,10 @@ const mongoose = require("mongoose")
 
 const RodSchema = mongoose.Schema({
 	name: {type: String, required: true},
-	drawing: {type: Number, required: true},
+	drawing: {type: String, required: true},
   mold: {type: Number},
-  holder: {type: Number},
-  cavity: {type: Number},
+  holder: {type: String},
+  cavity: {type: String},
   thread: {type: String, required: true},
 	dimensions: {
 		length: {type: Number, required: true},

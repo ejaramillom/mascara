@@ -110,9 +110,9 @@ export const GapIncompatible = (props) => {
     <div>
       <Section>
         <Container>
-          <p className="bd-notification is-success">
-            <Heading size={5} renderAs="p">Gap</Heading>
-            <Heading subtitle renderAs="p">The gap of the assembly is between 1 and 5</Heading>
+          <p className="bd-notification is-warning">
+            <Heading size={5} renderAs="p">Incompatible Gap</Heading>
+            <Heading subtitle renderAs="p">The brush and the rod crashes with the bottle</Heading>
           </p>
         </Container>
       </Section>

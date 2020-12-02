@@ -39,7 +39,7 @@
 				"mold": "9829",
 				"holder": "C052",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "65.6",
 					"rodDiameter": "4.3",
@@ -3986,7 +3986,7 @@
 				"mold": "8060913",
 				"holder": "C076",
 				"cavity": "16",
-				"thread": "R12",
+				"thread": "R12A",
 				"dimensions": {
 					"length": "51.4",
 					"rodDiameter": "4.3",
@@ -4894,7 +4894,7 @@
 				"mold": "8095018",
 				"holder": "8542215/C036",
 				"cavity": "8",
-				"thread": "R13",
+				"thread": "R13A",
 				"gauge": "GACC-226",
 				"dimensions": {
 					"length": "69.1",
@@ -4927,7 +4927,7 @@
 			},
 			{
 				"active": "ACTIVO",
-				"name": "TPV DO CIL R11DX55.7L",
+				"name": "TPV RDO CIL R11DX55.7L",
 				"drawing": "3507",
 				"mold": "8095118",
 				"holder": "8542915",
@@ -5095,7 +5095,7 @@
 				"mold": "80453",
 				"holder": "C020",
 				"cavity": "8",
-				"thread": "R15",
+				"thread": "R15A",
 				"gauge": "GACC-162",
 				"dimensions": {
 					"length": "62.5",
@@ -5553,7 +5553,7 @@
 				"mold": "8106120",
 				"holder": "8553518",
 				"cavity": "",
-				"thread": "",
+				"thread": "Rxx",
 				"dimensions": {
 					"length": "44.49",
 					"rodDiameter": "4.6",
@@ -5589,10 +5589,15 @@
 			},
 			{
 				"active": "ACTIVO",
-				"name": "TPV RD P R15DX66LXØ2.82 CEP INY",
+				"name": "TPV RDO P R15DX66LXØ2.82 CEP INY",
 				"mold": "8087817",
 				"holder": "C020",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5607,7 +5612,12 @@
 				"active": "ACTIVO",
 				"name": "TPV MULTIB LBEL C6 2017",
 				"mold": "8077216",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5620,9 +5630,14 @@
 			},
 			{
 				"active": "ACTIVO",
-				"name": "TPV MASC MEGACILS LBEL",
+				"name": "TPV MSC MEGACILS LBEL",
 				"mold": "8065914",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5635,9 +5650,14 @@
 			},
 			{
 				"active": "ACTIVO",
-				"name": "TPV MASC VOLUMEN LBEL",
+				"name": "TPV MSC VOLUMEN LBEL",
 				"mold": "8065614",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5650,9 +5670,14 @@
 			},
 			{
 				"active": "ACTIVO",
-				"name": "TPV MASC CY INNOV 2012",
+				"name": "TPV MSC CYZ INNOV 2012",
 				"mold": "8044111",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5667,7 +5692,12 @@
 				"active": "ACTIVO",
 				"name": "TPV MASCAR COLORF 2011",
 				"mold": "8037510",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5682,7 +5712,12 @@
 				"active": "ACTIVO",
 				"name": "TPV CDO CIL R13DX69.1L",
 				"mold": "8095018",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5698,7 +5733,12 @@
 				"name": "TPV RDO R11DX50 PP APLI 40111-1",
 				"mold": "8082817",
 				"holder": "8537414",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5714,7 +5754,12 @@
 				"name": "TPV LPG CRT ESPE ESPEJ",
 				"mold": "8072115",
 				"holder": "8537414",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5730,7 +5775,12 @@
 				"name": "TPV RDO PEST R11X42L",
 				"mold": "8051512",
 				"holder": "8537414",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5746,7 +5796,12 @@
 				"name": "TPV RDO DEL R11X63",
 				"mold": "8051412",
 				"holder": "8537414",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5759,11 +5814,16 @@
 			},
 			{
 				"active": "ACTIVO",
-				"name": "TPV RD DEL R11X30L PPL",
+				"name": "TPV RDO DEL R11X30L PPL",
 				"drawing": "2889",
 				"mold": "8039010",
 				"holder": "8537414",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5780,7 +5840,12 @@
 				"drawing": "C4313",
 				"mold": "0507",
 				"holder": "8537414",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5793,11 +5858,16 @@
 			},
 			{
 				"active": "ACTIVO",
-				"name": "TPV RD PEST R11DX65L 0.9",
+				"name": "TPV RDO PEST R11DX65L 0.9",
 				"drawing": "C4281",
 				"mold": "0501",
 				"holder": "8537414",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5814,7 +5884,12 @@
 				"drawing": "C4248",
 				"mold": "0402",
 				"holder": "8537414",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5831,7 +5906,12 @@
 				"drawing": "2742",
 				"mold": "8026608",
 				"holder": "8537414",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5844,11 +5924,16 @@
 			},
 			{
 				"active": "ACTIVO",
-				"name": "TPV RD D R11DX40.5L DL",
+				"name": "TPV RDO D R11DX40.5L DL",
 				"drawing": "C4320",
 				"mold": "8013706",
 				"holder": "8537414",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5861,11 +5946,16 @@
 			},
 			{
 				"active": "ACTIVO",
-				"name": "TPV RD LG R11X69.5L AP",
+				"name": "TPV RDO LG R11X69.5L AP",
 				"drawing": "2915",
 				"mold": "8043111",
 				"holder": "8537414",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5882,7 +5972,12 @@
 				"drawing": "C4083",
 				"mold": "9905",
 				"holder": "8537414",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5898,7 +5993,12 @@
 				"name": "TPV MSC TRATANTE ESIKA P4",
 				"mold": "8083917",
 				"holder": "8540015",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5914,7 +6014,12 @@
 				"name": "TPV MASC ESI INNO 2012",
 				"mold": "8072816",
 				"holder": "8540015",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5931,7 +6036,12 @@
 				"drawing": "3145",
 				"mold": "8067515",
 				"holder": "8540015",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5948,7 +6058,12 @@
 				"drawing": "3001",
 				"mold": "8054313",
 				"holder": "8540015",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5964,7 +6079,12 @@
 				"name": "TPV RDO CIL MSC R11DX39L",
 				"mold": "8105219",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5980,7 +6100,12 @@
 				"name": "TPV RDO CIL MSC R11Dx56,6L",
 				"mold": "8097718",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -5996,7 +6121,12 @@
 				"name": "TPV CZ SEC LAS CPQZ02",
 				"mold": "8054813",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6012,7 +6142,12 @@
 				"name": "TPV RD R11x34L PIN ASI",
 				"mold": "8051212",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6028,7 +6163,12 @@
 				"name": "TPV RDO D R11X34L PLØ2",
 				"mold": "8051012",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6044,7 +6184,12 @@
 				"name": "TPV LG R11DX35.5LAP401",
 				"mold": "8047111",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6060,7 +6205,12 @@
 				"name": "TPV RD LG R11X27L A401",
 				"mold": "8042210",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6076,7 +6226,12 @@
 				"name": "TPV RD L R11X56LA40111",
 				"mold": "8038510",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6092,7 +6247,12 @@
 				"name": "TPV RDO LPG GOURM BROC",
 				"mold": "8036010",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6108,7 +6268,12 @@
 				"name": "TPV DELINER MH OR 0.9",
 				"mold": "8025208",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6124,7 +6289,12 @@
 				"name": "TPV DELINER MH OR 0.9",
 				"mold": "8025208",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6140,7 +6310,12 @@
 				"name": "TPV RD PEST R11DX20.5L",
 				"mold": "8007804",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6156,7 +6331,12 @@
 				"name": "TPV RD PES R11DX36L",
 				"mold": "8006404",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6172,7 +6352,12 @@
 				"name": "TPV RD PEST R11DX65L",
 				"mold": "9832",
 				"holder": "8542915",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6188,7 +6373,12 @@
 				"name": "TPV EARLY 2018",
 				"mold": "8091818",
 				"holder": "8553518",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6204,7 +6394,12 @@
 				"name": "TPV CDO CNI MSC R15Dx51.2L",
 				"mold": "8097618",
 				"holder": "8553518",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6220,7 +6415,12 @@
 				"name": "TPV MULTIB LBEL C6 2017",
 				"mold": "8077216",
 				"holder": "C036",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6236,7 +6436,12 @@
 				"name": "TPV MASC MEGACILS LBEL",
 				"mold": "8065914",
 				"holder": "C036",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6252,7 +6457,12 @@
 				"name": "TPV MASC VOLUMEN LBEL",
 				"mold": "8065614",
 				"holder": "C036",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6268,7 +6478,12 @@
 				"name": "TPV MASC CY INNOV 2012",
 				"mold": "8044111",
 				"holder": "C036",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6284,7 +6499,12 @@
 				"name": "TPV MASCAR COLORF 2011",
 				"mold": "8037510",
 				"holder": "C036",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",
@@ -6300,7 +6520,12 @@
 				"name": "TPV CDO CIL R13DX69.1L",
 				"mold": "8095018",
 				"holder": "C036",
-				"dimensions": "",
+				"thread": "Rxx",
+				"dimensions": {
+					"length": "1",
+					"rodDiameter": "1",
+					"brushDiameter": "1"
+				},
 				"versionAssembly": {
 					"capsule": "",
 					"pin": "",

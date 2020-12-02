@@ -5,7 +5,6 @@ import Button from "react-bulma-components/lib/components/button";
 import Section from "react-bulma-components/lib/components/section";
 import axios from "axios";
 import {
-  getBrushes,
   getWipers,
   getCaps,
 } from "../middlewares/services";
@@ -164,7 +163,22 @@ export const BottleModal = (props) => {
 
 //---------------- Brush modal
 
-export const BrushModal = () => {
+export const BrushModal = (props) => {
+  const [brushes, setBrushes] = useState([]);
+  const rod = props.rod;
+  const bottle = props.bottle;
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const {data} = await axios.get("/brush")
+      .catch(function (error) {
+        console.log(error)
+      });
+      setBrushes(data);
+    }
+    fetchData();
+  }, []);
+
   const addBrush = async (data) => {
     await axios.post("/brush", {
         brush: data.brush,
@@ -190,22 +204,95 @@ export const BrushModal = () => {
       });
   };
 
-  const { isLoading, error, data } = useQuery("brushes", getBrushes);
-  if (isLoading) return "Loading...";
-  if (error) {
-    return "Oops! " + error.message;
+  if (rod && rod.name && bottle && bottle.name){
+    const filteredBrushes = brushes.filter( element => {
+      let mascaraGap =  (Number(bottle.depth) - (Number(element.brushLength) + Number(rod.dimensions.length)));
+      if (mascaraGap > 1 && mascaraGap < 6) {
+        return element;
+      } else {
+        return null ;
+      }
+      // .shaftDiameter.toLowerCase().indexOf(rod.dimensions.brushDiameter.toLowerCase()) !== -1
+    });
+
+    return (
+      <div>
+        <OpenModal modal={{ closeOnBlur: false }} name="Brush">
+          <div className="modal-body">
+            {filteredBrushes.map((element) => (
+              <Modal.Content>
+              <Section style={{ backgroundColor: "white" }}>
+                <p>
+                  <strong>{element.brush}</strong>
+                  <small>{element.drawing}</small> <small>{element.type}</small>
+                  <br />
+                </p>
+                <Button
+                  type="submit"
+                  color="info"
+                  onClick={() => {
+                    addBrush(element);
+                  }}
+                >
+                  Add Brush
+                </Button>
+              </Section>
+              </Modal.Content>
+            ))}
+          </div>
+        </OpenModal>
+      </div>
+    );
+  } else if (rod && rod.dimensions && brushes){
+    const filteredBrushes = brushes.filter( element => {
+      let mascaraGap =  (Number(bottle.depth) - (Number(element.brushLength) + Number(rod.dimensions.length)));
+      if (mascaraGap > 1 && mascaraGap < 6) {
+        return element;
+      } else {
+        return null;
+      }
+    });
+
+    return (
+      <div>
+        <OpenModal modal={{ closeOnBlur: false }} name="Brush">
+          <div className="modal-body">
+            {filteredBrushes.map((element) => (
+              <Modal.Content>
+              <Section style={{ backgroundColor: "white" }}>
+                <p>
+                  <strong>{element.brush}</strong>
+                  <small>{element.drawing}</small> <small>{element.type}</small>
+                  <br />
+                </p>
+                <Button
+                  type="submit"
+                  color="info"
+                  onClick={() => {
+                    addBrush(element);
+                  }}
+                >
+                  Add Brush
+                </Button>
+              </Section>
+              </Modal.Content>
+            ))}
+          </div>
+        </OpenModal>
+      </div>
+    );
   }
 
   return (
     <div>
       <OpenModal modal={{ closeOnBlur: false }} name="Brush">
         <div className="modal-body">
-          {data.map((element) => (
+          {brushes.map((element) => (
             <Modal.Content>
             <Section style={{ backgroundColor: "white" }}>
               <p>
                 <strong>{element.brush}</strong>
-                <small>{element.original}</small> <small>{element.type}</small>
+                <small>{element.drawing}</small> <small>{element.type}</small>
                 <br />
               </p>
               <Button
