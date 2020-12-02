@@ -12,6 +12,8 @@ import {
 import { useQuery } from "react-query";
 import "../App.css";
 
+//---------------- Modal main definition
+
 export class OpenModal extends React.Component {
   static propTypes = {
     modal: PropTypes.object,
@@ -50,6 +52,10 @@ export class OpenModal extends React.Component {
     );
   }
 }
+
+//---------------- Modal main definition
+
+//---------------- Bottle modal
 
 export const BottleModal = (props) => {
   const [bottles, setBottles] = useState([]);
@@ -154,6 +160,10 @@ export const BottleModal = (props) => {
   );
 };
 
+//---------------- Bottle modal
+
+//---------------- Brush modal
+
 export const BrushModal = () => {
   const addBrush = async (data) => {
     await axios.post("/brush", {
@@ -215,6 +225,12 @@ export const BrushModal = () => {
     </div>
   );
 };
+
+
+//---------------- Brush modal
+
+//---------------- Rod modal
+
 
 export const RodModal = (props) => {
   const [rods, setRods] = useState([]);
@@ -326,6 +342,10 @@ export const RodModal = (props) => {
   );
 };
 
+//---------------- Rod modal
+
+//---------------- Wiper modal
+
 export const WiperModal = () => {
   const { isLoading, error, data } = useQuery("wipers", getWipers);
   if (isLoading) return "Loading...";
@@ -352,6 +372,10 @@ export const WiperModal = () => {
   );
 };
 
+//---------------- Wiper modal
+
+//---------------- Cap modal
+
 export const CapModal = () => {
   const { isLoading, error, data } = useQuery("caps", getCaps);
   if (isLoading) return "Loading...";
@@ -377,3 +401,5 @@ export const CapModal = () => {
     </div>
   );
 };
+
+//---------------- Cap modal

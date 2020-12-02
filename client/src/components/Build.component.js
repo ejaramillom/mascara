@@ -31,6 +31,7 @@ const Build = () => {
   const [build, setBuild] = useState([]);
   const [bottle, setBottle] = useState([]);
   const [rod, setRod] = useState([]);
+  const [brush, setBrush] = useState([]);
   const [modalClick, setModalClick] = useState(false);
   //------hooks end
 
@@ -51,6 +52,11 @@ const Build = () => {
         setRod(data[0].rod);
       } else {
         setRod([])
+      }
+      if (data[0] && data[0].brush) {
+        setBrush(data[0].brush);
+      } else {
+        setBrush([])
       }
     }
     fetchData();
@@ -139,6 +145,11 @@ const Build = () => {
       }
     }
     //------wiper and brush check
+    //------gap check
+    
+
+
+    //------gap check
 
   }, [modalClick]);
   //------useEffect end
@@ -149,6 +160,10 @@ const Build = () => {
     .then(function (response) {
       if (response.status === 200) {
         console.log("Succesfully deleted");
+        setThread(false);
+        setGap(false);
+        setBrushWiper(false);
+        setRodBrush(false);
         alert("Build deleted!");
       } else {
         const err = new Error(response.error);
