@@ -6,8 +6,6 @@ import Section from "react-bulma-components/lib/components/section";
 import axios from "axios";
 import {
   getBrushes,
-  getBottles,
-  getRods,
   getWipers,
   getCaps,
 } from "../middlewares/services";
@@ -55,10 +53,14 @@ export class OpenModal extends React.Component {
 
 export const BottleModal = (props) => {
   const [bottles, setBottles] = useState([]);
+  const rod = props.rod;
 
   useEffect(() => {
     const fetchData = async () => {
-      const {data} = await axios.get("/bottle");
+      const {data} = await axios.get("/bottle")
+      .catch(function (error) {
+        console.log(error)
+      });
       setBottles(data);
     }
     fetchData();
@@ -87,11 +89,9 @@ export const BottleModal = (props) => {
     });
   };
 
-  const build = props.build;
-
-  if (build && build[0] && build[0].rod){
+  if (rod && rod.thread){
     const filteredBottles = bottles.filter( element => {
-      return element.thread.toLowerCase().indexOf(build[0].rod.thread.toLowerCase()) !== -1;
+      return element.thread.toLowerCase().indexOf(rod.thread.toLowerCase()) !== -1;
     });
 
     return (
@@ -216,7 +216,21 @@ export const BrushModal = () => {
   );
 };
 
-export const RodModal = () => {
+export const RodModal = (props) => {
+  const [rods, setRods] = useState([]);
+  const bottle = props.bottle;
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const {data} = await axios.get("/rod")
+      .catch(function (error) {
+        console.log(error)
+      });
+      setRods(data);
+    }
+    fetchData();
+  }, []);
+
   const addRod = async (data) => {
     await axios.post("/rod", {
         name: data.name,
@@ -243,16 +257,50 @@ export const RodModal = () => {
       });
   };
 
-  const { isLoading, error, data } = useQuery("rods", getRods);
-  if (isLoading) return "Loading...";
-  if (error) {
-    return "Oops! " + error.message;
-  }
+  if (bottle && bottle.thread){
+    const filteredRods = rods.filter( element => {
+      if (element.thread) {
+        return element.thread.toLowerCase().indexOf(bottle.thread.toLowerCase()) !== -1;
+      } else {
+        return element;
+      }
+    });
+
+    return (
+      <div>
+      <OpenModal modal={{ closeOnBlur: false }} name="Rod">
+        <div className="modal-body">
+          {filteredRods.map((element) => (
+            <Modal.Content>
+            <Section style={{ backgroundColor: "white" }}>
+              <p>
+                <strong>{element.name}</strong>
+                <small>{element.thread}</small> <small>{element.drawing}</small>
+                <br />
+              </p>
+              <Button
+                type="submit"
+                color="info"
+                onClick={() => {
+                  addRod(element);
+                }}
+              >
+                Add Rod
+              </Button>
+            </Section>
+            </Modal.Content>
+          ))}
+        </div>
+      </OpenModal>
+      </div>
+    );
+  };
+
   return (
     <div>
     <OpenModal modal={{ closeOnBlur: false }} name="Rod">
       <div className="modal-body">
-        {data.map((element) => (
+        {rods.map((element) => (
           <Modal.Content>
           <Section style={{ backgroundColor: "white" }}>
             <p>

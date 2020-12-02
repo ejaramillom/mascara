@@ -24,18 +24,17 @@ import axios from "axios";
 const Build = () => {
 
   //------hooks
-
   const [thread, setThread] = useState(false);
   const [rodBrush, setRodBrush] = useState(false);
   const [brushWiper, setBrushWiper] = useState(false);
   const [gap, setGap] = useState(false);
   const [build, setBuild] = useState([]);
+  const [bottle, setBottle] = useState([]);
+  const [rod, setRod] = useState([]);
   const [modalClick, setModalClick] = useState(false);
-
   //------hooks end
 
   //------useEffect
-
   useEffect(() => {
     const fetchData = async () => {
       const {data} = await axios.get("/build")
@@ -43,6 +42,16 @@ const Build = () => {
         console.log(error)
       });
       setBuild(data);
+      if (data[0] && data[0].bottle) {
+        setBottle(data[0].bottle);
+      } else {
+        setBottle([])
+      }
+      if (data[0] && data[0].rod) {
+        setRod(data[0].rod);
+      } else {
+        setRod([])
+      }
     }
     fetchData();
 
@@ -53,6 +62,7 @@ const Build = () => {
       setRodBrush(false);
     }
 
+    //------thread check
     if (build[0] && build[0].bottle && build[0].rod) {
       if (build[0].bottle.thread === build[0].rod.thread) {
         setThread(true);
@@ -60,7 +70,9 @@ const Build = () => {
         setThread(false);
       }
     }
+    //------thread check
 
+    //------rod and brush check
     if (build[0] && build[0].brush && build[0].rod) {
       let brushRodDiff =  Number(build[0].rod.dimensions.brushDiameter) - Number(build[0].brush.shaftDiameter);
       if (build[0].brush.type === "INYECTADO") {
@@ -92,12 +104,46 @@ const Build = () => {
         }
       }
     }
+    //------rod and brush check
+
+    //------wiper and brush check
+    if (build[0] && build[0].brush && build[0].rod) {
+      let brushWiperDiff =  Number(build[0].brush.brushDiameter) - Number(build[0].rod.dimensions.rodDiameter) ;
+      if (build[0].brush.type === "INYECTADO") {
+        if (brushWiperDiff > 0.5 && brushWiperDiff < 4.8){
+          setBrushWiper(true);
+        } else {
+          setBrushWiper(false);
+        }
+      }
+      if (build[0].brush.type === "NYLON") {
+        if (brushWiperDiff > 0.8 && brushWiperDiff < 6.4){
+          setBrushWiper(true);
+        } else {
+          setBrushWiper(false);
+        }
+      }
+      if (build[0].brush.type === "LIP GLOSS") {
+        if (brushWiperDiff > -3 && brushWiperDiff < 2){
+          setBrushWiper(true);
+        } else {
+          setBrushWiper(false);
+        }
+      }
+      if (build[0].brush.type === "DELINEADOR") {
+        if (brushWiperDiff > 1 && brushWiperDiff < 2){
+          setBrushWiper(true);
+        } else {
+          setBrushWiper(false);
+        }
+      }
+    }
+    //------wiper and brush check
 
   }, [modalClick]);
-
   //------useEffect end
-  //------middlewares that must be moved and imported
 
+  //------middlewares that must be moved and imported
   const deleteBuild = async () => {
     await axios.post("/delete")
     .then(function (response) {
@@ -163,6 +209,7 @@ const Build = () => {
       alert("There is missing data on the mascara")
     }
   };
+
   const verifyBrushWiper = () => {
     if (build[0] && build[0].brush && build[0].rod) {
       let brushWiperDiff =  Number(build[0].brush.brushDiameter) - Number(build[0].rod.dimensions.rodDiameter) ;
@@ -198,6 +245,7 @@ const Build = () => {
       alert("There is missing build on the mascara")
     }
   };
+
   const verifyGap = () => {
     if (build[0] && build[0].bottle && build[0].rod) {
       if (build[0].bottle.thread === build[0].rod.thread) {
@@ -215,10 +263,9 @@ const Build = () => {
     setBrushWiper(false);
     setRodBrush(false);
   };
-
   //------middlewares that must be moved and imported end
-  //------rendering of the component
 
+  //------rendering of the component
   return (
     <div className="App App-build">
       <Tile kind="ancestor">
@@ -275,6 +322,7 @@ const Build = () => {
               Check state
             </Button>
           </Button.Group>
+
           <Button.Group
             position="centered"
             size="medium"
@@ -313,6 +361,7 @@ const Build = () => {
               Check gap
             </Button>
           </Button.Group>
+
           <p>
             <Heading size={5} renderAs="p">Build</Heading>
             <Heading subtitle renderAs="p">Mascara</Heading>
@@ -322,11 +371,11 @@ const Build = () => {
             size="medium"
             onClick={() => setModalClick(!modalClick)}
           >
-            <BottleModal build={build}>
+            <BottleModal rod={rod}>
             </BottleModal>
-            <BrushModal>
+            <BrushModal rod={rod}>
             </BrushModal>
-            <RodModal>
+            <RodModal bottle={bottle}>
             </RodModal>
           </Button.Group>
         </Container>
