@@ -38,7 +38,7 @@ export const BrushWiperCompatible = (props) => {
     <div>
       <Section>
         <Container>
-          <p className="bd-notification is-info">
+          <p className="bd-notification is-success">
             <Heading size={5} renderAs="p">Brush - wiper</Heading>
             <Heading subtitle renderAs="p">The brush fits inside the hole of the wiper</Heading>
           </p>
@@ -52,7 +52,7 @@ export const BrushWiperIncompatible = (props) => {
     <div>
       <Section>
         <Container>
-          <p className="bd-notification is-info">
+          <p className="bd-notification is-warning">
             <Heading size={5} renderAs="p">Brush - wiper</Heading>
             <Heading subtitle renderAs="p">The brush won't work with the hole of the wiper</Heading>
           </p>

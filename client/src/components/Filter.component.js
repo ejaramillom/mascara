@@ -9,6 +9,7 @@ import axios from "axios";
 export const BottleFilter = (props) => {
   const [bottles, setBottles] = useState([]);
   const rod = props.rod;
+  const bottle = props.bottle;
 
   useEffect(() => {
     const fetchData = async () => {
@@ -54,22 +55,51 @@ export const BottleFilter = (props) => {
         {filteredBottles.map((element) => (
           <Tile kind="ancestor">
             <Tile kind="parent">
-              <Tile renderAs="article" kind="child" notification color="success">
+              <Tile renderAs="article" kind="child" notification color="light">
                 <Heading size={6} renderAs="p">{element.name}</Heading>
                 <Heading size={7} subtitle renderAs="p">{element.drawing}</Heading>
                 <Heading size={7} subtitle renderAs="p">{element.mold}</Heading>
+                <Button
+                  type="submit"
+                  color="success"
+                  onClick={() => {
+                    addBottle(element);
+                  }}
+                >
+                  Add Bottle
+                </Button>
               </Tile>
-            <Button
-              type="submit"
-              color="info"
-              onClick={() => {
-                addBottle(element);
-              }}
-            >
-              Add Bottle
-            </Button>
+            </Tile>
           </Tile>
-        </Tile>
+        ))}
+      </div>
+    );
+  } else if (bottle && bottle.name){
+    const filteredBottles = bottles.filter( element => {
+      return element.name.toLowerCase().indexOf(bottle.name.toLowerCase()) !== -1;
+    });
+
+    return (
+      <div>
+        {filteredBottles.map((element) => (
+          <Tile kind="ancestor">
+            <Tile kind="parent">
+              <Tile renderAs="article" kind="child" notification color="light">
+                <Heading size={6} renderAs="p">{element.name}</Heading>
+                <Heading size={7} subtitle renderAs="p">{element.drawing}</Heading>
+                <Heading size={7} subtitle renderAs="p">{element.mold}</Heading>
+                <Button
+                  type="submit"
+                  color="success"
+                  onClick={() => {
+                    addBottle(element);
+                  }}
+                >
+                  Add Bottle
+                </Button>
+              </Tile>
+            </Tile>
+          </Tile>
         ))}
       </div>
     );
@@ -189,9 +219,9 @@ export const BrushFilter = (props) => {
         <Tile kind="ancestor">
           <Tile kind="parent">
             <Tile renderAs="article" kind="child" notification color="light">
-              <Heading size={6} renderAs="p">{element.name}</Heading>
+              <Heading size={6} renderAs="p">{element.brush}</Heading>
               <Heading size={7} subtitle renderAs="p">{element.drawing}</Heading>
-              <Heading size={7} subtitle renderAs="p">{element.mold}</Heading>
+              <Heading size={7} subtitle renderAs="p">{element.type}</Heading>
               <Button
                 type="submit"
                 color="success"
@@ -367,7 +397,7 @@ const Filter = () => {
   const [rodBrush, setRodBrush] = useState(false);
   const [brushWiper, setBrushWiper] = useState(false);
   const [gap, setGap] = useState(false);
-  const [build, setFilter] = useState([]);
+  const [build, setBuild] = useState([]);
   const [bottles, setBottles] = useState([]);
   const [bottle, setBottle] = useState([]);
   const [rod, setRod] = useState([]);
@@ -384,7 +414,7 @@ const Filter = () => {
       .catch(function (error) {
         console.log(error)
       });
-      setFilter(data);
+      setBuild(data);
       if (data[0] && data[0].bottle) {
         setBottle(data[0].bottle);
       } else {
@@ -527,7 +557,7 @@ const Filter = () => {
 
 //---------------- middlewares that must be moved and imported
 
-  const deleteFilter = async () => {
+  const deleteBuild = async () => {
     await axios.post("/delete")
     .then(function (response) {
       if (response.status === 200) {
@@ -536,7 +566,7 @@ const Filter = () => {
         setGap(false);
         setBrushWiper(false);
         setRodBrush(false);
-        alert("Filter deleted!");
+        alert("Build deleted!");
       } else {
         const err = new Error(response.error);
         console.log(err);
@@ -652,6 +682,10 @@ const Filter = () => {
     setRodBrush(false);
   };
 
+  const resetBottle = () => {
+    setBottle([]);
+  };
+
 //---------------- middlewares that must be moved and imported end
 
 //---------------- render
@@ -660,7 +694,15 @@ const Filter = () => {
       <Tile kind="ancestor">
         <Tile kind="parent">
           <Tile renderAs="article" kind="child" notification color="gray">
-            <BottleFilter></BottleFilter>
+            <Button
+              color="danger"
+              onClick={() => {
+                deleteBuild();
+              }}
+            >
+              Delete build
+            </Button>
+            <BottleFilter thread={thread} rod={rod} bottle={bottle}></BottleFilter>
           </Tile>
           <Tile renderAs="article" kind="child" notification >
             <BrushFilter></BrushFilter>
