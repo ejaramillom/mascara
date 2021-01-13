@@ -297,6 +297,7 @@ const Build = () => {
       alert("There is missing data on the mascara")
     }
   };
+  
   const reset = () => {
     setThread(false);
     setGap(false);
@@ -307,7 +308,7 @@ const Build = () => {
 
   //------rendering of the component
   return (
-    <div className="App App-build">
+    <div className="App">
       <Tile kind="ancestor">
         <Tile kind="parent">
           <Tile renderAs="article" kind="child" notification >

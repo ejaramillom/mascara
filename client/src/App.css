@@ -24,13 +24,12 @@
 }
 
 .App-build {
-  background-color: white;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #363636;
 }
 
 .App-link {

@@ -9,6 +9,7 @@ import {
 import Add from "./Add.component";
 import { Bottle, Brush, Cap, Rod, Wiper } from "./List.component";
 import Build from "./Build.component";
+import Filter from "./Filter.component";
 import Index from "./Index.component";
 import logo from "../images/simex-logo.png";
 import { colors } from "../features/colors.js"
@@ -45,6 +46,9 @@ const Mainbar = ( props ) => {
           <Navbar.Item href="/cap">
             Cap
           </Navbar.Item>
+          <Navbar.Item href="/filter">
+            Filter
+          </Navbar.Item>
           <Navbar.Item href="/rod">
             Rod
           </Navbar.Item>
@@ -60,13 +64,14 @@ const Mainbar = ( props ) => {
 
     <Switch>
       <Route exact path = "/" component = { ( Index ) } />
-      <Route path = "/cap" component = { ( Cap ) } />
-      <Route path = "/wiper" component = { ( Wiper ) } />
-      <Route path = "/rod" component = { ( Rod ) } />
+      <Route path = "/add" component = { Add } />
       <Route path = "/brush" component = {  Brush } />
       <Route path = "/bottle" component = { Bottle } />
       <Route path = "/build" component = { Build } />
-      <Route path = "/add" component = { Add } />
+      <Route path = "/cap" component = { ( Cap ) } />
+      <Route path = "/filter" component = { ( Filter ) } />
+      <Route path = "/rod" component = { ( Rod ) } />
+      <Route path = "/wiper" component = { ( Wiper ) } />
       <Route path = "*" component = { NotFound } />
     </Switch>
   </div>
