@@ -142,6 +142,7 @@ const Build = () => {
       }
     }
     //------wiper and brush check
+
     //------gap check
     if (build[0] && brush.type && rod.name && bottle.name) {
       let mascaraGap =  Number(bottle.depth) - (Number(brush.brushLength) + Number(rod.dimensions.length));
@@ -175,6 +176,7 @@ const Build = () => {
       }
     }
   //------gap check
+  
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [modalClick]);
   //-----------------------------------------------------------useEffect end
@@ -297,7 +299,7 @@ const Build = () => {
       alert("There is missing data on the mascara")
     }
   };
-  
+
   const reset = () => {
     setThread(false);
     setGap(false);

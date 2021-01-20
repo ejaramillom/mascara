@@ -7,20 +7,12 @@ import axios from "axios";
 //---------------- Bottle filter
 
 export const BottleFilter = (props) => {
-  const [bottles, setBottles] = useState([]);
+  const bottles = props.bottles;
   const rod = props.rod;
   const bottle = props.bottle;
+  const setBuildClick = props.setBuildClick;
+  const buildClick = props.buildClick;
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const {data} = await axios.get("/bottle")
-      .catch(function (error) {
-        console.log(error)
-      });
-      setBottles(data);
-    }
-    fetchData();
-  }, []);
 
   const addBottle = async (data) => {
     await axios.post("/bottle", {
@@ -43,6 +35,11 @@ export const BottleFilter = (props) => {
     .catch(function (error) {
       alert(error);
     });
+  };
+
+  const addBottleClick = (element) => {
+    addBottle(element);
+    setBuildClick(!buildClick);
   };
 
   if (rod && rod.thread){
@@ -92,7 +89,7 @@ export const BottleFilter = (props) => {
                   type="submit"
                   color="success"
                   onClick={() => {
-                    addBottle(element);
+                    addBottleClick(element);
                   }}
                 >
                   Add Bottle
@@ -118,7 +115,7 @@ export const BottleFilter = (props) => {
                 type="submit"
                 color="success"
                 onClick={() => {
-                  addBottle(element);
+                  addBottleClick(element);
                 }}
               >
                 Add Bottle
@@ -387,7 +384,9 @@ export const WiperFilter = (props) => {
   );
 };
 
-//---------------- Wiper modal
+//---------------- Wiper filter
+
+//---------------- Filter component
 
 const Filter = () => {
 
@@ -402,14 +401,14 @@ const Filter = () => {
   const [bottle, setBottle] = useState([]);
   const [rod, setRod] = useState([]);
   const [brush, setBrush] = useState([]);
-  const [modalClick, setModalClick] = useState(false);
+  const [buildClick, setBuildClick] = useState(false);
 
 //---------------- hooks end
 
 //---------------- useEffect
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchBuild = async () => {
       const {data} = await axios.get("/build")
       .catch(function (error) {
         console.log(error)
@@ -431,7 +430,17 @@ const Filter = () => {
         setBrush([])
       }
     }
-    fetchData();
+
+    const fetchBottles = async () => {
+      const {data} = await axios.get("/bottle")
+      .catch(function (error) {
+        console.log(error)
+      });
+      setBottles(data);
+    }
+
+    fetchBuild();
+    fetchBottles();
 
     if (!build[0]) {
       setThread(false);
@@ -439,6 +448,8 @@ const Filter = () => {
       setBrushWiper(false);
       setRodBrush(false);
     }
+
+    //---------------- Use effect
 
     //------thread check
     if (build[0] && bottle && rod) {
@@ -517,6 +528,7 @@ const Filter = () => {
       }
     }
     //------wiper and brush check
+
     //------gap check
     if (build[0] && brush.type && rod.name && bottle.name) {
       let mascaraGap =  Number(bottle.depth) - (Number(brush.brushLength) + Number(rod.dimensions.length));
@@ -549,9 +561,9 @@ const Filter = () => {
         }
       }
     }
-  //------gap check
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [modalClick]);
+    //------gap check
+
+}, [buildClick]);
 
 //---------------- useEffect
 
@@ -682,9 +694,15 @@ const Filter = () => {
     setRodBrush(false);
   };
 
-  const resetBottle = () => {
-    setBottle([]);
+  const removeBottleClick = () => {
+    deleteBuild([]);
+    setBuildClick(!buildClick);
   };
+
+  // const addBottleClick = (element) => {
+  //   addBottle(element);
+  //   setBuildClick(!buildClick);
+  // };
 
 //---------------- middlewares that must be moved and imported end
 
@@ -697,12 +715,12 @@ const Filter = () => {
             <Button
               color="danger"
               onClick={() => {
-                deleteBuild();
+                removeBottleClick();
               }}
             >
-              Delete build
+              delete build
             </Button>
-            <BottleFilter thread={thread} rod={rod} bottle={bottle}></BottleFilter>
+            <BottleFilter thread={thread} rod={rod} bottle={bottle} bottles={bottles} setBuildClick={setBuildClick} buildClick={buildClick}></BottleFilter>
           </Tile>
           <Tile renderAs="article" kind="child" notification >
             <BrushFilter></BrushFilter>
@@ -726,3 +744,5 @@ const Filter = () => {
 //--------------- render
 
 export default Filter;
+
+//---------------- Filter component
