@@ -7,7 +7,14 @@
 				"brushDiameter": "6.8",
 				"brushLength": "26.2",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 03",
@@ -17,7 +24,14 @@
 				"brushDiameter": "7.3",
 				"brushLength": "26.2",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 06-3",
@@ -27,7 +41,14 @@
 				"brushDiameter": "6.6",
 				"brushLength": "30.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 06-4",
@@ -37,7 +58,14 @@
 				"brushDiameter": "6.6",
 				"brushLength": "28.4",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 08",
@@ -47,7 +75,14 @@
 				"brushDiameter": "9.5",
 				"brushLength": "28",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 09",
@@ -57,7 +92,14 @@
 				"brushDiameter": "9.3",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 11",
@@ -67,7 +109,14 @@
 				"brushDiameter": "10.2",
 				"brushLength": "28.2",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 12",
@@ -77,7 +126,14 @@
 				"brushDiameter": "8.4",
 				"brushLength": "27.4",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 13",
@@ -87,7 +143,14 @@
 				"brushDiameter": "7",
 				"brushLength": "27.4",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 16",
@@ -97,7 +160,14 @@
 				"brushDiameter": "8.5",
 				"brushLength": "28.2",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 17",
@@ -107,7 +177,14 @@
 				"brushDiameter": "9",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 18",
@@ -117,7 +194,14 @@
 				"brushDiameter": "6.3",
 				"brushLength": "27.4",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 19",
@@ -127,7 +211,14 @@
 				"brushDiameter": "9",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20",
@@ -137,7 +228,14 @@
 				"brushDiameter": "7",
 				"brushLength": "27.4",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 21",
@@ -147,7 +245,14 @@
 				"brushDiameter": "6.8",
 				"brushLength": "30.8",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 22",
@@ -158,7 +263,14 @@
 				"brushDiameter": "7",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 23",
@@ -169,7 +281,14 @@
 				"brushDiameter": "7.5",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 24",
@@ -179,7 +298,14 @@
 				"brushDiameter": "7",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 25",
@@ -190,7 +316,14 @@
 				"brushDiameter": "7.2",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 26",
@@ -200,7 +333,14 @@
 				"brushDiameter": "6",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 27",
@@ -210,7 +350,14 @@
 				"brushDiameter": "6.7",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 28",
@@ -220,7 +367,14 @@
 				"brushDiameter": "7.5",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": true
+				}
 			},
 			{
 				"brush": "SX 29",
@@ -231,7 +385,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.4",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 30",
@@ -241,7 +402,14 @@
 				"brushDiameter": "6.5",
 				"brushLength": "23.3",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 31",
@@ -251,7 +419,14 @@
 				"brushDiameter": "9",
 				"brushLength": "25.5",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 32",
@@ -261,7 +436,14 @@
 				"brushDiameter": "7.2",
 				"brushLength": "26.4",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 33",
@@ -271,7 +453,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 34",
@@ -281,7 +470,14 @@
 				"brushDiameter": "7.8",
 				"brushLength": "26.4",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 35",
@@ -291,7 +487,14 @@
 				"brushDiameter": "7.5",
 				"brushLength": "25.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 36",
@@ -301,7 +504,14 @@
 				"brushDiameter": "7",
 				"brushLength": "28.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 37",
@@ -311,7 +521,14 @@
 				"brushDiameter": "6",
 				"brushLength": "28.2",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 38",
@@ -321,7 +538,14 @@
 				"brushDiameter": "8.3",
 				"brushLength": "29",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 39",
@@ -331,7 +555,14 @@
 				"brushDiameter": "9",
 				"brushLength": "28.1",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 40",
@@ -341,7 +572,14 @@
 				"brushDiameter": "6.4",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 41",
@@ -351,7 +589,14 @@
 				"brushDiameter": "7.1",
 				"brushLength": "28.6",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 42",
@@ -362,7 +607,14 @@
 				"brushDiameter": "9",
 				"brushLength": "27",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 49",
@@ -373,7 +625,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50",
@@ -383,7 +642,14 @@
 				"brushDiameter": "7.2",
 				"brushLength": "26.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 51",
@@ -393,7 +659,14 @@
 				"brushDiameter": "8",
 				"brushLength": "25.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 52",
@@ -403,7 +676,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 53",
@@ -413,7 +693,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 55",
@@ -423,7 +710,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 56",
@@ -433,7 +727,14 @@
 				"brushDiameter": "8.3",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 57",
@@ -443,7 +744,14 @@
 				"brushDiameter": "10",
 				"brushLength": "28",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 58",
@@ -453,7 +761,14 @@
 				"brushDiameter": "6",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 60",
@@ -463,7 +778,14 @@
 				"brushDiameter": "7.5",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 61",
@@ -473,7 +795,14 @@
 				"brushDiameter": "9.5",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 62",
@@ -483,7 +812,14 @@
 				"brushDiameter": "7",
 				"brushLength": "25.2",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 63",
@@ -493,7 +829,14 @@
 				"brushDiameter": "9.5",
 				"brushLength": "27.3",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 64",
@@ -503,7 +846,14 @@
 				"brushDiameter": "9.7",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 65",
@@ -513,7 +863,14 @@
 				"brushDiameter": "11",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 66",
@@ -523,7 +880,14 @@
 				"brushDiameter": "9.8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 67",
@@ -533,7 +897,14 @@
 				"brushDiameter": "9",
 				"brushLength": "28.2",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 68",
@@ -543,7 +914,14 @@
 				"brushDiameter": "10.8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 69",
@@ -553,7 +931,14 @@
 				"brushDiameter": "7.5",
 				"brushLength": "26.8",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 70",
@@ -563,7 +948,14 @@
 				"brushDiameter": "7.5",
 				"brushLength": "28.5",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 71",
@@ -573,7 +965,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 72",
@@ -583,7 +982,14 @@
 				"brushDiameter": "9",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 73",
@@ -593,7 +999,14 @@
 				"brushDiameter": "10",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 74",
@@ -603,7 +1016,14 @@
 				"brushDiameter": "9.5",
 				"brushLength": "27.3",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 75",
@@ -613,7 +1033,14 @@
 				"brushDiameter": "10",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 76",
@@ -623,7 +1050,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 77",
@@ -633,7 +1067,14 @@
 				"brushDiameter": "10",
 				"brushLength": "20.1",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 78",
@@ -643,7 +1084,14 @@
 				"brushDiameter": "10",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 79",
@@ -653,7 +1101,14 @@
 				"brushDiameter": "5.9",
 				"brushLength": "15.5",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 80",
@@ -663,7 +1118,14 @@
 				"brushDiameter": "6.6",
 				"brushLength": "26.8",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 81",
@@ -674,7 +1136,14 @@
 				"brushDiameter": "6.9",
 				"brushLength": "26.2",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 82",
@@ -684,7 +1153,14 @@
 				"brushDiameter": "7.1",
 				"brushLength": "15.5",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 83",
@@ -694,7 +1170,14 @@
 				"brushDiameter": "9.6",
 				"brushLength": "23.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 84",
@@ -704,7 +1187,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 85",
@@ -714,7 +1204,14 @@
 				"brushDiameter": "8.6",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 86",
@@ -724,7 +1221,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 87",
@@ -734,7 +1238,14 @@
 				"brushDiameter": "7",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 88",
@@ -744,7 +1255,14 @@
 				"brushDiameter": "8.6",
 				"brushLength": "20.5",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 89",
@@ -754,7 +1272,14 @@
 				"brushDiameter": "7.5",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 90",
@@ -764,7 +1289,14 @@
 				"brushDiameter": "8.5",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 92",
@@ -774,7 +1306,14 @@
 				"brushDiameter": "7",
 				"brushLength": "24.5",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 93",
@@ -784,7 +1323,14 @@
 				"brushDiameter": "6",
 				"brushLength": "27.2",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 94",
@@ -794,7 +1340,14 @@
 				"brushDiameter": "6",
 				"brushLength": "26.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 95",
@@ -804,7 +1357,14 @@
 				"brushDiameter": "10.2",
 				"brushLength": "25",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 96",
@@ -814,7 +1374,14 @@
 				"brushDiameter": "7",
 				"brushLength": "29.2",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 97",
@@ -824,7 +1391,14 @@
 				"brushDiameter": "10",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 98",
@@ -834,7 +1408,14 @@
 				"brushDiameter": "7.5",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 99",
@@ -844,7 +1425,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 100",
@@ -854,7 +1442,14 @@
 				"brushDiameter": "7.5",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20390",
@@ -864,7 +1459,14 @@
 				"brushDiameter": "5.5",
 				"brushLength": "22.5",
 				"supplier": "SIMEX",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50050",
@@ -875,7 +1477,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50051",
@@ -886,7 +1495,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50052",
@@ -897,7 +1513,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50347",
@@ -908,7 +1531,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50350",
@@ -919,7 +1549,14 @@
 				"brushDiameter": "7.3",
 				"brushLength": "26.2",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50379",
@@ -930,7 +1567,14 @@
 				"brushDiameter": "5",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50391",
@@ -939,7 +1583,14 @@
 				"shaftLength": "7.8",
 				"brushDiameter": "7",
 				"brushLength": "27.7",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50397",
@@ -950,7 +1601,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50426",
@@ -959,7 +1617,14 @@
 				"shaftLength": "7.8",
 				"brushDiameter": "6",
 				"brushLength": "28.7",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50437",
@@ -970,7 +1635,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX-A",
@@ -981,7 +1653,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX-B",
@@ -991,7 +1670,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX-D",
@@ -1001,7 +1687,14 @@
 				"brushDiameter": "7",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX-E",
@@ -1011,7 +1704,14 @@
 				"brushDiameter": "6.5",
 				"brushLength": "29.6",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX-I WHITE",
@@ -1022,7 +1722,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX-J",
@@ -1032,7 +1739,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27.5",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX-K",
@@ -1042,7 +1756,14 @@
 				"brushDiameter": "7",
 				"brushLength": "27.4",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX-L",
@@ -1052,7 +1773,14 @@
 				"brushDiameter": "10",
 				"brushLength": "22.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX-0",
@@ -1062,7 +1790,14 @@
 				"brushDiameter": "10",
 				"brushLength": "12.2",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX-P",
@@ -1072,7 +1807,14 @@
 				"brushDiameter": "7",
 				"brushLength": "27.7",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX-U",
@@ -1082,7 +1824,14 @@
 				"brushDiameter": "8",
 				"brushLength": "28",
 				"supplier": "BLUESTONE",
-				"type": "INYECTADO"
+				"type": "INYECTADO",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 42H",
@@ -1091,7 +1840,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "6.8",
 				"brushLength": "28",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 44H",
@@ -1100,7 +1856,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "6.5",
 				"brushLength": "27",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 51H",
@@ -1109,7 +1872,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "7",
 				"brushLength": "26",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 62H",
@@ -1118,7 +1888,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "4.5",
 				"brushLength": "20",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 65H",
@@ -1127,7 +1904,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "6",
 				"brushLength": "27",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 71H",
@@ -1136,7 +1920,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "7.3",
 				"brushLength": "27",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 74H",
@@ -1145,7 +1936,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "7.3",
 				"brushLength": "28",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 81H",
@@ -1154,7 +1952,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "8",
 				"brushLength": "25",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 86H",
@@ -1163,7 +1968,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "7",
 				"brushLength": "27",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 88H",
@@ -1172,7 +1984,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "7",
 				"brushLength": "27",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 416H",
@@ -1181,7 +2000,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "6.5",
 				"brushLength": "27",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 700H",
@@ -1191,7 +2017,14 @@
 				"brushDiameter": "7",
 				"brushLength": "25",
 				"supplier": "JIAMEI",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 701H",
@@ -1201,7 +2034,14 @@
 				"brushDiameter": "6.8",
 				"brushLength": "26",
 				"supplier": "JIAMEI",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 702H",
@@ -1210,7 +2050,14 @@
 				"brushDiameter": "7.7",
 				"brushLength": "28",
 				"supplier": "JIAMEI",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 706H",
@@ -1220,7 +2067,14 @@
 				"brushDiameter": "7.2",
 				"brushLength": "27",
 				"supplier": "JIAMEI",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 708H",
@@ -1230,7 +2084,14 @@
 				"brushDiameter": "7.6",
 				"brushLength": "27.5",
 				"supplier": "JIAMEI",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 709H",
@@ -1240,7 +2101,14 @@
 				"brushDiameter": "8",
 				"brushLength": "26",
 				"supplier": "JIAMEI",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 711H",
@@ -1250,7 +2118,14 @@
 				"brushDiameter": "7.4",
 				"brushLength": "25",
 				"supplier": "JIAMEI",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 712H",
@@ -1260,7 +2135,14 @@
 				"brushDiameter": "7.3",
 				"brushLength": "27.5",
 				"supplier": "JIAMEI",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 713H",
@@ -1270,7 +2152,14 @@
 				"brushDiameter": "7.2",
 				"brushLength": "27",
 				"supplier": "JIAMEI",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 714H",
@@ -1280,7 +2169,14 @@
 				"brushDiameter": "7.4",
 				"brushLength": "27",
 				"supplier": "JIAMEI",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 715H",
@@ -1290,17 +2186,31 @@
 				"brushDiameter": "10",
 				"brushLength": "27",
 				"supplier": "JIAMEI",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
-				"brush": "SX 717-IH",
+				"brush": "SX 717H",
 				"original": "TS717",
 				"shaftDiameter": "1.27",
 				"shaftLength": "8",
 				"brushDiameter": "9",
 				"brushLength": "26",
 				"supplier": "JIAMEI",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 5104H",
@@ -1309,7 +2219,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "6.5",
 				"brushLength": "26",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 8149HC",
@@ -1318,7 +2235,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "9.8",
 				"brushLength": "24",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 8203H",
@@ -1327,7 +2251,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "7.5",
 				"brushLength": "28",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 8206H",
@@ -1336,16 +2267,30 @@
 				"shaftLength": "8",
 				"brushDiameter": "7",
 				"brushLength": "27",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
-				"brush": "SX 8407HC",
+				"brush": "SX 8407H",
 				"original": "FG-8407HC",
 				"shaftDiameter": "1.25",
 				"shaftLength": "8",
 				"brushDiameter": "7.5",
 				"brushLength": "27",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 8606H",
@@ -1354,7 +2299,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "7.7",
 				"brushLength": "27",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 8609H",
@@ -1363,7 +2315,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "8",
 				"brushLength": "29",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 8828H",
@@ -1372,7 +2331,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "9",
 				"brushLength": "27.5",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 8833H",
@@ -1381,7 +2347,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "7",
 				"brushLength": "27",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20019",
@@ -1391,7 +2364,14 @@
 				"brushDiameter": "7.5",
 				"brushLength": "25.5",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20020",
@@ -1401,7 +2381,14 @@
 				"brushDiameter": "7",
 				"brushLength": "26",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20021",
@@ -1411,7 +2398,14 @@
 				"brushDiameter": "7",
 				"brushLength": "26",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20022",
@@ -1421,7 +2415,14 @@
 				"brushDiameter": "6.8",
 				"brushLength": "26",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20023",
@@ -1431,7 +2432,14 @@
 				"brushDiameter": "6.4",
 				"brushLength": "26",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20024",
@@ -1441,7 +2449,14 @@
 				"brushDiameter": "7.9",
 				"brushLength": "27",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20025",
@@ -1451,7 +2466,14 @@
 				"brushDiameter": "10",
 				"brushLength": "27",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20026",
@@ -1461,7 +2483,14 @@
 				"brushDiameter": "5",
 				"brushLength": "27",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20027",
@@ -1471,7 +2500,14 @@
 				"brushDiameter": "7",
 				"brushLength": "25.4",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20374",
@@ -1481,7 +2517,14 @@
 				"brushDiameter": "9.6",
 				"brushLength": "29",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20416",
@@ -1491,7 +2534,14 @@
 				"brushDiameter": "9.7",
 				"brushLength": "30",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20421",
@@ -1501,7 +2551,14 @@
 				"brushDiameter": "6.2",
 				"brushLength": "26",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20573",
@@ -1511,7 +2568,14 @@
 				"brushDiameter": "6",
 				"brushLength": "25",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20609",
@@ -1521,7 +2585,14 @@
 				"brushDiameter": "10.7",
 				"brushLength": "28",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20665",
@@ -1531,7 +2602,14 @@
 				"brushDiameter": "6.8",
 				"brushLength": "26",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20670",
@@ -1541,7 +2619,14 @@
 				"brushDiameter": "6.8",
 				"brushLength": "26",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20684",
@@ -1551,7 +2636,14 @@
 				"brushDiameter": "7.9",
 				"brushLength": "22",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": true,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20685",
@@ -1561,7 +2653,14 @@
 				"brushDiameter": "7.9",
 				"brushLength": "27",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": false,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20686",
@@ -1571,7 +2670,14 @@
 				"brushDiameter": "8",
 				"brushLength": "27",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20762",
@@ -1581,7 +2687,14 @@
 				"brushDiameter": "10",
 				"brushLength": "27",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20788",
@@ -1591,7 +2704,14 @@
 				"brushDiameter": "7",
 				"brushLength": "27",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 20970",
@@ -1601,7 +2721,14 @@
 				"brushDiameter": "11",
 				"brushLength": "26",
 				"supplier": "SIMEX",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50041",
@@ -1610,7 +2737,14 @@
 				"shaftLength": "8.5",
 				"brushDiameter": "7.4",
 				"brushLength": "26",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 311158",
@@ -1619,7 +2753,14 @@
 				"brushDiameter": "7.5",
 				"brushLength": "26",
 				"supplier": "GEKA",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 311244",
@@ -1628,7 +2769,14 @@
 				"brushDiameter": "7",
 				"brushLength": "28",
 				"supplier": "GEKA",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": true,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 311320",
@@ -1637,7 +2785,14 @@
 				"brushDiameter": "8",
 				"brushLength": "26",
 				"supplier": "GEKA",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": false,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 311365",
@@ -1646,7 +2801,14 @@
 				"brushDiameter": "8.5",
 				"brushLength": "30",
 				"supplier": "GEKA",
-				"type": "NYLON"
+				"type": "NYLON",
+				"claim": {
+					"definition": true,
+					"volumizing": true,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50020",
@@ -1655,7 +2817,14 @@
 				"shaftLength": "0",
 				"brushDiameter": "2.4",
 				"brushLength": "5.8",
-				"type": "LIP GLOSS"
+				"type": "LIP GLOSS",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50024",
@@ -1664,7 +2833,14 @@
 				"shaftLength": "9",
 				"brushDiameter": "5.2",
 				"brushLength": "11",
-				"type": "LIP GLOSS"
+				"type": "LIP GLOSS",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50387",
@@ -1673,7 +2849,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "6.5",
 				"brushLength": "12.5",
-				"type": "LIP GLOSS"
+				"type": "LIP GLOSS",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 10",
@@ -1682,7 +2865,14 @@
 				"shaftLength": "8",
 				"brushDiameter": "1.7",
 				"brushLength": "10",
-				"type": "DELINEADOR"
+				"type": "DELINEADOR",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50019",
@@ -1691,7 +2881,14 @@
 				"shaftLength": "0",
 				"brushDiameter": "1.65",
 				"brushLength": "7.1",
-				"type": "DELINEADOR"
+				"type": "DELINEADOR",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50233",
@@ -1700,7 +2897,14 @@
 				"shaftLength": "0",
 				"brushDiameter": "1.05",
 				"brushLength": "7.5",
-				"type": "DELINEADOR"
+				"type": "DELINEADOR",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50284",
@@ -1709,7 +2913,14 @@
 				"shaftLength": "0",
 				"brushDiameter": "2.1",
 				"brushLength": "8",
-				"type": "DELINEADOR"
+				"type": "DELINEADOR",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			},
 			{
 				"brush": "SX 50285",
@@ -1718,6 +2929,13 @@
 				"shaftLength": "0",
 				"brushDiameter": "1.15",
 				"brushLength": "6.5",
-				"type": "DELINEADOR"
+				"type": "DELINEADOR",
+				"claim": {
+					"definition": false,
+					"volumizing": false,
+					"lengthening": false,
+					"curling": false,
+					"plumping": false
+				}
 			}
 		]
