@@ -375,29 +375,21 @@ export const RodFilter = (props) => {
       if (brush.type === "INYECTADO") {
         if (brushRodDiff > 0.05 && brushRodDiff < 0.15){
           return element;
-        } else {
-          return;
         }
       }
       if (brush.type === "NYLON") {
         if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
           return element;
-        } else {
-          return;
         }
       }
       if (brush.type === "LIP GLOSS") {
         if (brushRodDiff > 0 && brushRodDiff < 0.2){
           return element;
-        } else {
-          return;
         }
       }
       if (brush.type === "DELINEADOR") {
         if (brushRodDiff > -0.05 && brushRodDiff < 0.1){
           return element;
-        } else {
-          return;
         }
       }
     });

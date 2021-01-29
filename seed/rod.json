@@ -180,7 +180,7 @@
 				"mold": "0009",
 				"holder": "C052",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "63",
 					"rodDiameter": "2.84",
@@ -217,7 +217,7 @@
 				"mold": "0017",
 				"holder": "C052",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"gauge": "GACC-358",
 				"dimensions": {
 					"length": "43.3",
@@ -252,7 +252,7 @@
 				"mold": "0025",
 				"holder": "C052",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"gauge": "GACC-358",
 				"dimensions": {
 					"length": "56.7",
@@ -438,7 +438,7 @@
 				"mold": "9905",
 				"holder": "85048",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "57.9",
 					"rodDiameter": "2.84",
@@ -663,7 +663,7 @@
 				"mold": "0402",
 				"holder": "85048",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"gauge": "GACC-358",
 				"dimensions": {
 					"length": "56.7",
@@ -726,7 +726,7 @@
 				"mold": "0507",
 				"holder": "85048",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "40.5",
 					"rodDiameter": "2.84",
@@ -898,7 +898,7 @@
 				"mold": "80137",
 				"holder": "85048",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"gauge": "70",
 				"dimensions": {
 					"length": "40.5",
@@ -929,7 +929,7 @@
 				"mold": "8026608",
 				"holder": "85048",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "38.6",
 					"rodDiameter": "4.3",
@@ -1093,7 +1093,7 @@
 				"mold": "80390",
 				"holder": "85048",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "30",
 					"rodDiameter": "2.84",
@@ -1169,7 +1169,7 @@
 				"mold": "80431",
 				"holder": "85048",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "69.5",
 					"rodDiameter": "4.3",
@@ -1283,7 +1283,7 @@
 				"mold": "0501",
 				"holder": "85085",
 				"cavity": "16",
-				"thread": "R11",
+				"thread": "R11A",
 				"gauge": "18",
 				"dimensions": {
 					"length": "65.6",
@@ -2118,7 +2118,7 @@
 				"mold": "80431",
 				"holder": "85085",
 				"cavity": "16",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "70.5",
 					"rodDiameter": "4.3",
@@ -2631,7 +2631,7 @@
 				"mold": "0125",
 				"holder": "C036",
 				"cavity": "8",
-				"thread": "R13",
+				"thread": "R13A",
 				"gauge": "GACC-358",
 				"dimensions": {
 					"length": "67.1",
@@ -2737,7 +2737,7 @@
 				"mold": "8033409",
 				"holder": "8542215",
 				"cavity": "8",
-				"thread": "R13",
+				"thread": "R13A",
 				"gauge": "GACC-358",
 				"dimensions": {
 					"length": "60",
@@ -2934,7 +2934,7 @@
 				"mold": "80429",
 				"holder": "85252",
 				"cavity": "16",
-				"thread": "R13",
+				"thread": "R13A",
 				"gauge": "GACC-358",
 				"dimensions": {
 					"length": "67.1",
@@ -3381,7 +3381,7 @@
 				"mold": "8038310",
 				"holder": "C076",
 				"cavity": "16",
-				"thread": "R12",
+				"thread": "R12A",
 				"gauge": "145",
 				"dimensions": {
 					"length": "52.7",
@@ -3657,7 +3657,7 @@
 				"mold": "8094818",
 				"holder": "8534813",
 				"cavity": "8",
-				"thread": "R15",
+				"thread": "R15C",
 				"gauge": "GACC-24",
 				"dimensions": {
 					"length": "55",
@@ -3701,7 +3701,7 @@
 				"mold": "8097318",
 				"holder": "8553518",
 				"cavity": "8",
-				"thread": "R15",
+				"thread": "R15D",
 				"dimensions": {
 					"length": "55.07",
 					"rodDiameter": "4.3",
@@ -3880,7 +3880,7 @@
 				"mold": "8097518",
 				"holder": "8553518",
 				"cavity": "8",
-				"thread": "R15",
+				"thread": "R15D",
 				"dimensions": {
 					"length": "55.8",
 					"rodDiameter": "5.6",
@@ -3948,7 +3948,7 @@
 				"mold": "8058913",
 				"holder": "85048",
 				"cavity": "8",
-				"thread": "R13",
+				"thread": "R13A",
 				"dimensions": {
 					"length": "55",
 					"rodDiameter": "4.9",
@@ -3986,7 +3986,7 @@
 				"mold": "8060913",
 				"holder": "C076",
 				"cavity": "16",
-				"thread": "R12A",
+				"thread": "R12B",
 				"dimensions": {
 					"length": "51.4",
 					"rodDiameter": "4.3",
@@ -4179,7 +4179,7 @@
 				"mold": "8066414",
 				"holder": "85048",
 				"cavity": "8",
-				"thread": "R13",
+				"thread": "R13A",
 				"gauge": "GACC-358",
 				"dimensions": {
 					"length": "61.7",
@@ -4222,7 +4222,7 @@
 				"mold": "8067515",
 				"holder": "C020",
 				"cavity": "8",
-				"thread": "R15",
+				"thread": "R15B",
 				"gauge": "GACC-162",
 				"dimensions": {
 					"length": "61",
@@ -4263,7 +4263,7 @@
 				"mold": "8075816",
 				"holder": "8540015",
 				"cavity": "8",
-				"thread": "R15",
+				"thread": "R15B",
 				"gauge": "GACC-162",
 				"dimensions": {
 					"length": "62.76",
@@ -4302,7 +4302,7 @@
 				"mold": "8075716",
 				"holder": "85048",
 				"cavity": "8",
-				"thread": "R13",
+				"thread": "R13A",
 				"dimensions": {
 					"length": "50.3",
 					"rodDiameter": "5.6",
@@ -4340,7 +4340,7 @@
 				"mold": "8054313",
 				"holder": "C020",
 				"cavity": "8",
-				"thread": "R15",
+				"thread": "R15B",
 				"dimensions": {
 					"length": "64",
 					"rodDiameter": "4.3",
@@ -4371,7 +4371,7 @@
 				"mold": "9818",
 				"holder": "C020",
 				"cavity": "8",
-				"thread": "R15",
+				"thread": "R15A",
 				"gauge": "GACC-358",
 				"dimensions": {
 					"length": "65.7",
@@ -4451,7 +4451,7 @@
 				"mold": "8078416",
 				"holder": "C052",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"gauge": "GACC-358",
 				"dimensions": {
 					"length": "56.7",
@@ -4497,7 +4497,7 @@
 				"mold": "8079516",
 				"holder": "C052",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"gauge": "GACC-145",
 				"dimensions": {
 					"length": "56.9",
@@ -4538,7 +4538,7 @@
 				"mold": "8077416",
 				"holder": "8537414",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "56.7",
 					"rodDiameter": "4.3",
@@ -4576,7 +4576,7 @@
 				"mold": "8077516",
 				"holder": "8537414",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": "",
 				"versionAssembly": {
 					"capsule": {
@@ -4613,7 +4613,7 @@
 				"mold": "8077616",
 				"holder": "8537414",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": "",
 				"versionAssembly": {
 					"capsule": {
@@ -4647,7 +4647,7 @@
 				"mold": "8080316",
 				"holder": "C052",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"gauge": "GACC-145",
 				"dimensions": {
 					"length": "50.7",
@@ -4688,7 +4688,7 @@
 				"mold": "8085817",
 				"holder": "8542915",
 				"cavity": "16",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "31.5",
 					"rodDiameter": "4.3",
@@ -4730,7 +4730,7 @@
 				"mold": "8086417",
 				"holder": "8537414",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "51.5",
 					"rodDiameter": "4.3",
@@ -4768,7 +4768,7 @@
 				"mold": "8089117",
 				"holder": "8542915",
 				"cavity": "16",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "40.8",
 					"rodDiameter": "3.5",
@@ -4809,7 +4809,7 @@
 				"mold": "8089017",
 				"holder": "8542915",
 				"cavity": "16",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "20.3",
 					"rodDiameter": "4.3",
@@ -4850,7 +4850,7 @@
 				"mold": "8092618",
 				"holder": "8537414",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"gauge": "GACC-358",
 				"dimensions": {
 					"length": "42.65",
@@ -4932,7 +4932,7 @@
 				"mold": "8095118",
 				"holder": "8542915",
 				"cavity": "16",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "55.7",
 					"rodDiameter": "4.3",
@@ -4974,7 +4974,7 @@
 				"mold": "8095318",
 				"holder": "85048",
 				"cavity": "8",
-				"thread": "R13",
+				"thread": "R13A",
 				"gauge": "GACC-358",
 				"dimensions": {
 					"length": "52.7",
@@ -5019,7 +5019,7 @@
 				"mold": "80361",
 				"holder": "C020",
 				"cavity": "8",
-				"thread": "R15",
+				"thread": "R15A",
 				"gauge": "92",
 				"dimensions": {
 					"length": "65.7",
@@ -5139,7 +5139,7 @@
 				"mold": "8098518",
 				"holder": "8537414",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"gauge": "GACC-145",
 				"dimensions": {
 					"length": "35.5",
@@ -5178,7 +5178,7 @@
 				"mold": "8080616",
 				"holder": "8537414",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R11A",
 				"gauge": "GACC-97",
 				"dimensions": {
 					"length": "40.9",
@@ -5221,7 +5221,7 @@
 				"mold": "8099019",
 				"holder": "8542915",
 				"cavity": "16",
-				"thread": "R11",
+				"thread": "R11A",
 				"gauge": "GACC-358",
 				"dimensions": {
 					"length": "50.6",
@@ -5264,7 +5264,7 @@
 				"mold": "8100619",
 				"holder": "8542915",
 				"cavity": "16",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "26.7",
 					"rodDiameter": "4.3",
@@ -5306,7 +5306,7 @@
 				"mold": "8101619",
 				"holder": "85048",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R13A",
 				"dimensions": {
 					"length": "59.4",
 					"rodDiameter": "5.6",
@@ -5349,7 +5349,7 @@
 				"mold": "8101719",
 				"holder": "85048",
 				"cavity": "8",
-				"thread": "R11",
+				"thread": "R13A",
 				"gauge": "GACC-285",
 				"dimensions": {
 					"length": "53",
@@ -5391,7 +5391,7 @@
 				"mold": "8105219",
 				"holder": "8542915",
 				"cavity": "16",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "39.13",
 					"rodDiameter": "3.5",
@@ -5470,7 +5470,7 @@
 				"mold": "8104419",
 				"holder": "8542915",
 				"cavity": "16",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "35",
 					"rodDiameter": "4.6",
@@ -5512,7 +5512,7 @@
 				"mold": "8104519",
 				"holder": "8542915",
 				"cavity": "16",
-				"thread": "R11",
+				"thread": "R11A",
 				"dimensions": {
 					"length": "30.5",
 					"rodDiameter": "4.3",
